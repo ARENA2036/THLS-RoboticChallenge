@@ -4,7 +4,7 @@
 
 Mit über 20 Jahren Erfahrung entwickelt smartCable leistungsstarke Software-Lösungen für die Entwicklung und Fertigungsvorbereitung von Kabelbäumen. Das Unternehmen unterstützt Automobilhersteller und Zulieferer bei der Bewältigung der zunehmenden Komplexität moderner Bordnetze durch durchgängige digitale Prozesse und einen einheitlichen digitalen Zwilling des Leitungssatzes.
 
-**Website:** [www.smartcable.de](https://www.smartcable.de)
+**Website**: [www.smartcable.de](https://www.smartcable.de)
 
 ---
 
@@ -35,15 +35,17 @@ SmartCable stellt als **Spezialist für digitales Kabelbaum-Engineering** das re
 
 SmartCable liefert mit diesen Dateien die notwendige digitale Grundlage für die teilnehmenden Robotik-Teams.
 
+## Tooling
+
 Für die Erstellung des Modells wurde das SmartCable-eigene Manufacturing-Tool „**MS_Cable**“ eingesetzt, welch auf der CAD-Plattform MicroStation CONNECT Edition basiert. Es ermöglicht eine durchgängige digitale Erstellung aller für die Fertigung von Kabelsätzen 
 erforderlicher Dokumente. 
 
-Eingabedaten werden flexibel aus KBL-, VEC-Formaten oder direkt aus V5Harness importiert. Erweiterbare Wissenskataloge unterstützen die Validierung, das generative Design sowie die Arbeitsplanung.
+Eingabedaten werden flexibel aus KBL-, VEC-Formaten oder direkt aus **V5Harness** importiert. Erweiterbare Wissenskataloge unterstützen die Validierung, das generative Design sowie die Arbeitsplanung.
 
 Das System erzeugt maßstäbliche Darstellungen und generiert Fertigungsanweisungen auf Basis standardisierter Zeitkataloge. Darüber hinaus erfolgt eine automatische Berechnung der Herstellkosten unter Berücksichtigung 
 von Material- und Fertigungsaufwand.
 
-MS_Cable erstellt NC-Daten sowie Prüfdaten für elektrische Tests. Die Arbeitsplanung nutzt Ergebnisse aus der Fertigungssimulation und verteilt die Arbeitsschritte effizient auf einzelne Stationen.
+**MS_Cable** erstellt NC-Daten sowie Prüfdaten für elektrische Tests. Die Arbeitsplanung nutzt Ergebnisse aus der Fertigungssimulation und verteilt die Arbeitsschritte effizient auf einzelne Stationen.
 
 Das generative Design ergänzt automatisch notwendige Zusatzmaterialien – sowohl für das Produkt selbst als auch für den Fertigungsprozess.
 
