@@ -13,7 +13,7 @@ Das Unternehmen ist spezialisiert auf die ganzheitliche Entwicklung von **Bordne
 **Website:** [https://voitas.eu](https://voitas.eu)
 
 ---
-Der Beitrag von VOITAS zur Robotik Challenge 2026 des Transformations-Hub Leitungssatz (gefördert vom BMWK). für das Begleitforschungs- und Digitalisierungsmodul ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
+Der Beitrag von VOITAS zur Robotik Challenge 2026 des Transformations-Hub Leitungssatz (gefördert vom BMWK) für das Begleitforschungs- und Digitalisierungsmodul ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
 
 Ziel der Challenge ist die Entwicklung innovativer, robotergestützter Lösungen für die (teil-)automatisierte Montage von Leitungssätzen (Wire Harness).
 
@@ -30,11 +30,15 @@ VOITAS stellt als Spezialist für digitales Kabelbaum-Engineering das realistisc
 | **`Robotic_Challenge_3.BOM.csv`** | CSV | **Bill of Materials (Stückliste)** – Vollständige Auflistung aller Komponenten des Leitungssatzes | [Herunterladen](Robotic_Challenge_3.BOM.csv) |
 | **`Robotic_Challenge_3.Wirelist.csv`** | CSV | **Wire List** – Detaillierte Liste aller Drähte mit Längen, Querschnitten, Farben, Typen und Endbelegungen | [Herunterladen](Robotic_Challenge_3.Wirelist.csv) |
 | **`ELZ_Robotic_Challenge_3.xml`** | XML | **Elektrischer Leitungssatz (ELZ)** – Digitales Modell des Leitungssatzes im XML-Format | [Öffnen](ELZ_Robotic_Challenge_3.xml) |
-| **`Key.txt`** | Text | Schlüssel / Erläuterungen zu den Dateien und zum Leitungssatz-Design | [Öffnen](Key.txt) |
+| **`ELZ_Robotic_Challenge_3.kbl`** | KBL | Kabelbaum-Engineering-Daten im KBL-Format | [Herunterladen](ELZ_Robotic_Challenge_3.kbl) |
+| **`ELZ_Robotic_Challenge_3.gl2`** | GL2 | Weiteres digitales Leitungssatz-Format (GL2) | [Herunterladen](ELZ_Robotic_Challenge_3.gl2) |
+| **`ELZ_Robotic_Challenge_3.pdf`** | PDF | **Technische Zeichnung / Übersicht** des Leitungssatzes | [Öffnen](ELZ_Robotic_Challenge_3.pdf) |
+| **`Key.txt`** | Text | Erläuterungen, Schlüssel und Hinweise zum Leitungssatz-Design | [Öffnen](Key.txt) |
+| **`=LDorado TAR=1.5=20251121124510=ldorado 1.5=robert.ploeckl@41C2V04=`** | TAR | Dorado-Export des Leitungssatzes (komplettes Engineering-Paket) | [Herunterladen](=LDorado%20TAR=1.5=20251121124510=ldorado%201.5=robert.ploeckl@41C2V04=) |
 
 ---
 
-VOITAS liefert mit diesen Dateien die notwendige **digitale Grundlage** für die teilnehmenden Teams – ein praxisnahes Modell eines modernen Leitungssatzes für robotische Handhabung, Greiferentwicklung und Prozesssimulation.
+VOITAS liefert mit diesen Dateien eine umfassende digitale Grundlage für die teilnehmenden Robotik-Teams – von Stücklisten über Wire-Listen bis hin zu verschiedenen nativen Engineering-Formaten, ein praxisnahes Modell eines modernen Leitungssatzes für robotische Handhabung, Greiferentwicklung und Prozesssimulation.
 
 ---
 
