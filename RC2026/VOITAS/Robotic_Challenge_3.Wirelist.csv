@@ -1,0 +1,10 @@
+1;Variants
+2;V1;RC3;RC3;0 (g);~;CU: 40 (g);Al: 0 (g)
+0;Ltg-Nr.;Verbindung;Komp. Ben.;Verwendung;Verwendung;von;Kurzname;Pin;xy;Kontakt;Dichtung;Komp. Ben.;Verwendung;Verwendung;nach;Kurzname;Pin;xy;Kontakt;Dichtung;Leitung;Typ;Sonderltg.;Innenleiter;Länge;Farbe;Quer.;Pot.;V1;Ltg-Nr.
+3;1;ID_WIR2;10 Cavities;-;TE-Connectivity;ID_CON12;Stecker 10pol;4;26C;2-1703930-1;-;18 Cavities;-;TE-Connectivity;ID_CON1;Stecker Modul 1;8;18B;5-928999-1;-;BEDIAKABEL 23106080908;FLR;SL1;Core_0_gn-br_0.35;1000;gn-br;0,35;-;x;1
+3;2;ID_WIR4;10 Cavities;-;TE-Connectivity;ID_CON12;Stecker 10pol;2;26C;2-1703930-1;-;18 Cavities;-;TE-Connectivity;ID_CON1;Stecker Modul 1;9;18B;5-928999-1;-;BEDIAKABEL 23106080908;FLR;SL1;Core_1_ws-br_0.35;1000;ws-br;0,35;-;x;2
+3;3;ID_WIR6;10 Cavities;-;TE-Connectivity;ID_CON12;Stecker 10pol;3;26C;1-1703930-1;-;18 Cavities;-;TE-Connectivity;ID_CON1;Stecker Modul 1;17;18B;2141824-1;-;LEONI 76693005;FLR;-;-;1000;ws;0,13;-;x;3
+3;4;ID_WIR8;2 Cavities;-;TE-Connectivity;ID_CON9;Stecker 2pol;1;24B;1241390-1;-;4 Cavities;-;TE-Connectivity;ID_CON2;Stecker Modul 2;2;18C;1241390-1;-;HELUKABEL 28529;FLR;-;-;1000;ws;1,5;-;x;4
+3;5;ID_WIR10;2 Cavities;-;TE-Connectivity;ID_CON9;Stecker 2pol;2;24B;1241390-1;-;4 Cavities;-;TE-Connectivity;ID_CON2;Stecker Modul 2;1;18C;1241390-1;-;HELUKABEL 28529;FLR;-;-;1000;ws;1,5;-;x;5
+3;6;ID_WIR16;1 Cavities;-;TE-Connectivity;ID_CON8;Stecker 1pol;1;22E;-;-;4 Cavities;-;TE-Connectivity;ID_CON3;Stecker Modul 3;3;18D;-;-;HELUKABEL 400189;SCHIRM;SL2;Core_0_sw_0.5;975;sw;0,5;-;x;6
+3;7;ID_WIR18;1 Cavities;-;TE-Connectivity;ID_CON8;Stecker 1pol;1S;22E;-;-;4 Cavities;-;TE-Connectivity;ID_CON3;Stecker Modul 3;3S;18D;-;-;HELUKABEL 400189;RG174;SL2;Core_1_blk_0.14;975;blk;0,14;-;x;7

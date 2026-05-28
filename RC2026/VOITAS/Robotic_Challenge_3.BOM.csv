@@ -1,0 +1,17 @@
+1;Variants
+2;V1;RC3;RC3;0 (g);~
+0;Bezeichnung;Benennung;Verwendung;Verwendung;Kurzname;xy;Teilenummer;TAB-Nummer;Referenzteil;Farbe;E-Komponente;E-Komponente Part-Nr.;Einh.;V1
+4;PET-Vlies;-;-;-;-;-;tape;-;-;-;-;-;mm;2867
+4;Kontakt;-;-;-;-;-;1-1703930-1;-;-;-;-;-;Stk.;1
+4;Kontakt;-;-;-;-;-;2-1703930-1;-;-;-;-;-;Stk.;2
+4;Kontakt;-;-;-;-;-;5-928999-1;-;-;-;-;-;Stk.;2
+4;Kontakt;-;-;-;-;-;1241390-1;-;-;-;-;-;Stk.;4
+4;Kontakt;-;-;-;-;-;2141824-1;-;-;-;-;-;Stk.;1
+3;18POS,MQS,REC INNER HSG ASSY,UNSLD;18 Cavities;-;TE-Connectivity;Stecker Modul 1;18B;2470646-9;-;Cover Umgehäuse;schwarz;-;-;Stk.;1
+3;4POS,AMP MCP 2.8,REC INNER HSG ASSY;4 Cavities;-;TE-Connectivity;Stecker Modul 2;18C;2470649-9;-;Cover Umgehäuse;-;-;-;Stk.;1
+3;4POS,DIA 4MM,SOC HSG ASSY,UNSLD;4 Cavities;-;TE-Connectivity;Stecker Modul 3;18D;2470653-9;-;Cover Umgehäuse;-;-;-;Stk.;1
+3;6POS,HYBRID,REC HSG ASSY;-;-;-;Umgehäuse;18D;2470829-9;-;Stecker Modul 1 Stecker Modul 2 Stecker Modul 3;-;-;-;Stk.;1
+3;REC CONN CVR,2POS,HYBRID;-;-;-;Cover;19D;2470839-1;-;Stecker Modul 1 Stecker Modul 2 Stecker Modul 3;-;-;-;Stk.;1
+3;1 P MATE-AX, SOC HSG W CPA, COD A;1 Cavities;-;TE-Connectivity;Stecker 1pol;22E;2-2310137-1;-;-;-;-;-;Stk.;1
+3;REC. HSG. MCP 2.8K,2POSN.;2 Cavities;-;TE-Connectivity;Stecker 2pol;24B;1418796-3;-;-;-;-;-;Stk.;1
+3;10POS,NANOMQS,REC HSG,COD A;10 Cavities;-;TE-Connectivity;Stecker 10pol;26C;2302475-1;-;-;-;-;-;Stk.;1
