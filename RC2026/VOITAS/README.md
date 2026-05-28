@@ -13,6 +13,14 @@ Das Unternehmen ist spezialisiert auf die ganzheitliche Entwicklung von **Bordne
 **Website:** [https://voitas.eu](https://voitas.eu)
 
 ---
+Der Beitrag von VOITAS zur Robotik Challenge 2026 des Transformations-Hub Leitungssatz (gefördert vom BMWK). für das Begleitforschungs- und Digitalisierungsmodul ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
+
+Ziel der Challenge ist die Entwicklung innovativer, robotergestützter Lösungen für die (teil-)automatisierte Montage von Leitungssätzen (Wire Harness).
+
+VOITAS stellt als Spezialist für digitales Kabelbaum-Engineering das realistische digitale Modell des für die Challenge verwendeten Leitungssatzes sowie die zugehörigen technischen Unterlagen bereit.
+<img width="3387" height="1143" alt="image" src="https://github.com/user-attachments/assets/c365fac3-df01-4708-9ecc-4bc629a5eedd" />
+
+---
 
 ## Dateien
 
