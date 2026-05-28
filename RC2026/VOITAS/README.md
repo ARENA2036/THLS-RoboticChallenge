@@ -1,4 +1,4 @@
-# <img width="365" height="280" alt="voitas logo (002)" src="https://github.com/user-attachments/assets/090fb342-0f50-4a5a-967f-738f6346a137" />
+# <img width="182" height="140" alt="voitas logo (002)" src="https://github.com/user-attachments/assets/090fb342-0f50-4a5a-967f-738f6346a137" />
 
 **VOITAS Engineering GmbH** ist ein innovatives Engineering-Unternehmen mit Sitz in Deutschland und Polen. 
 
