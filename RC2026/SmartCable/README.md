@@ -33,11 +33,19 @@ SmartCable stellt als **Spezialist für digitales Kabelbaum-Engineering** das re
 
 ---
 
-## Hintergrund
-
-Der **Transformations-Hub Leitungssatz** veranstaltet die Robotik Challenge, um die Automatisierung komplexer manueller Prozesse in der Leitungssatzmontage voranzutreiben. 
-
 SmartCable liefert mit diesen Dateien die notwendige digitale Grundlage für die teilnehmenden Robotik-Teams.
+
+Für die Erstellung des Modells wurde das SmartCable-eigene Manufacturing-Tool „**MS_Cable**“ eingesetzt, welch auf der CAD-Plattform MicroStation CONNECT Edition basiert. Es ermöglicht eine durchgängige digitale Erstellung aller für die Fertigung von Kabelsätzen 
+erforderlicher Dokumente. 
+
+Eingabedaten werden flexibel aus KBL-, VEC-Formaten oder direkt aus V5Harness importiert. Erweiterbare Wissenskataloge unterstützen die Validierung, das generative Design sowie die Arbeitsplanung.
+
+Das System erzeugt maßstäbliche Darstellungen und generiert Fertigungsanweisungen auf Basis standardisierter Zeitkataloge. Darüber hinaus erfolgt eine automatische Berechnung der Herstellkosten unter Berücksichtigung 
+von Material- und Fertigungsaufwand.
+
+MS_Cable erstellt NC-Daten sowie Prüfdaten für elektrische Tests. Die Arbeitsplanung nutzt Ergebnisse aus der Fertigungssimulation und verteilt die Arbeitsschritte effizient auf einzelne Stationen.
+
+Das generative Design ergänzt automatisch notwendige Zusatzmaterialien – sowohl für das Produkt selbst als auch für den Fertigungsprozess.
 
 ---
 
