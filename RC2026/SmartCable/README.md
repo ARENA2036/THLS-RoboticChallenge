@@ -1,6 +1,6 @@
 # SmartCable
 
-Der Beitrag von **SmartCable** zur **Robotik Challenge 2026** des **Transformations-Hub Leitungssatz** (gefördert vom BMWK). für das **Begleitforschungs- und Digitalisierungsmodul – Transformations-Hub Leitungssatz** ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
+Der Beitrag von **SmartCable** zur **Robotik Challenge 2026** des **Transformations-Hub Leitungssatz** (gefördert vom BMWK). für das **Begleitforschungs- und Digitalisierungsmodul** ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
 
 Ziel der Challenge ist die Entwicklung innovativer, robotergestützter Lösungen für die (teil-)automatisierte Montage von Leitungssätzen (Wire Harness). 
 
