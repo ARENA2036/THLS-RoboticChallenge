@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<kbl:KBL_container xmlns:kbl="http://www.prostep.org/Car_electric_container/KBL2.3/KBLSchema" id="KBL_container" version_id="2.5 SR-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!--MS_Cable version='MS_Cable 7.010 - KBL-Exp. V2.49' system='Microsoft Windows 7 Professional Service Pack 1' compilation date='19.12.2025' compilation time='14:34:42' 
+extraction date='19.12.2025' time='14:30:31'-->
+
+  <Accessory id="ID_Acc_1">
+    <Part_number>2470829-9</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>6POS,HYBRID,REC HSG ASSY</Description>
+    <External_references>ID_ExtRef_4</External_references>
+    <Material_information id="ID_MatInf_1">
+      <Material_key>PBT-GF</Material_key>
+    </Material_information>
+    <Accessory_type>ZUB</Accessory_type>
+  </Accessory>
+
+  <Accessory id="ID_Acc_2">
+    <Part_number>2470839-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>REC CONN CVR,2POS,HYBRID</Description>
+    <External_references>ID_ExtRef_5</External_references>
+    <Material_information id="ID_MatInf_2">
+      <Material_key>PBT-GF 15 PIR</Material_key>
+    </Material_information>
+    <Accessory_type>ZUB</Accessory_type>
+  </Accessory>
+
+  <Cartesian_point id="ID_Point_1">
+    <Coordinates>590.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_2">
+    <Coordinates>750.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_3">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_4">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_5">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_6">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_7">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_8">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_9">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_10">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_11">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_12">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_13">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_14">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_15">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_16">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_17">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_18">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_19">
+    <Coordinates>0.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_20">
+    <Coordinates>400.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_21">
+    <Coordinates>380.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_22">
+    <Coordinates>380.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_23">
+    <Coordinates>280.600</Coordinates>
+    <Coordinates>11.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_24">
+    <Coordinates>380.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_25">
+    <Coordinates>280.600</Coordinates>
+    <Coordinates>-11.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_26">
+    <Coordinates>380.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_27">
+    <Coordinates>353.200</Coordinates>
+    <Coordinates>-13.400</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_28">
+    <Coordinates>820.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_29">
+    <Coordinates>600.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_30">
+    <Coordinates>820.000</Coordinates>
+    <Coordinates>60.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_31">
+    <Coordinates>820.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_32">
+    <Coordinates>820.000</Coordinates>
+    <Coordinates>80.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_33">
+    <Coordinates>820.000</Coordinates>
+    <Coordinates>60.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_34">
+    <Coordinates>900.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_35">
+    <Coordinates>820.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_36">
+    <Coordinates>940.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_37">
+    <Coordinates>900.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_38">
+    <Coordinates>600.000</Coordinates>
+    <Coordinates>-0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_39">
+    <Coordinates>400.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_40">
+    <Coordinates>600.000</Coordinates>
+    <Coordinates>-140.000</Coordinates>
+  </Cartesian_point>
+
+  <Cartesian_point id="ID_Point_41">
+    <Coordinates>600.000</Coordinates>
+    <Coordinates>0.000</Coordinates>
+  </Cartesian_point>
+
+  <Connector_housing id="ID_ConnHousing_1">
+    <Part_number>1418796-3</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>REC. HSG. MCP 2.8K,2POSN.</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_7</External_references>
+    <Material_information id="ID_MatInf_3">
+      <Material_key>PBT-GF 10</Material_key>
+    </Material_information>
+    <Housing_type>Gehaeuse</Housing_type>
+    <Slots id="ID_ConnHousing_1ID_Slots1">
+      <Number_of_cavities>1</Number_of_cavities>
+      <Cavities id="ID_ConnHousing_1ID_Cav1">
+        <Cavity_number>1</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_1ID_Cav2">
+        <Cavity_number>2</Cavity_number>
+      </Cavities>
+    </Slots>
+  </Connector_housing>
+
+  <Connector_housing id="ID_ConnHousing_2">
+    <Part_number>2302475-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>10POS,NANOMQS,REC HSG,COD A</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_6</External_references>
+    <Material_information id="ID_MatInf_4">
+      <Material_key>PBT-GF 10</Material_key>
+    </Material_information>
+    <Housing_type>Gehaeuse</Housing_type>
+    <Slots id="ID_ConnHousing_2ID_Slots1">
+      <Number_of_cavities>1</Number_of_cavities>
+      <Cavities id="ID_ConnHousing_2ID_Cav3">
+        <Cavity_number>3</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_2ID_Cav4">
+        <Cavity_number>4</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_2ID_Cav2">
+        <Cavity_number>2</Cavity_number>
+      </Cavities>
+    </Slots>
+  </Connector_housing>
+
+  <Connector_housing id="ID_ConnHousing_3">
+    <Part_number>2-2310137-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>1 P MATE-AX, SOC HSG W CPA, COD A</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_8</External_references>
+    <Material_information id="ID_MatInf_5">
+      <Material_key>PA66 GF30</Material_key>
+    </Material_information>
+    <Housing_type>Gehaeuse</Housing_type>
+    <Slots id="ID_ConnHousing_3ID_Slots1">
+      <Number_of_cavities>1</Number_of_cavities>
+      <Cavities id="ID_ConnHousing_3ID_Cav1">
+        <Cavity_number>1</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_3ID_Cav_X">
+        <Cavity_number>_X</Cavity_number>
+      </Cavities>
+    </Slots>
+  </Connector_housing>
+
+  <Connector_housing id="ID_ConnHousing_4">
+    <Part_number>2470646-9</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>18POS,MQS,REC INNER HSG ASSY,UNSLD</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_1</External_references>
+    <Material_information id="ID_MatInf_6">
+      <Material_key>PBT-GF 15</Material_key>
+    </Material_information>
+    <Housing_type>Gehaeuse</Housing_type>
+    <Slots id="ID_ConnHousing_4ID_Slots1">
+      <Number_of_cavities>1</Number_of_cavities>
+      <Cavities id="ID_ConnHousing_4ID_Cav17">
+        <Cavity_number>17</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_4ID_Cav8">
+        <Cavity_number>8</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_4ID_Cav9">
+        <Cavity_number>9</Cavity_number>
+      </Cavities>
+    </Slots>
+  </Connector_housing>
+
+  <Connector_housing id="ID_ConnHousing_5">
+    <Part_number>2470648-9</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>4POS,AMP MCP 2.8,REC INNER HSG ASSY</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_2</External_references>
+    <Material_information id="ID_MatInf_7">
+      <Material_key>PBT-GF 15</Material_key>
+    </Material_information>
+    <Housing_type>Gehaeuse</Housing_type>
+    <Slots id="ID_ConnHousing_5ID_Slots1">
+      <Number_of_cavities>1</Number_of_cavities>
+      <Cavities id="ID_ConnHousing_5ID_Cav2">
+        <Cavity_number>2</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_5ID_Cav1">
+        <Cavity_number>1</Cavity_number>
+      </Cavities>
+    </Slots>
+  </Connector_housing>
+
+  <Connector_housing id="ID_ConnHousing_6">
+    <Part_number>2470653-9</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>4POS,DIA 4MM,SOC HSG ASSY,UNSLD</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_3</External_references>
+    <Material_information id="ID_MatInf_8">
+      <Material_key>PBT-GF 15</Material_key>
+    </Material_information>
+    <Housing_type>Gehaeuse</Housing_type>
+    <Slots id="ID_ConnHousing_6ID_Slots1">
+      <Number_of_cavities>1</Number_of_cavities>
+      <Cavities id="ID_ConnHousing_6ID_Cav3">
+        <Cavity_number>3</Cavity_number>
+      </Cavities>
+      <Cavities id="ID_ConnHousing_6ID_Cav_X">
+        <Cavity_number>_X</Cavity_number>
+      </Cavities>
+    </Slots>
+  </Connector_housing>
+
+  <Creation id="ID_Creation_1">
+    <Name>/NULL</Name>
+    <Department>/NULL</Department>
+    <Date>12-19-2025</Date>
+    <Is_applied_to>ID_Harness_1</Is_applied_to>
+  </Creation>
+
+  <External_reference id="ID_ExtRef_1">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2470646-9</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2470646-9.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_2">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2470648-9</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2470649-9.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_3">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2470653-9</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2470653-9.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_4">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2470829-9</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2470829-9.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_5">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2470839-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/de/product-2470839-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_6">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2302475-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2302475-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_7">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>1418796-3</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-1418796-3.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_8">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2-2310137-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2-2310137-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_9">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2141824-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2141824-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_10">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>5-928999-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-5-928999-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_11">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>1-1703930-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-1-1703930-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_12">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2-1703930-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2-1703930-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_13">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>1241390-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-1241390-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_14">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>2298510-1</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.te.com/en/product-2298510-1.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>TE Connectivity</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_15">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>23106080908</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>http://www.bedia-kabel.de/de/webshop/flry-2x/flry-a-2x035-15-gn-br-ws-br--ring-detail.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>BEDIA Kabel</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_16">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>76693005</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.iewc.com/UserFiles/documents/products/le/on/if/lc/us/n0/3r/y0/_1/3_/leoniflcusn03ry0_13_ass.pdf</Location>
+    <Data_format>application/pdf</Data_format>
+    <Creating_system>Leoni</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_17">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>28529</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://shop.helukabel.com/de-de/vehicle-cable-flry-m28484/28529</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>HELU Kabel</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_18">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>400189</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://shop.helukabel.com/de-de/coaxial-cable-rg-174-u-m400189/400189</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>HELU Kabel</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_19">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>51036</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.tesa.com/de-de/industrie/tesa-triple-a-51036.html</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>tesa</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_20">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>712-10003</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.hellermanntyton.de/produkte/isolierbander/htape-protect250/712-10003</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>Hellermann Tyton</Creating_system>
+  </External_reference>
+
+  <External_reference id="ID_ExtRef_21">
+    <Document_type>PartMasterData</Document_type>
+    <Document_number>126-00000</Document_number>
+    <Change_level>L1</Change_level>
+    <File_name>/NULL</File_name>
+    <Location>https://www.hellermanntyton.de/produkte/kabelbinder-mit-befestigungselementen/t50sosec13e/126-00000</Location>
+    <Data_format>application/xhtml+xml</Data_format>
+    <Creating_system>Hellermann Tyton</Creating_system>
+  </External_reference>
+
+  <Fixing id="ID_Fixing_1">
+    <Part_number>126-00000</Part_number>
+    <Company_name>Hellermann Tyton</Company_name>
+    <Version>1.0</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>T50SOSEC13E-PA66HS-BK</Description>
+    <External_references>ID_ExtRef_21</External_references>
+    <Material_information id="ID_MatInf_9">
+      <Material_key>PA66HS</Material_key>
+    </Material_information>
+    <Fixing_type>/NULL</Fixing_type>
+  </Fixing>
+
+  <General_terminal id="ID_Term_1">
+    <Part_number>2141824-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>MQS0,63 Sn rec LL unseal. 0,13-0,17</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_9</External_references>
+    <Material_information id="ID_MatInf_10">
+      <Material_key>CuNiSi</Material_key>
+    </Material_information>
+    <Terminal_type>pin</Terminal_type>
+  </General_terminal>
+
+  <General_terminal id="ID_Term_2">
+    <Part_number>1-1703930-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>NANOMQS, RECEPTACLE TERMINAL</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_11</External_references>
+    <Material_information id="ID_MatInf_11">
+      <Material_key>CuSn8</Material_key>
+    </Material_information>
+    <Terminal_type>pin</Terminal_type>
+  </General_terminal>
+
+  <General_terminal id="ID_Term_3">
+    <Part_number>1241390-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>AMP MCP 2.8K, CONTACT</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_13</External_references>
+    <Material_information id="ID_MatInf_12">
+      <Material_key>CuNiSi</Material_key>
+    </Material_information>
+    <Terminal_type>pin</Terminal_type>
+  </General_terminal>
+
+  <General_terminal id="ID_Term_4">
+    <Part_number>5-928999-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>MQS0,63 Sn rec LL unseal. &gt;0,2-0,35</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_10</External_references>
+    <Material_information id="ID_MatInf_13">
+      <Material_key>CuNiSi</Material_key>
+    </Material_information>
+    <Terminal_type>pin</Terminal_type>
+  </General_terminal>
+
+  <General_terminal id="ID_Term_5">
+    <Part_number>2-1703930-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>NANOMQS, RECEPTACLE TERMINAL</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_12</External_references>
+    <Material_information id="ID_MatInf_14">
+      <Material_key>CuSn8</Material_key>
+    </Material_information>
+    <Terminal_type>pin</Terminal_type>
+  </General_terminal>
+
+  <General_terminal id="ID_Term_6">
+    <Part_number>2298510-1</Part_number>
+    <Company_name>TE Connectivity</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>CONTACT MINI COAX , KIT, FEMALE, RG174</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_14</External_references>
+    <Material_information id="ID_MatInf_15">
+      <Material_key>CuSn/PBT/STEEL</Material_key>
+    </Material_information>
+    <Terminal_type>pin</Terminal_type>
+  </General_terminal>
+
+  <General_wire id="ID_GenWire_1">
+    <Part_number>23106080908</Part_number>
+    <Company_name>BEDIA Kabel</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>TP2x0.35</Abbreviation>
+    <Description>FLRY-A 2×0.35mm² twisted automotive cable</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_15</External_references>
+    <Material_information id="ID_MatInf_16">
+      <Material_key>Cu-ETP1</Material_key>
+    </Material_information>
+    <Wire_type>cable</Wire_type>
+    <Core id="ID_GenWire_1ID_Core1">
+      <Id>1</Id>
+      <Cable_designator>FLRYA 0.35 GN/BR</Cable_designator>
+      <Cross_section_area id="ID_Numval_1">
+        <Unit_component>ID_Unit_2</Unit_component>
+        <Value_component>0.350</Value_component>
+      </Cross_section_area>
+      <Core_colour id="ID_WireCol_1">
+        <Colour_type>gfarbe</Colour_type>
+        <Colour_value>GN</Colour_value>
+      </Core_colour>
+      <Core_colour id="ID_WireCol_2">
+        <Colour_type>kfarbe</Colour_type>
+        <Colour_value>BR</Colour_value>
+      </Core_colour>
+    </Core>
+    <Core id="ID_GenWire_1ID_Core2">
+      <Id>2</Id>
+      <Cable_designator>FLRYA 0.35 WS/BR</Cable_designator>
+      <Cross_section_area id="ID_Numval_2">
+        <Unit_component>ID_Unit_2</Unit_component>
+        <Value_component>0.350</Value_component>
+      </Cross_section_area>
+      <Core_colour id="ID_WireCol_3">
+        <Colour_type>gfarbe</Colour_type>
+        <Colour_value>WS</Colour_value>
+      </Core_colour>
+      <Core_colour id="ID_WireCol_4">
+        <Colour_type>kfarbe</Colour_type>
+        <Colour_value>BR</Colour_value>
+      </Core_colour>
+    </Core>
+    <Cover_colour id="ID_WireCol_5">
+      <Colour_type>gfarbe</Colour_type>
+      <Colour_value>GN</Colour_value>
+    </Cover_colour>
+    <Cover_colour id="ID_WireCol_6">
+      <Colour_type>kfarbe</Colour_type>
+      <Colour_value>BR</Colour_value>
+    </Cover_colour>
+  </General_wire>
+
+  <General_wire id="ID_GenWire_2">
+    <Part_number>400189</Part_number>
+    <Company_name>HELU Kabel</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>RG174U</Abbreviation>
+    <Description>COAXIAL CABLE RG 174 U schwarz</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_18</External_references>
+    <Material_information id="ID_MatInf_17">
+      <Material_key>Cu</Material_key>
+    </Material_information>
+    <Wire_type>cable</Wire_type>
+    <Core id="ID_GenWire_2ID_Core1">
+      <Id>1</Id>
+      <Cable_designator>YY    0.14 SW</Cable_designator>
+      <Cross_section_area id="ID_Numval_6">
+        <Unit_component>ID_Unit_2</Unit_component>
+        <Value_component>0.140</Value_component>
+      </Cross_section_area>
+      <Core_colour id="ID_WireCol_7">
+        <Colour_type>gfarbe</Colour_type>
+        <Colour_value>SW</Colour_value>
+      </Core_colour>
+    </Core>
+    <Core id="ID_GenWire_2ID_Core2">
+      <Id>2</Id>
+      <Cable_designator>YY    0.00 SRC</Cable_designator>
+      <Cross_section_area id="ID_Numval_7">
+        <Unit_component>ID_Unit_2</Unit_component>
+        <Value_component>0.000</Value_component>
+      </Cross_section_area>
+      <Core_colour id="ID_WireCol_8">
+        <Colour_type>gfarbe</Colour_type>
+        <Colour_value>SRC</Colour_value>
+      </Core_colour>
+    </Core>
+    <Cover_colour id="ID_WireCol_9">
+      <Colour_type>gfarbe</Colour_type>
+      <Colour_value>SW</Colour_value>
+    </Cover_colour>
+  </General_wire>
+
+  <General_wire id="ID_GenWire_3">
+    <Part_number>76693005</Part_number>
+    <Company_name>Leoni</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>FLCUSN03RY 0,13-A</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_16</External_references>
+    <Material_information id="ID_MatInf_18">
+      <Material_key>CuSn0,3</Material_key>
+    </Material_information>
+    <Wire_type>wire</Wire_type>
+    <Cross_section_area id="ID_Numval_11">
+      <Unit_component>ID_Unit_2</Unit_component>
+      <Value_component>0.130</Value_component>
+    </Cross_section_area>
+    <Outside_diameter id="ID_Numval_12">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>1.110</Value_component>
+    </Outside_diameter>
+    <Cover_colour id="ID_WireCol_10">
+      <Colour_type>gfarbe</Colour_type>
+      <Colour_value>RT</Colour_value>
+    </Cover_colour>
+  </General_wire>
+
+  <General_wire id="ID_GenWire_4">
+    <Part_number>28529</Part_number>
+    <Company_name>HELU Kabel</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>Vehicle Cable FLRY Type B weiß 1 x 1,5 mm²</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_17</External_references>
+    <Material_information id="ID_MatInf_19">
+      <Material_key>E-Cu58 F21</Material_key>
+    </Material_information>
+    <Wire_type>wire</Wire_type>
+    <Cross_section_area id="ID_Numval_14">
+      <Unit_component>ID_Unit_2</Unit_component>
+      <Value_component>1.500</Value_component>
+    </Cross_section_area>
+    <Outside_diameter id="ID_Numval_15">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>2.080</Value_component>
+    </Outside_diameter>
+    <Cover_colour id="ID_WireCol_11">
+      <Colour_type>gfarbe</Colour_type>
+      <Colour_value>WS</Colour_value>
+    </Cover_colour>
+  </General_wire>
+
+  <General_wire id="ID_GenWire_5">
+    <Part_number>28529</Part_number>
+    <Company_name>HELU Kabel</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>Vehicle Cable FLRY Type B weiß 1 x 1,5 mm²</Description>
+    <Predecessor_part_number>/NULL</Predecessor_part_number>
+    <Degree_of_maturity>/NULL</Degree_of_maturity>
+    <External_references>ID_ExtRef_17</External_references>
+    <Material_information id="ID_MatInf_20">
+      <Material_key>E-Cu58 F21</Material_key>
+    </Material_information>
+    <Wire_type>wire</Wire_type>
+    <Cross_section_area id="ID_Numval_17">
+      <Unit_component>ID_Unit_2</Unit_component>
+      <Value_component>1.500</Value_component>
+    </Cross_section_area>
+    <Outside_diameter id="ID_Numval_18">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>2.080</Value_component>
+    </Outside_diameter>
+    <Cover_colour id="ID_WireCol_12">
+      <Colour_type>gfarbe</Colour_type>
+      <Colour_value>BL</Colour_value>
+    </Cover_colour>
+  </General_wire>
+
+  <Harness id="ID_Harness_1">
+    <Part_number>SMARTCABLE-LSRC3</Part_number>
+    <Company_name>smartCable GmbH</Company_name>
+    <Version>1</Version>
+    <Abbreviation>/NULL</Abbreviation>
+    <Description>LEITUNGSSATZ FUER ROBOTIK-CHALLENGE 2026</Description>
+    <Copyright_note>MS_Cable version='MS_Cable 7.010, MscXml V2.49 smartCable 2025</Copyright_note>
+    <External_references>ID_ExtRef_1 ID_ExtRef_2 ID_ExtRef_3 ID_ExtRef_4 ID_ExtRef_5 ID_ExtRef_6 ID_ExtRef_7 ID_ExtRef_8 ID_ExtRef_9 ID_ExtRef_10 ID_ExtRef_11 ID_ExtRef_12 ID_ExtRef_13 ID_ExtRef_14 ID_ExtRef_15 ID_ExtRef_16 ID_ExtRef_17 ID_ExtRef_18 ID_ExtRef_19 ID_ExtRef_20 ID_ExtRef_21</External_references>
+    <Change id="ID_Change_1">
+      <Id>Change_1</Id>
+      <Description>/NULL</Description>
+      <Change_request>/NULL</Change_request>
+      <Change_date>/NULL</Change_date>
+      <Responsible_designer>/NULL</Responsible_designer>
+      <Designer_department>/NULL</Designer_department>
+      <Approver_name>/NULL</Approver_name>
+      <Approver_department>/NULL</Approver_department>
+    </Change>
+    <Car_classification_level_2>/NULL</Car_classification_level_2>
+    <Model_year>/NULL</Model_year>
+    <Content>harness complete set</Content>
+    <Accessory_occurrence id="ID_AccOcc_1">
+      <Id>ZUB_1_0</Id>
+      <Part>ID_Acc_1</Part>
+    </Accessory_occurrence>
+    <Accessory_occurrence id="ID_AccOcc_2">
+      <Id>ZUB_2_0</Id>
+      <Part>ID_Acc_2</Part>
+    </Accessory_occurrence>
+    <Connection id="ID_ConnOcc_1">
+      <Id>1</Id>
+      <Wire>ID_WireOcc_1</Wire>
+      <Extremities id="ID_ConnOcc_1ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_4ID_ContPts1</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_1ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_2ID_ContPts1</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connection id="ID_ConnOcc_2">
+      <Id>2</Id>
+      <Wire>ID_WireOcc_2</Wire>
+      <Extremities id="ID_ConnOcc_2ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_5ID_ContPts1</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_2ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_1ID_ContPts1</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connection id="ID_ConnOcc_3">
+      <Id>3</Id>
+      <Wire>ID_WireOcc_3</Wire>
+      <Extremities id="ID_ConnOcc_3ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_5ID_ContPts2</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_3ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_1ID_ContPts2</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connection id="ID_ConnOcc_4">
+      <Id>14</Id>
+      <Wire>ID_CableOcc_1ID_Core1</Wire>
+      <Extremities id="ID_ConnOcc_4ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_4ID_ContPts2</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_4ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_2ID_ContPts2</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connection id="ID_ConnOcc_5">
+      <Id>15</Id>
+      <Wire>ID_CableOcc_1ID_Core2</Wire>
+      <Extremities id="ID_ConnOcc_5ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_4ID_ContPts3</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_5ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_2ID_ContPts3</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connection id="ID_ConnOcc_6">
+      <Id>16</Id>
+      <Wire>ID_CableOcc_2ID_Core1</Wire>
+      <Extremities id="ID_ConnOcc_6ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_6ID_ContPts1</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_6ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_3ID_ContPts1</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connection id="ID_ConnOcc_7">
+      <Id>17</Id>
+      <Wire>ID_CableOcc_2ID_Core2</Wire>
+      <Extremities id="ID_ConnOcc_7ID_ContPts1">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_6</Contact_point>
+      </Extremities>
+      <Extremities id="ID_ConnOcc_7ID_ContPts2">
+        <Position_on_wire>0.0</Position_on_wire>
+        <Contact_point>ID_CtorOcc_3</Contact_point>
+      </Extremities>
+    </Connection>
+    <Connector_occurrence id="ID_CtorOcc_1">
+      <Id>ST1</Id>
+      <Alias_id id="ID_AliasId_3">
+        <Alias_id>ST1</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Description>STECKER-2POL.</Description>
+      <Placement id="ID_Transform_3">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_3</Cartesian_point>
+      </Placement>
+      <Part>ID_ConnHousing_1</Part>
+      <Contact_points id="ID_CtorOcc_1ID_ContPts1">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_4</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_1ID_Cav1</Contacted_cavity>
+      </Contact_points>
+      <Contact_points id="ID_CtorOcc_1ID_ContPts2">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_6</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_1ID_Cav2</Contacted_cavity>
+      </Contact_points>
+      <Installation_information id="ID_InstInfo_3">
+        <Instruction_type>ADD_ON_TEXT</Instruction_type>
+        <Instruction_value>STECKER-2POL.</Instruction_value>
+      </Installation_information>
+      <Slots id="ID_SlotsOcc_1">
+        <Part>ID_ConnHousing_1ID_Slots1</Part>
+        <Cavities id="ID_CtorOcc_1ID_Cav1">
+          <Part>ID_ConnHousing_1ID_Cav1</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_1ID_Cav2">
+          <Part>ID_ConnHousing_1ID_Cav2</Part>
+        </Cavities>
+      </Slots>
+    </Connector_occurrence>
+    <Connector_occurrence id="ID_CtorOcc_2">
+      <Id>ST2</Id>
+      <Alias_id id="ID_AliasId_4">
+        <Alias_id>ST2</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Description>STECKER-10POL.</Description>
+      <Placement id="ID_Transform_4">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_4</Cartesian_point>
+      </Placement>
+      <Part>ID_ConnHousing_2</Part>
+      <Contact_points id="ID_CtorOcc_2ID_ContPts1">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_2</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_2ID_Cav3</Contacted_cavity>
+      </Contact_points>
+      <Contact_points id="ID_CtorOcc_2ID_ContPts2">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_8</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_2ID_Cav4</Contacted_cavity>
+      </Contact_points>
+      <Contact_points id="ID_CtorOcc_2ID_ContPts3">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_10</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_2ID_Cav2</Contacted_cavity>
+      </Contact_points>
+      <Installation_information id="ID_InstInfo_4">
+        <Instruction_type>ADD_ON_TEXT</Instruction_type>
+        <Instruction_value>STECKER-10POL.</Instruction_value>
+      </Installation_information>
+      <Slots id="ID_SlotsOcc_2">
+        <Part>ID_ConnHousing_2ID_Slots1</Part>
+        <Cavities id="ID_CtorOcc_2ID_Cav3">
+          <Part>ID_ConnHousing_2ID_Cav3</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_2ID_Cav4">
+          <Part>ID_ConnHousing_2ID_Cav4</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_2ID_Cav2">
+          <Part>ID_ConnHousing_2ID_Cav2</Part>
+        </Cavities>
+      </Slots>
+    </Connector_occurrence>
+    <Connector_occurrence id="ID_CtorOcc_3">
+      <Id>ST3</Id>
+      <Alias_id id="ID_AliasId_5">
+        <Alias_id>ST3</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Description>STECKER-1POL.</Description>
+      <Part>ID_ConnHousing_3</Part>
+      <Contact_points id="ID_CtorOcc_3ID_ContPts1">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_12</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_3ID_Cav1</Contacted_cavity>
+      </Contact_points>
+      <Installation_information id="ID_InstInfo_5">
+        <Instruction_type>ADD_ON_TEXT</Instruction_type>
+        <Instruction_value>STECKER-1POL.</Instruction_value>
+      </Installation_information>
+      <Slots id="ID_SlotsOcc_3">
+        <Part>ID_ConnHousing_3ID_Slots1</Part>
+        <Cavities id="ID_CtorOcc_3ID_Cav1">
+          <Part>ID_ConnHousing_3ID_Cav1</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_3ID_Cav_X">
+          <Part>ID_ConnHousing_3ID_Cav_X</Part>
+        </Cavities>
+      </Slots>
+    </Connector_occurrence>
+    <Connector_occurrence id="ID_CtorOcc_4">
+      <Id>STM1</Id>
+      <Alias_id id="ID_AliasId_6">
+        <Alias_id>STM1</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Description>STECKER MODUL 1</Description>
+      <Placement id="ID_Transform_5">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_5</Cartesian_point>
+      </Placement>
+      <Part>ID_ConnHousing_4</Part>
+      <Contact_points id="ID_CtorOcc_4ID_ContPts1">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_1</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_4ID_Cav17</Contacted_cavity>
+      </Contact_points>
+      <Contact_points id="ID_CtorOcc_4ID_ContPts2">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_7</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_4ID_Cav8</Contacted_cavity>
+      </Contact_points>
+      <Contact_points id="ID_CtorOcc_4ID_ContPts3">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_9</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_4ID_Cav9</Contacted_cavity>
+      </Contact_points>
+      <Installation_information id="ID_InstInfo_6">
+        <Instruction_type>ADD_ON_TEXT</Instruction_type>
+        <Instruction_value>STECKER MODUL 1</Instruction_value>
+      </Installation_information>
+      <Slots id="ID_SlotsOcc_4">
+        <Part>ID_ConnHousing_4ID_Slots1</Part>
+        <Cavities id="ID_CtorOcc_4ID_Cav17">
+          <Part>ID_ConnHousing_4ID_Cav17</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_4ID_Cav8">
+          <Part>ID_ConnHousing_4ID_Cav8</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_4ID_Cav9">
+          <Part>ID_ConnHousing_4ID_Cav9</Part>
+        </Cavities>
+      </Slots>
+    </Connector_occurrence>
+    <Connector_occurrence id="ID_CtorOcc_5">
+      <Id>STM2</Id>
+      <Alias_id id="ID_AliasId_7">
+        <Alias_id>STM2</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Description>STECKER MODUL 2</Description>
+      <Placement id="ID_Transform_6">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_6</Cartesian_point>
+      </Placement>
+      <Part>ID_ConnHousing_5</Part>
+      <Contact_points id="ID_CtorOcc_5ID_ContPts1">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_3</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_5ID_Cav2</Contacted_cavity>
+      </Contact_points>
+      <Contact_points id="ID_CtorOcc_5ID_ContPts2">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_5</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_5ID_Cav1</Contacted_cavity>
+      </Contact_points>
+      <Installation_information id="ID_InstInfo_7">
+        <Instruction_type>ADD_ON_TEXT</Instruction_type>
+        <Instruction_value>STECKER MODUL 2</Instruction_value>
+      </Installation_information>
+      <Slots id="ID_SlotsOcc_5">
+        <Part>ID_ConnHousing_5ID_Slots1</Part>
+        <Cavities id="ID_CtorOcc_5ID_Cav2">
+          <Part>ID_ConnHousing_5ID_Cav2</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_5ID_Cav1">
+          <Part>ID_ConnHousing_5ID_Cav1</Part>
+        </Cavities>
+      </Slots>
+    </Connector_occurrence>
+    <Connector_occurrence id="ID_CtorOcc_6">
+      <Id>STM3</Id>
+      <Alias_id id="ID_AliasId_8">
+        <Alias_id>STM3</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Description>STECKER MODUL 3</Description>
+      <Placement id="ID_Transform_7">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_7</Cartesian_point>
+      </Placement>
+      <Part>ID_ConnHousing_6</Part>
+      <Contact_points id="ID_CtorOcc_6ID_ContPts1">
+        <Id>/NULL</Id>
+        <Associated_parts>ID_TermOcc_11</Associated_parts>
+        <Contacted_cavity>ID_CtorOcc_6ID_Cav3</Contacted_cavity>
+      </Contact_points>
+      <Installation_information id="ID_InstInfo_8">
+        <Instruction_type>ADD_ON_TEXT</Instruction_type>
+        <Instruction_value>STECKER MODUL 3</Instruction_value>
+      </Installation_information>
+      <Slots id="ID_SlotsOcc_6">
+        <Part>ID_ConnHousing_6ID_Slots1</Part>
+        <Cavities id="ID_CtorOcc_6ID_Cav3">
+          <Part>ID_ConnHousing_6ID_Cav3</Part>
+        </Cavities>
+        <Cavities id="ID_CtorOcc_6ID_Cav_X">
+          <Part>ID_ConnHousing_6ID_Cav_X</Part>
+        </Cavities>
+      </Slots>
+    </Connector_occurrence>
+    <Fixing_occurrence id="ID_FixingOcc_1">
+      <Id>FIX1</Id>
+      <Alias_id id="ID_AliasId_1">
+        <Alias_id>FIX1</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Placement id="ID_Transform_1">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_1</Cartesian_point>
+      </Placement>
+      <Part>ID_Fixing_1</Part>
+      <Installation_information id="ID_InstInfo_1">
+        <Instruction_type>KONF_TYPE_FIX</Instruction_type>
+        <Instruction_value>VK</Instruction_value>
+      </Installation_information>
+    </Fixing_occurrence>
+    <Fixing_occurrence id="ID_FixingOcc_2">
+      <Id>FIX2</Id>
+      <Alias_id id="ID_AliasId_2">
+        <Alias_id>FIX2</Alias_id>
+        <Description>Alias_Ref</Description>
+      </Alias_id>
+      <Placement id="ID_Transform_2">
+        <U>0.0</U>
+        <U>0.0</U>
+        <V>0.0</V>
+        <V>0.0</V>
+        <Cartesian_point>ID_Point_2</Cartesian_point>
+      </Placement>
+      <Part>ID_Fixing_1</Part>
+      <Installation_information id="ID_InstInfo_2">
+        <Instruction_type>KONF_TYPE_FIX</Instruction_type>
+        <Instruction_value>VK</Instruction_value>
+      </Installation_information>
+    </Fixing_occurrence>
+    <General_wire_occurrence id="ID_CableOcc_1" xsi:type="kbl:Special_wire_occurrence">
+      <Part>ID_GenWire_1</Part>
+      <Length_information id="ID_WireLength_1">
+        <Length_type>Calculated Length</Length_type>
+        <Length_value id="ID_Numval_3">
+          <Unit_component>ID_Unit_1</Unit_component>
+          <Value_component>1000.000</Value_component>
+        </Length_value>
+      </Length_information>
+      <Special_wire_id>TP1</Special_wire_id>
+      <Core_occurrence id="ID_CableOcc_1ID_Core1">
+        <Wire_number>14</Wire_number>
+        <Part>ID_GenWire_1ID_Core1</Part>
+        <Length_information id="ID_WireLength_2">
+          <Length_type>Calculated Length</Length_type>
+          <Length_value id="ID_Numval_4">
+            <Unit_component>ID_Unit_1</Unit_component>
+            <Value_component>1000.000</Value_component>
+          </Length_value>
+        </Length_information>
+      </Core_occurrence>
+      <Core_occurrence id="ID_CableOcc_1ID_Core2">
+        <Wire_number>15</Wire_number>
+        <Part>ID_GenWire_1ID_Core2</Part>
+        <Length_information id="ID_WireLength_3">
+          <Length_type>Calculated Length</Length_type>
+          <Length_value id="ID_Numval_5">
+            <Unit_component>ID_Unit_1</Unit_component>
+            <Value_component>1000.000</Value_component>
+          </Length_value>
+        </Length_information>
+      </Core_occurrence>
+    </General_wire_occurrence>
+    <General_wire_occurrence id="ID_CableOcc_2" xsi:type="kbl:Special_wire_occurrence">
+      <Part>ID_GenWire_2</Part>
+      <Length_information id="ID_WireLength_4">
+        <Length_type>Calculated Length</Length_type>
+        <Length_value id="ID_Numval_8">
+          <Unit_component>ID_Unit_1</Unit_component>
+          <Value_component>0.000</Value_component>
+        </Length_value>
+      </Length_information>
+      <Special_wire_id>COA1</Special_wire_id>
+      <Core_occurrence id="ID_CableOcc_2ID_Core1">
+        <Wire_number>16</Wire_number>
+        <Part>ID_GenWire_2ID_Core1</Part>
+        <Length_information id="ID_WireLength_5">
+          <Length_type>Calculated Length</Length_type>
+          <Length_value id="ID_Numval_9">
+            <Unit_component>ID_Unit_1</Unit_component>
+            <Value_component>0.000</Value_component>
+          </Length_value>
+        </Length_information>
+      </Core_occurrence>
+      <Core_occurrence id="ID_CableOcc_2ID_Core2">
+        <Wire_number>17</Wire_number>
+        <Part>ID_GenWire_2ID_Core2</Part>
+        <Length_information id="ID_WireLength_6">
+          <Length_type>Calculated Length</Length_type>
+          <Length_value id="ID_Numval_10">
+            <Unit_component>ID_Unit_1</Unit_component>
+            <Value_component>0.000</Value_component>
+          </Length_value>
+        </Length_information>
+      </Core_occurrence>
+    </General_wire_occurrence>
+    <General_wire_occurrence id="ID_WireOcc_1" xsi:type="kbl:Wire_occurrence">
+      <Part>ID_GenWire_3</Part>
+      <Length_information id="ID_WireLength_7">
+        <Length_type>Calculated Length</Length_type>
+        <Length_value id="ID_Numval_13">
+          <Unit_component>ID_Unit_1</Unit_component>
+          <Value_component>1000.000</Value_component>
+        </Length_value>
+      </Length_information>
+      <Wire_number>1</Wire_number>
+    </General_wire_occurrence>
+    <General_wire_occurrence id="ID_WireOcc_2" xsi:type="kbl:Wire_occurrence">
+      <Part>ID_GenWire_4</Part>
+      <Length_information id="ID_WireLength_8">
+        <Length_type>Calculated Length</Length_type>
+        <Length_value id="ID_Numval_16">
+          <Unit_component>ID_Unit_1</Unit_component>
+          <Value_component>1000.000</Value_component>
+        </Length_value>
+      </Length_information>
+      <Wire_number>2</Wire_number>
+    </General_wire_occurrence>
+    <General_wire_occurrence id="ID_WireOcc_3" xsi:type="kbl:Wire_occurrence">
+      <Part>ID_GenWire_5</Part>
+      <Length_information id="ID_WireLength_9">
+        <Length_type>Calculated Length</Length_type>
+        <Length_value id="ID_Numval_19">
+          <Unit_component>ID_Unit_1</Unit_component>
+          <Value_component>1000.000</Value_component>
+        </Length_value>
+      </Length_information>
+      <Wire_number>3</Wire_number>
+    </General_wire_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_1">
+      <Part>ID_Term_1</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_2">
+      <Part>ID_Term_2</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_3">
+      <Part>ID_Term_3</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_4">
+      <Part>ID_Term_3</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_5">
+      <Part>ID_Term_3</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_6">
+      <Part>ID_Term_3</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_7">
+      <Part>ID_Term_4</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_8">
+      <Part>ID_Term_5</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_9">
+      <Part>ID_Term_4</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_10">
+      <Part>ID_Term_5</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_11">
+      <Part>ID_Term_6</Part>
+    </Terminal_occurrence>
+    <Terminal_occurrence id="ID_TermOcc_12">
+      <Part>ID_Term_6</Part>
+    </Terminal_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_1">
+      <Id>10004</Id>
+      <Protection_length id="ID_Numval_20">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>300.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_1</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_2">
+      <Id>20004</Id>
+      <Protection_length id="ID_Numval_21">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>300.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_2</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_3">
+      <Id>10005</Id>
+      <Protection_length id="ID_Numval_22">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>180.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_1</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_4">
+      <Id>20005</Id>
+      <Protection_length id="ID_Numval_23">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>180.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_2</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_5">
+      <Id>10007</Id>
+      <Protection_length id="ID_Numval_24">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>180.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_1</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_6">
+      <Id>20007</Id>
+      <Protection_length id="ID_Numval_25">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>180.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_2</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_7">
+      <Id>10009</Id>
+      <Protection_length id="ID_Numval_26">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>380.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_1</Part>
+    </Wire_protection_occurrence>
+    <Wire_protection_occurrence id="ID_IsoOcc_8">
+      <Id>20009</Id>
+      <Protection_length id="ID_Numval_27">
+        <Unit_component>ID_Unit_1</Unit_component>
+        <Value_component>380.000</Value_component>
+      </Protection_length>
+      <Part>ID_IsoDef_2</Part>
+    </Wire_protection_occurrence>
+    <Module id="ID_Module_1">
+      <Part_number>MODUL1</Part_number>
+      <Company_name>/NULL</Company_name>
+      <Version>Feld1</Version>
+      <Abbreviation>/NULL</Abbreviation>
+      <Description>Modul mit Tesa Band</Description>
+      <Change id="ID_Change_2">
+        <Id>Change_2</Id>
+        <Description>/NULL</Description>
+        <Change_request>/NULL</Change_request>
+        <Change_date>2025-10-15</Change_date>
+        <Responsible_designer>Uwe Pruefer</Responsible_designer>
+        <Designer_department>Entwicklung</Designer_department>
+        <Approver_name>/NULL</Approver_name>
+        <Approver_department>/NULL</Approver_department>
+      </Change>
+      <Car_classification_level_2>/NULL</Car_classification_level_2>
+      <Model_year>/NULL</Model_year>
+      <Content>variant</Content>
+      <Module_configuration id="ID_ModConfig_1">
+        <Logistic_control_information>VAR1,VAR2</Logistic_control_information>
+        <Controlled_components>ID_AccOcc_1 ID_AccOcc_2 ID_TermOcc_1 ID_TermOcc_2 ID_TermOcc_3 ID_TermOcc_4 ID_TermOcc_5 ID_TermOcc_6 ID_TermOcc_7 ID_TermOcc_8 ID_TermOcc_9 ID_TermOcc_10 ID_TermOcc_11 ID_TermOcc_12 ID_CtorOcc_1 ID_CtorOcc_2 ID_CtorOcc_3 ID_CtorOcc_4 ID_CtorOcc_5 ID_CtorOcc_6 ID_WireOcc_1 ID_WireOcc_2 ID_WireOcc_3 ID_ConnOcc_1 ID_ConnOcc_2 ID_ConnOcc_3 ID_CableOcc_1ID_Core1 ID_ConnOcc_4 ID_CableOcc_1ID_Core2 ID_ConnOcc_5 ID_CableOcc_2ID_Core1 ID_ConnOcc_6 ID_CableOcc_2ID_Core2 ID_ConnOcc_7 ID_IsoOcc_1 ID_IsoOcc_3 ID_IsoOcc_5 ID_IsoOcc_7</Controlled_components>
+      </Module_configuration>
+    </Module>
+    <Module id="ID_Module_2">
+      <Part_number>MODUL2</Part_number>
+      <Company_name>/NULL</Company_name>
+      <Version>/NULL</Version>
+      <Abbreviation>/NULL</Abbreviation>
+      <Description>Modul mit HellermannTyton</Description>
+      <Change id="ID_Change_3">
+        <Id>Change_3</Id>
+        <Description>/NULL</Description>
+        <Change_request>/NULL</Change_request>
+        <Change_date>2025-12-17</Change_date>
+        <Responsible_designer>Uwe Pruefer</Responsible_designer>
+        <Designer_department>Uwe Prüfer</Designer_department>
+        <Approver_name>/NULL</Approver_name>
+        <Approver_department>/NULL</Approver_department>
+      </Change>
+      <Car_classification_level_2>/NULL</Car_classification_level_2>
+      <Model_year>/NULL</Model_year>
+      <Content>variant</Content>
+      <Module_configuration id="ID_ModConfig_2">
+        <Logistic_control_information>VAR1,VAR3</Logistic_control_information>
+        <Controlled_components>ID_AccOcc_1 ID_AccOcc_2 ID_TermOcc_1 ID_TermOcc_2 ID_TermOcc_3 ID_TermOcc_4 ID_TermOcc_5 ID_TermOcc_6 ID_TermOcc_7 ID_TermOcc_8 ID_TermOcc_9 ID_TermOcc_10 ID_TermOcc_11 ID_TermOcc_12 ID_CtorOcc_1 ID_CtorOcc_2 ID_CtorOcc_3 ID_CtorOcc_4 ID_CtorOcc_5 ID_CtorOcc_6 ID_WireOcc_1 ID_WireOcc_2 ID_WireOcc_3 ID_ConnOcc_1 ID_ConnOcc_2 ID_ConnOcc_3 ID_CableOcc_1ID_Core1 ID_ConnOcc_4 ID_CableOcc_1ID_Core2 ID_ConnOcc_5 ID_CableOcc_2ID_Core1 ID_ConnOcc_6 ID_CableOcc_2ID_Core2 ID_ConnOcc_7 ID_IsoOcc_2 ID_IsoOcc_4 ID_IsoOcc_6 ID_IsoOcc_8</Controlled_components>
+      </Module_configuration>
+    </Module>
+    <Module id="ID_Module_3">
+      <Part_number>MODUL3</Part_number>
+      <Company_name>/NULL</Company_name>
+      <Version>/NULL</Version>
+      <Abbreviation>/NULL</Abbreviation>
+      <Description>Modul mit Fixierungen</Description>
+      <Change id="ID_Change_4">
+        <Id>Change_4</Id>
+        <Description>/NULL</Description>
+        <Change_request>/NULL</Change_request>
+        <Change_date>2025-12-17</Change_date>
+        <Responsible_designer>Uwe Pruefer</Responsible_designer>
+        <Designer_department>Uwe Prüfer</Designer_department>
+        <Approver_name>/NULL</Approver_name>
+        <Approver_department>/NULL</Approver_department>
+      </Change>
+      <Car_classification_level_2>/NULL</Car_classification_level_2>
+      <Model_year>/NULL</Model_year>
+      <Content>variant</Content>
+      <Module_configuration id="ID_ModConfig_3">
+        <Logistic_control_information>VAR1,VAR4</Logistic_control_information>
+        <Controlled_components>ID_AccOcc_1 ID_AccOcc_2 ID_FixingOcc_1 ID_FixingOcc_2 ID_TermOcc_1 ID_TermOcc_2 ID_TermOcc_3 ID_TermOcc_4 ID_TermOcc_5 ID_TermOcc_6 ID_TermOcc_7 ID_TermOcc_8 ID_TermOcc_9 ID_TermOcc_10 ID_TermOcc_11 ID_TermOcc_12 ID_CtorOcc_1 ID_CtorOcc_2 ID_CtorOcc_3 ID_CtorOcc_4 ID_CtorOcc_5 ID_CtorOcc_6 ID_WireOcc_1 ID_WireOcc_2 ID_WireOcc_3 ID_ConnOcc_1 ID_ConnOcc_2 ID_ConnOcc_3 ID_CableOcc_1ID_Core1 ID_ConnOcc_4 ID_CableOcc_1ID_Core2 ID_ConnOcc_5 ID_CableOcc_2ID_Core1 ID_ConnOcc_6 ID_CableOcc_2ID_Core2 ID_ConnOcc_7</Controlled_components>
+      </Module_configuration>
+    </Module>
+  </Harness>
+
+  <Node id="ID_Node_1">
+    <Id>M1</Id>
+    <Cartesian_point>ID_Point_8</Cartesian_point>
+  </Node>
+
+  <Node id="ID_Node_2">
+    <Id>M9</Id>
+    <Cartesian_point>ID_Point_9</Cartesian_point>
+  </Node>
+
+  <Node id="ID_Node_3">
+    <Id>M10</Id>
+    <Cartesian_point>ID_Point_10</Cartesian_point>
+    <Referenced_components>ID_CtorOcc_4</Referenced_components>
+  </Node>
+
+  <Node id="ID_Node_4">
+    <Id>M11</Id>
+    <Cartesian_point>ID_Point_11</Cartesian_point>
+    <Referenced_components>ID_CtorOcc_5</Referenced_components>
+  </Node>
+
+  <Node id="ID_Node_5">
+    <Id>M12</Id>
+    <Cartesian_point>ID_Point_12</Cartesian_point>
+    <Referenced_components>ID_CtorOcc_6</Referenced_components>
+  </Node>
+
+  <Node id="ID_Node_6">
+    <Id>M2</Id>
+    <Cartesian_point>ID_Point_13</Cartesian_point>
+  </Node>
+
+  <Node id="ID_Node_7">
+    <Id>M3</Id>
+    <Cartesian_point>ID_Point_14</Cartesian_point>
+  </Node>
+
+  <Node id="ID_Node_8">
+    <Id>M5</Id>
+    <Cartesian_point>ID_Point_15</Cartesian_point>
+  </Node>
+
+  <Node id="ID_Node_9">
+    <Id>M8</Id>
+    <Cartesian_point>ID_Point_16</Cartesian_point>
+    <Referenced_components>ID_CtorOcc_1</Referenced_components>
+  </Node>
+
+  <Node id="ID_Node_10">
+    <Id>M6</Id>
+    <Cartesian_point>ID_Point_17</Cartesian_point>
+  </Node>
+
+  <Node id="ID_Node_11">
+    <Id>M7</Id>
+    <Cartesian_point>ID_Point_18</Cartesian_point>
+    <Referenced_components>ID_CtorOcc_2</Referenced_components>
+  </Node>
+
+  <Node id="ID_Node_12">
+    <Id>M4</Id>
+    <Cartesian_point>ID_Point_19</Cartesian_point>
+  </Node>
+
+  <Routing id="ID_Routing_1">
+    <Routed_wire>ID_ConnOcc_1</Routed_wire>
+    <Segments>ID_Segment_9 ID_Segment_8 ID_Segment_5 ID_Segment_10 ID_Segment_1 ID_Segment_2</Segments>
+  </Routing>
+
+  <Routing id="ID_Routing_2">
+    <Routed_wire>ID_ConnOcc_2</Routed_wire>
+    <Segments>ID_Segment_7 ID_Segment_6 ID_Segment_5 ID_Segment_10 ID_Segment_1 ID_Segment_3</Segments>
+  </Routing>
+
+  <Routing id="ID_Routing_3">
+    <Routed_wire>ID_ConnOcc_3</Routed_wire>
+    <Segments>ID_Segment_7 ID_Segment_6 ID_Segment_5 ID_Segment_10 ID_Segment_1 ID_Segment_3</Segments>
+  </Routing>
+
+  <Routing id="ID_Routing_4">
+    <Routed_wire>ID_ConnOcc_4</Routed_wire>
+    <Segments>ID_Segment_9 ID_Segment_8 ID_Segment_5 ID_Segment_10 ID_Segment_1 ID_Segment_2</Segments>
+  </Routing>
+
+  <Routing id="ID_Routing_5">
+    <Routed_wire>ID_ConnOcc_5</Routed_wire>
+    <Segments>ID_Segment_9 ID_Segment_8 ID_Segment_5 ID_Segment_10 ID_Segment_1 ID_Segment_2</Segments>
+  </Routing>
+
+  <Segment id="ID_Segment_1">
+    <Id>SE9</Id>
+    <Alias_id id="ID_AliasId_9">
+      <Alias_id>SE9</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_28">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>20.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_29">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>20.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_2</End_node>
+    <Start_node>ID_Node_1</Start_node>
+    <Center_curve id="ID_Spline_1">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_20 ID_Point_21 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Segment id="ID_Segment_2">
+    <Id>SE10</Id>
+    <Alias_id id="ID_AliasId_10">
+      <Alias_id>SE10</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_30">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>100.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_31">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>100.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_3</End_node>
+    <Start_node>ID_Node_2</Start_node>
+    <Center_curve id="ID_Spline_2">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_22 ID_Point_23 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Segment id="ID_Segment_3">
+    <Id>SE11</Id>
+    <Alias_id id="ID_AliasId_11">
+      <Alias_id>SE11</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_32">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>100.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_33">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>100.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_4</End_node>
+    <Start_node>ID_Node_2</Start_node>
+    <Center_curve id="ID_Spline_3">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_24 ID_Point_25 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Segment id="ID_Segment_4">
+    <Id>SE12</Id>
+    <Alias_id id="ID_AliasId_12">
+      <Alias_id>SE12</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_34">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>30.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_35">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>30.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_5</End_node>
+    <Start_node>ID_Node_2</Start_node>
+    <Center_curve id="ID_Spline_4">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_26 ID_Point_27 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Segment id="ID_Segment_5">
+    <Id>SE3</Id>
+    <Alias_id id="ID_AliasId_13">
+      <Alias_id>SE3</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_36">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>300.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_37">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>300.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_6</End_node>
+    <Start_node>ID_Node_7</Start_node>
+    <Center_curve id="ID_Spline_5">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_28 ID_Point_29 </Control_points>
+    </Center_curve>
+    <Fixing_assignment id="ID_FixingAssignment_1">
+      <Location>0.500</Location>
+      <Orientation>0.0</Orientation>
+      <Orientation>0.0</Orientation>
+      <Fixing>ID_FixingOcc_2</Fixing>
+    </Fixing_assignment>
+    <Protection_area id="ID_Iso_1">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_1</Associated_protection>
+    </Protection_area>
+    <Protection_area id="ID_Iso_2">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_2</Associated_protection>
+    </Protection_area>
+  </Segment>
+
+  <Segment id="ID_Segment_6">
+    <Id>SE5</Id>
+    <Alias_id id="ID_AliasId_14">
+      <Alias_id>SE5</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_38">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>180.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_39">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>180.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_7</End_node>
+    <Start_node>ID_Node_8</Start_node>
+    <Center_curve id="ID_Spline_6">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_30 ID_Point_31 </Control_points>
+    </Center_curve>
+    <Protection_area id="ID_Iso_3">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_3</Associated_protection>
+    </Protection_area>
+    <Protection_area id="ID_Iso_4">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_4</Associated_protection>
+    </Protection_area>
+  </Segment>
+
+  <Segment id="ID_Segment_7">
+    <Id>SE8</Id>
+    <Alias_id id="ID_AliasId_15">
+      <Alias_id>SE8</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_40">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>20.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_41">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>20.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_8</End_node>
+    <Start_node>ID_Node_9</Start_node>
+    <Center_curve id="ID_Spline_7">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_32 ID_Point_33 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Segment id="ID_Segment_8">
+    <Id>SE6</Id>
+    <Alias_id id="ID_AliasId_16">
+      <Alias_id>SE6</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_42">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>180.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_43">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>180.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_7</End_node>
+    <Start_node>ID_Node_10</Start_node>
+    <Center_curve id="ID_Spline_8">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_34 ID_Point_35 </Control_points>
+    </Center_curve>
+    <Protection_area id="ID_Iso_5">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_5</Associated_protection>
+    </Protection_area>
+    <Protection_area id="ID_Iso_6">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_6</Associated_protection>
+    </Protection_area>
+  </Segment>
+
+  <Segment id="ID_Segment_9">
+    <Id>SE7</Id>
+    <Alias_id id="ID_AliasId_17">
+      <Alias_id>SE7</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_44">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>20.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_45">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>20.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_10</End_node>
+    <Start_node>ID_Node_11</Start_node>
+    <Center_curve id="ID_Spline_9">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_36 ID_Point_37 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Segment id="ID_Segment_10">
+    <Id>SE2</Id>
+    <Alias_id id="ID_AliasId_18">
+      <Alias_id>SE2</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_46">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>380.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_47">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>380.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_1</End_node>
+    <Start_node>ID_Node_6</Start_node>
+    <Center_curve id="ID_Spline_10">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_38 ID_Point_39 </Control_points>
+    </Center_curve>
+    <Fixing_assignment id="ID_FixingAssignment_2">
+      <Location>0.500</Location>
+      <Orientation>0.0</Orientation>
+      <Orientation>0.0</Orientation>
+      <Fixing>ID_FixingOcc_1</Fixing>
+    </Fixing_assignment>
+    <Protection_area id="ID_Iso_7">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_7</Associated_protection>
+    </Protection_area>
+    <Protection_area id="ID_Iso_8">
+      <Start_location>0.000</Start_location>
+      <End_location>1.000</End_location>
+      <Associated_protection>ID_IsoOcc_8</Associated_protection>
+    </Protection_area>
+  </Segment>
+
+  <Segment id="ID_Segment_11">
+    <Id>SE4</Id>
+    <Alias_id id="ID_AliasId_19">
+      <Alias_id>SE4</Alias_id>
+      <Description>Alias_Ref</Description>
+    </Alias_id>
+    <Virtual_length id="ID_Numval_48">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>540.000</Value_component>
+    </Virtual_length>
+    <Physical_length id="ID_Numval_49">
+      <Unit_component>ID_Unit_1</Unit_component>
+      <Value_component>540.000</Value_component>
+    </Physical_length>
+    <End_node>ID_Node_6</End_node>
+    <Start_node>ID_Node_12</Start_node>
+    <Center_curve id="ID_Spline_11">
+      <Degree>2</Degree>
+      <Control_points>ID_Point_40 ID_Point_41 </Control_points>
+    </Center_curve>
+  </Segment>
+
+  <Unit id="ID_Unit_1">
+    <Si_unit_name>metre</Si_unit_name>
+    <Si_prefix>milli</Si_prefix>
+  </Unit>
+
+  <Unit id="ID_Unit_2">
+    <Si_unit_name>metre</Si_unit_name>
+    <Si_prefix>milli</Si_prefix>
+    <Si_dimension>square</Si_dimension>
+  </Unit>
+
+  <Unit id="ID_Unit_3">
+    <Si_unit_name>gram</Si_unit_name>
+    <Si_prefix>kilo</Si_prefix>
+  </Unit>
+
+  <Wire_protection id="ID_IsoDef_1">
+    <Part_number>51036</Part_number>
+    <Company_name>tesa</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>51036</Abbreviation>
+    <Description>tesa® 51036 PV2</Description>
+    <External_references>ID_ExtRef_19</External_references>
+    <Material_information id="ID_MatInf_21">
+      <Material_key>PET</Material_key>
+    </Material_information>
+    <Protection_type>/NULL</Protection_type>
+  </Wire_protection>
+
+  <Wire_protection id="ID_IsoDef_2">
+    <Part_number>712-10003</Part_number>
+    <Company_name>Hellermann Tyton</Company_name>
+    <Version>/NULL</Version>
+    <Abbreviation>712-10003</Abbreviation>
+    <Description>HTAPE-PROTECT250-PET-BK</Description>
+    <External_references>ID_ExtRef_20</External_references>
+    <Material_information id="ID_MatInf_22">
+      <Material_key>PET</Material_key>
+    </Material_information>
+    <Protection_type>/NULL</Protection_type>
+  </Wire_protection>
+
+</kbl:KBL_container>
