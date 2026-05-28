@@ -1,0 +1,12 @@
+# LDORADO WIRELIST Version 1.0
+1;
+2;V1;LSRC3_01;+;171 (g);~;CU: 40 (g);Al: 0 (g)
+2;V2;LSRC3_02;+;171 (g);~;CU: 40 (g);Al: 0 (g)
+0;Ltg-Nr.;von;Kurzname;Pin;xy;Kontakt;nach;Kurzname;Pin;xy;Kontakt;Leitung;Typ;Sonderltg.;Innenleiter;Länge;Farbe;Quer.;V1;V2;Ltg-Nr.
+3;1;ID_CON3;Stecker Modul 1;8;3E;5-928999-1;ID_CON4;Stecker 10pol;4;9E;2-1703930-1;23106080908;FLRY;SL1;Core_0_gn-br_0.35;1000;gn-br;0,35;x;x;1
+3;2;ID_CON3;Stecker Modul 1;9;3E;5-928999-1;ID_CON4;Stecker 10pol;2;9E;2-1703930-1;23106080908;FLRY;SL1;Core_1_ws-br_0.35;1000;ws-br;0,35;x;x;2
+3;3;ID_CON3;Stecker Modul 1;17;3E;2141824-1;ID_CON4;Stecker 10pol;3;9E;1-1703930-1;76693005;FL;-;-;1000;blau;0,13;x;x;3
+3;4;ID_CON1;Stecker Modul 2;1;3E;1241390-1;ID_CON5;Stecker 2pol;2;7C;1241390-1;28529;FLRY-B;-;-;1000;weiss;1,5;x;x;4
+3;5;ID_CON1;Stecker Modul 2;2;3E;1241390-1;ID_CON5;Stecker 2pol;1;7C;1241390-1;28529;FLRY-B;-;-;1000;weiss;1,5;x;x;5
+3;6;ID_CON2;Stecker Modul 3;3;4E;2298510-1;ID_CON7;Stecker 1pol;1;6F;2298510-1;400189;SCHIRM;SL6;Core_1_sw_0.5;985;sw;0,5;x;x;6
+3;7;ID_CON2;Stecker Modul 3;3S;4E;-;ID_CON7;Stecker 1pol;1S;6F;-;400189;RG174;SL6;Core_0_blk_0.14;985;blk;0,14;x;x;7

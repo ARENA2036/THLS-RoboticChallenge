@@ -1,0 +1,2787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?CreationModule library="KBL.NET" version="2.5 SR-1" copyright="Created by KBL.NET Library Rev 1.1.1.0 © 2023 Siemens."?>
+<?CreationDate date="12.12.2025" time="11:18"?>
+<!--
+
+  This material contains trade secrets or otherwise confidential information
+  owned by Siemens Industry Software Inc. or its affiliates (collectively, 'SISW')
+  or its licensors. Access to and use of this information is strictly limited
+  as set forth in the Customer’s applicable agreements with SISW.
+
+  © 2016-2025 Siemens.
+
+Capital Harness Designer LD KBL 2.5 Export
+12.12.2025
+Exportieren Stammdaten...
+Exportieren Topologie...
+Exportieren Modulfamilien...
+Exportieren Module...
+Exportieren Blindstopfen...
+Exportieren Einzelabdichtungen...
+Exportieren Anschlagteile...
+Exportieren Zusammenbauteile...
+Exportieren Stecker...
+Exportieren Sonderanschlagteile...
+Component_box_occurrences
+Exportieren Zubehörteile...
+Exportieren Relais Komponenten...
+Exportieren Sicherung Komponenten...
+Exportieren Befestigungen...
+Exportieren Beipackteile...
+Exportieren Wickelbänder...
+Exportieren Einzelleitungen...
+Exportieren Sonderleitungen...
+Exportieren Modulkonfigurationen...
+Exportieren Konfigurationen...
+Exportieren Zusammenbauteile vervollständigt...
+Exportieren Komponentenzuordnung vervollständigt...
+Exportieren Verbindungen...
+Exportieren Leitungsgruppen...
+Exportieren Bemaßungen...
+Fertig
+-->
+<?pc checksum="36503914"?>
+<kbl:KBL_container
+	xmlns:kbl="http://www.prostep.org/Car_electric_container/KBL2.3/KBLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KBLSchemaV2.5.xsd" id="KBL_container" version_id="2.5 SR-1">
+	<Accessory id="id_300_1">
+		<Part_number>2470829-9</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>6POS,HYBRID,REC HSG ASSY</Abbreviation>
+		<Description>Umgehäuse</Description>
+		<Mass_information id="id_334_1">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>39</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_1">
+			<Material_key>PBT-GF</Material_key>
+		</Material_information>
+	</Accessory>
+	<Accessory id="id_300_2">
+		<Part_number>2470839-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>REC CONN CVR,2POS,HYBRID</Abbreviation>
+		<Description>Cover</Description>
+		<Mass_information id="id_334_2">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>18</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_2">
+			<Material_key>PBT-GF 15 PIR</Material_key>
+		</Material_information>
+	</Accessory>
+	<Cartesian_point id="id_307_1">
+		<Coordinates>365.9987</Coordinates>
+		<Coordinates>369.6927</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_2">
+		<Coordinates>635.9982</Coordinates>
+		<Coordinates>369.9963</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_3">
+		<Coordinates>555.005</Coordinates>
+		<Coordinates>465.0472</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_4">
+		<Coordinates>635.9948</Coordinates>
+		<Coordinates>255.939</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_5">
+		<Coordinates>768.0037</Coordinates>
+		<Coordinates>369.9907</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_6">
+		<Coordinates>287</Coordinates>
+		<Coordinates>436</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_7">
+		<Coordinates>366</Coordinates>
+		<Coordinates>444</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_8">
+		<Coordinates>262.9977</Coordinates>
+		<Coordinates>369.7011</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_9">
+		<Coordinates>555</Coordinates>
+		<Coordinates>370</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_10">
+		<Coordinates>558.005</Coordinates>
+		<Coordinates>468.0472</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_11">
+		<Coordinates>638.9948</Coordinates>
+		<Coordinates>258.939</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_12">
+		<Coordinates>771.0037</Coordinates>
+		<Coordinates>372.9907</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_13">
+		<Coordinates>369</Coordinates>
+		<Coordinates>447</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_14">
+		<Coordinates>265.9977</Coordinates>
+		<Coordinates>372.7011</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_15">
+		<Coordinates>290</Coordinates>
+		<Coordinates>439</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_16">
+		<Coordinates>237</Coordinates>
+		<Coordinates>265</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_17">
+		<Coordinates>368</Coordinates>
+		<Coordinates>257</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_18">
+		<Coordinates>496.5746</Coordinates>
+		<Coordinates>372.9001</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Cartesian_point id="id_307_19">
+		<Coordinates>609</Coordinates>
+		<Coordinates>372.9977</Coordinates>
+		<Coordinates>0</Coordinates>
+	</Cartesian_point>
+	<Connector_housing id="id_315_1">
+		<Part_number>2-2310137-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-94709 Rev B2</Version>
+		<Abbreviation>1 P MATE-AX, SOC HSG W CPA, COD A</Abbreviation>
+		<Description>MATE AX STECKER</Description>
+		<Localized_description id="id_99913_1">
+			<Language_code>De</Language_code>
+			<Value>1x MATE-AX (Mini-Coax)</Value>
+		</Localized_description>
+		<Mass_information id="id_334_3">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.75</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_3">
+			<Material_key>PA66 GF30</Material_key>
+		</Material_information>
+		<Housing_type>Stecker</Housing_type>
+		<Slots id="id_341_1" xsi:type="kbl:Slot">
+			<Id>A</Id>
+			<Number_of_cavities>2</Number_of_cavities>
+			<Cavities id="id_308_1">
+				<Cavity_number>1</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_2">
+				<Cavity_number>1S</Cavity_number>
+			</Cavities>
+		</Slots>
+	</Connector_housing>
+	<Connector_housing id="id_315_2">
+		<Part_number>1418796-3</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version />
+		<Abbreviation>REC. HSG. MCP 2.8K,2POSN.</Abbreviation>
+		<Description>Stecker 2 pol</Description>
+		<Localized_description id="id_99913_2">
+			<Language_code>De</Language_code>
+			<Value>2x AMP MCP2.8K (Kammer 1-2)</Value>
+		</Localized_description>
+		<Mass_information id="id_334_4">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>1.97</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_4">
+			<Material_key>PBT-GF 10</Material_key>
+		</Material_information>
+		<Housing_type>Stecker</Housing_type>
+		<Slots id="id_341_2" xsi:type="kbl:Slot">
+			<Id>A</Id>
+			<Number_of_cavities>2</Number_of_cavities>
+			<Cavities id="id_308_3">
+				<Cavity_number>1</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_4">
+				<Cavity_number>2</Cavity_number>
+			</Cavities>
+		</Slots>
+	</Connector_housing>
+	<Connector_housing id="id_315_3">
+		<Part_number>2302475-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-94288 Rev A2</Version>
+		<Abbreviation>10POS,NANOMQS,REC HSG,COD A</Abbreviation>
+		<Description>Stecker 10-Pol</Description>
+		<Localized_description id="id_99913_3">
+			<Language_code>De</Language_code>
+			<Value>10x NanoMQS</Value>
+		</Localized_description>
+		<Mass_information id="id_334_5">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>1.1</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_5">
+			<Material_key>PBT-GF 10</Material_key>
+		</Material_information>
+		<Housing_type>Stecker</Housing_type>
+		<Slots id="id_341_3" xsi:type="kbl:Slot">
+			<Id>A</Id>
+			<Number_of_cavities>10</Number_of_cavities>
+			<Cavities id="id_308_5">
+				<Cavity_number>1</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_6">
+				<Cavity_number>2</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_7">
+				<Cavity_number>3</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_8">
+				<Cavity_number>4</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_9">
+				<Cavity_number>5</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_10">
+				<Cavity_number>6</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_11">
+				<Cavity_number>7</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_12">
+				<Cavity_number>8</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_13">
+				<Cavity_number>9</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_14">
+				<Cavity_number>10</Cavity_number>
+			</Cavities>
+		</Slots>
+	</Connector_housing>
+	<Connector_housing id="id_315_4">
+		<Part_number>2470653-9</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>4POS, DIA 4MM, SOC HSG ASSY, UNSLD</Abbreviation>
+		<Description>Stecker Modul 3</Description>
+		<Localized_description id="id_99913_4">
+			<Language_code>De</Language_code>
+			<Value>4x MATE-AX (Mini-Coax)</Value>
+		</Localized_description>
+		<Mass_information id="id_334_6">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>4.34</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_6">
+			<Material_key>PBT-GF 15</Material_key>
+		</Material_information>
+		<Housing_type>Modulstecker</Housing_type>
+		<Slots id="id_341_4" xsi:type="kbl:Slot">
+			<Id>A</Id>
+			<Number_of_cavities>5</Number_of_cavities>
+			<Cavities id="id_308_15">
+				<Cavity_number>1</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_16">
+				<Cavity_number>2</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_17">
+				<Cavity_number>3</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_18">
+				<Cavity_number>3S</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_19">
+				<Cavity_number>4</Cavity_number>
+			</Cavities>
+		</Slots>
+	</Connector_housing>
+	<Connector_housing id="id_315_5">
+		<Part_number>2470646-9</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>18POS,MQS,REC INNER HSG ASSY, UNSLD</Abbreviation>
+		<Description>Stecker Modul 1</Description>
+		<Localized_description id="id_99913_5">
+			<Language_code>De</Language_code>
+			<Value>18x MQS</Value>
+		</Localized_description>
+		<Mass_information id="id_334_7">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>5.74</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_7">
+			<Material_key>PBT-GF 15</Material_key>
+		</Material_information>
+		<Housing_type>Modulstecker</Housing_type>
+		<Slots id="id_341_5" xsi:type="kbl:Slot">
+			<Id>A</Id>
+			<Number_of_cavities>18</Number_of_cavities>
+			<Cavities id="id_308_20">
+				<Cavity_number>1</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_21">
+				<Cavity_number>2</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_22">
+				<Cavity_number>3</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_23">
+				<Cavity_number>4</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_24">
+				<Cavity_number>5</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_25">
+				<Cavity_number>6</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_26">
+				<Cavity_number>7</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_27">
+				<Cavity_number>8</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_28">
+				<Cavity_number>9</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_29">
+				<Cavity_number>10</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_30">
+				<Cavity_number>11</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_31">
+				<Cavity_number>12</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_32">
+				<Cavity_number>13</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_33">
+				<Cavity_number>14</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_34">
+				<Cavity_number>15</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_35">
+				<Cavity_number>16</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_36">
+				<Cavity_number>17</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_37">
+				<Cavity_number>18</Cavity_number>
+			</Cavities>
+		</Slots>
+	</Connector_housing>
+	<Connector_housing id="id_315_6">
+		<Part_number>2470648-9</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>4POS, AMP MCP 2.8, REC INNER HSG ASSY</Abbreviation>
+		<Description>Stecker Modul 2</Description>
+		<Localized_description id="id_99913_6">
+			<Language_code>De</Language_code>
+			<Value>4x AMP MCP2.8</Value>
+		</Localized_description>
+		<Mass_information id="id_334_8">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>4.64</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_8">
+			<Material_key>PBT-GF 15</Material_key>
+		</Material_information>
+		<Housing_type>Modulstecker</Housing_type>
+		<Slots id="id_341_6" xsi:type="kbl:Slot">
+			<Id>A</Id>
+			<Number_of_cavities>4</Number_of_cavities>
+			<Cavities id="id_308_38">
+				<Cavity_number>1</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_39">
+				<Cavity_number>2</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_40">
+				<Cavity_number>3</Cavity_number>
+			</Cavities>
+			<Cavities id="id_308_41">
+				<Cavity_number>4</Cavity_number>
+			</Cavities>
+		</Slots>
+	</Connector_housing>
+	<External_reference id="id_322_1">
+		<Document_type />
+		<Document_number />
+		<Change_level />
+		<File_name>https://robotik-challenge.arena2036.app/ASAP_LSRC3</File_name>
+		<Data_format>application/uri+aas</Data_format>
+	</External_reference>
+	<External_reference id="id_322_2">
+		<Document_type />
+		<Document_number>Robotik Challenge 2026</Document_number>
+		<Change_level />
+		<File_name>https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2026/</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_3">
+		<Document_type />
+		<Document_number>2470646-9</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2470646-9.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_4">
+		<Document_type />
+		<Document_number>2470648-9</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2470648-9.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_5">
+		<Document_type />
+		<Document_number>2470653-9</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2470653-9.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_6">
+		<Document_type />
+		<Document_number>2470829-9</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2470829-9.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_7">
+		<Document_type />
+		<Document_number>2470839-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/de/product-2470839-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_8">
+		<Document_type />
+		<Document_number>2302475-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2302475-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_9">
+		<Document_type />
+		<Document_number>1418796-3</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-1418796-3.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_10">
+		<Document_type />
+		<Document_number>2-2310137-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2-2310137-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_11">
+		<Document_type />
+		<Document_number>2141824-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2141824-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_12">
+		<Document_type />
+		<Document_number>5-928999-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-5-928999-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_13">
+		<Document_type />
+		<Document_number>1-1703930-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-1-1703930-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_14">
+		<Document_type />
+		<Document_number>2-1703930-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2-1703930-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_15">
+		<Document_type />
+		<Document_number>1241390-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-1241390-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_16">
+		<Document_type />
+		<Document_number>2298510-1</Document_number>
+		<Change_level />
+		<File_name>https://www.te.com/en/product-2298510-1.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_17">
+		<Document_type />
+		<Document_number>23106080908</Document_number>
+		<Change_level />
+		<File_name>http://www.bedia-kabel.de/de/webshop/flry-2x/flry-a-2x035-15-gn-br-ws-br--ring-detail.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_18">
+		<Document_type />
+		<Document_number>76693005</Document_number>
+		<Change_level />
+		<File_name>https://www.iewc.com/UserFiles/documents/products/le/on/if/lc/us/n0/3r/y0/_1/3_/leoniflcusn03ry0_13_ass.pdf</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_19">
+		<Document_type />
+		<Document_number>28529</Document_number>
+		<Change_level />
+		<File_name>https://shop.helukabel.com/de-de/vehicle-cable-flry-m28484/28529</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_20">
+		<Document_type />
+		<Document_number>400189</Document_number>
+		<Change_level />
+		<File_name>https://shop.helukabel.com/de-de/coaxial-cable-rg-174-u-m400189/400189</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_21">
+		<Document_type />
+		<Document_number>51036 PV2</Document_number>
+		<Change_level />
+		<File_name>https://www.tesa.com/de-de/industrie/tesa-triple-a-51036.html</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_22">
+		<Document_type />
+		<Document_number>126-00000</Document_number>
+		<Change_level />
+		<File_name>https://www.hellermanntyton.de/produkte/kabelbinder-mit-befestigungselementen/t50sosec13e/126-00000</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<External_reference id="id_322_23">
+		<Document_type />
+		<Document_number>712-10002</Document_number>
+		<Change_level />
+		<File_name>https://www.hellermanntyton.de/produkte/isolierbander/htape-protect180/712-10002?query=712-10002&amp;cat=71210002</File_name>
+		<Data_format>application/xhtml+xml</Data_format>
+	</External_reference>
+	<Fixing id="id_323_1">
+		<Part_number>126-00000</Part_number>
+		<Company_name>www.hellermanntyton.de</Company_name>
+		<Version>1</Version>
+		<Abbreviation>T50SOSEC13E-PA66HS-BK</Abbreviation>
+		<Description>T50SOSEC13E-PA66HS-BK</Description>
+		<Localized_description id="id_99913_7">
+			<Language_code>De</Language_code>
+			<Value>Kabelbinder</Value>
+		</Localized_description>
+		<Mass_information id="id_334_9">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>1</Value_component>
+		</Mass_information>
+		<Processing_information id="id_336_1">
+			<Instruction_type>preferred_part_state</Instruction_type>
+			<Instruction_value>negative (technical necessary)</Instruction_value>
+		</Processing_information>
+		<Fixing_type>Befestigung</Fixing_type>
+	</Fixing>
+	<General_terminal id="id_326_1">
+		<Part_number>5-928999-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-18030 Rev B</Version>
+		<Abbreviation>MQS0,63 Sn rec LL unseal. &gt;0,2-0,35</Abbreviation>
+		<Description>MQS-Kontakt 0,35</Description>
+		<Mass_information id="id_334_40">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.13</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_11">
+			<Material_key>CuNiSi</Material_key>
+		</Material_information>
+		<Terminal_type>MQS</Terminal_type>
+		<Plating_material>CuNiSi</Plating_material>
+		<Cross_section_area id="id_347_2">
+			<Unit_component>id_346_2</Unit_component>
+			<Minimum>0.25</Minimum>
+			<Maximum>0.35</Maximum>
+		</Cross_section_area>
+		<Outside_diameter id="id_347_1">
+			<Unit_component>id_346_3</Unit_component>
+			<Minimum>99</Minimum>
+			<Maximum>0</Maximum>
+		</Outside_diameter>
+	</General_terminal>
+	<General_terminal id="id_326_2">
+		<Part_number>2141824-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-18030 Rev B</Version>
+		<Abbreviation>MQS0,63 Sn rec LL unseal. 0,13-0,17</Abbreviation>
+		<Description>MQS-Kontakt 0,13</Description>
+		<Mass_information id="id_334_41">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.11</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_12">
+			<Material_key>CuNiSi</Material_key>
+		</Material_information>
+		<Terminal_type>MQS</Terminal_type>
+		<Plating_material>CuNiSi</Plating_material>
+		<Cross_section_area id="id_347_4">
+			<Unit_component>id_346_2</Unit_component>
+			<Minimum>0.13</Minimum>
+			<Maximum>0.17</Maximum>
+		</Cross_section_area>
+		<Outside_diameter id="id_347_3">
+			<Unit_component>id_346_3</Unit_component>
+			<Minimum>99</Minimum>
+			<Maximum>0</Maximum>
+		</Outside_diameter>
+	</General_terminal>
+	<General_terminal id="id_326_3">
+		<Part_number>1241390-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-18717 Rev B</Version>
+		<Abbreviation>AMP MCP 2.8K, CONTACT</Abbreviation>
+		<Description>AMP MCP Kontakt</Description>
+		<Mass_information id="id_334_42">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.52</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_13">
+			<Material_key>CuNiSi</Material_key>
+		</Material_information>
+		<Terminal_type>MCP</Terminal_type>
+		<Plating_material>CuNiSi</Plating_material>
+		<Cross_section_area id="id_347_6">
+			<Unit_component>id_346_2</Unit_component>
+			<Minimum>1.5</Minimum>
+			<Maximum>2.5</Maximum>
+		</Cross_section_area>
+		<Outside_diameter id="id_347_5">
+			<Unit_component>id_346_3</Unit_component>
+			<Minimum>99</Minimum>
+			<Maximum>0</Maximum>
+		</Outside_diameter>
+	</General_terminal>
+	<General_terminal id="id_326_4">
+		<Part_number>2-1703930-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-94099 Rev H</Version>
+		<Abbreviation>NANOMQS, RECEPTACLE TERMINAL</Abbreviation>
+		<Description>NanoMQS-Kontakt 0,35</Description>
+		<Mass_information id="id_334_43">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.08</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_14">
+			<Material_key>CuSn</Material_key>
+		</Material_information>
+		<Terminal_type>NMQS</Terminal_type>
+		<Plating_material>CuSn</Plating_material>
+		<Cross_section_area id="id_347_8">
+			<Unit_component>id_346_2</Unit_component>
+			<Minimum>0.22</Minimum>
+			<Maximum>0.35</Maximum>
+		</Cross_section_area>
+		<Outside_diameter id="id_347_7">
+			<Unit_component>id_346_3</Unit_component>
+			<Minimum>99</Minimum>
+			<Maximum>0</Maximum>
+		</Outside_diameter>
+	</General_terminal>
+	<General_terminal id="id_326_5">
+		<Part_number>1-1703930-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>108-94099 Rev H</Version>
+		<Abbreviation>MQS0,63 Sn rec LL unseal. &gt;0,2-0,35</Abbreviation>
+		<Description>NanoMQS-Kontakt 0,13</Description>
+		<Mass_information id="id_334_44">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.08</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_15">
+			<Material_key>CuSn</Material_key>
+		</Material_information>
+		<Terminal_type>NMQS</Terminal_type>
+		<Plating_material>CuSn</Plating_material>
+		<Cross_section_area id="id_347_10">
+			<Unit_component>id_346_2</Unit_component>
+			<Minimum>0.13</Minimum>
+			<Maximum>0.17</Maximum>
+		</Cross_section_area>
+		<Outside_diameter id="id_347_9">
+			<Unit_component>id_346_3</Unit_component>
+			<Minimum>99</Minimum>
+			<Maximum>0</Maximum>
+		</Outside_diameter>
+	</General_terminal>
+	<General_terminal id="id_326_6">
+		<Part_number>2298510-1</Part_number>
+		<Company_name>www.te.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>CONTACT MINI COAX , KIT, FEMALE, RG174</Abbreviation>
+		<Description>MATE-AX 180</Description>
+		<Mass_information id="id_334_45">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>0.46</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_16">
+			<Material_key>CuSn/PBT/STEEL</Material_key>
+		</Material_information>
+		<Terminal_type>MCP</Terminal_type>
+		<Plating_material>CuSn</Plating_material>
+		<Cross_section_area id="id_347_12">
+			<Unit_component>id_346_2</Unit_component>
+			<Minimum>0</Minimum>
+			<Maximum>0</Maximum>
+		</Cross_section_area>
+		<Outside_diameter id="id_347_11">
+			<Unit_component>id_346_3</Unit_component>
+			<Minimum>99</Minimum>
+			<Maximum>0</Maximum>
+		</Outside_diameter>
+	</General_terminal>
+	<General_wire id="id_327_1">
+		<Part_number>23106080908</Part_number>
+		<Company_name>www.bedia-kabel.de</Company_name>
+		<Version>0</Version>
+		<Abbreviation>FLRY-A 2×0.35mm² twisted automotive cable</Abbreviation>
+		<Description>0,35mm² UTP</Description>
+		<Mass_information id="id_334_19">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>9.3</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_9">
+			<Material_key>Cu-ETP1</Material_key>
+		</Material_information>
+		<Wire_type>twist</Wire_type>
+		<Bend_radius id="id_334_11">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>0</Value_component>
+		</Bend_radius>
+		<Cross_section_area id="id_334_10">
+			<Unit_component>id_346_2</Unit_component>
+			<Value_component>0.35</Value_component>
+		</Cross_section_area>
+		<Outside_diameter id="id_334_12">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>2.7</Value_component>
+		</Outside_diameter>
+		<Core id="id_317_1">
+			<Id>Core_0_gn-br_0.35</Id>
+			<Wire_type>FLRY</Wire_type>
+			<Cross_section_area id="id_334_13">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>0.35</Value_component>
+			</Cross_section_area>
+			<Outside_diameter id="id_334_15">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>1.06</Value_component>
+			</Outside_diameter>
+			<Bend_radius id="id_334_14">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>0</Value_component>
+			</Bend_radius>
+			<Core_colour id="id_348_2">
+				<Colour_type>Base Color</Colour_type>
+				<Colour_value>gn-br</Colour_value>
+			</Core_colour>
+		</Core>
+		<Core id="id_317_2">
+			<Id>Core_1_ws-br_0.35</Id>
+			<Wire_type>FLRY</Wire_type>
+			<Cross_section_area id="id_334_16">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>0.35</Value_component>
+			</Cross_section_area>
+			<Outside_diameter id="id_334_18">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>1.06</Value_component>
+			</Outside_diameter>
+			<Bend_radius id="id_334_17">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>0</Value_component>
+			</Bend_radius>
+			<Core_colour id="id_348_3">
+				<Colour_type>Base Color</Colour_type>
+				<Colour_value>ws-br</Colour_value>
+			</Core_colour>
+		</Core>
+		<Cover_colour id="id_348_1">
+			<Colour_type>Base Color</Colour_type>
+			<Colour_value />
+		</Cover_colour>
+	</General_wire>
+	<General_wire id="id_327_2">
+		<Part_number>400189</Part_number>
+		<Company_name>www.helukabel.com</Company_name>
+		<Version>1</Version>
+		<Abbreviation />
+		<Description>COAXIAL CABLE RG 174 U schwarz </Description>
+		<Mass_information id="id_334_29">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>11</Value_component>
+		</Mass_information>
+		<Wire_type>shield</Wire_type>
+		<Bend_radius id="id_334_21">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>0</Value_component>
+		</Bend_radius>
+		<Cross_section_area id="id_334_20">
+			<Unit_component>id_346_2</Unit_component>
+			<Value_component>0</Value_component>
+		</Cross_section_area>
+		<Outside_diameter id="id_334_22">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>2.6</Value_component>
+		</Outside_diameter>
+		<Core id="id_317_3">
+			<Id>Core_0_blk_0.14</Id>
+			<Wire_type>RG174</Wire_type>
+			<Cross_section_area id="id_334_23">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>0.14</Value_component>
+			</Cross_section_area>
+			<Outside_diameter id="id_334_25">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>2.8</Value_component>
+			</Outside_diameter>
+			<Bend_radius id="id_334_24">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>20</Value_component>
+			</Bend_radius>
+			<Core_colour id="id_348_5">
+				<Colour_type>Base Color</Colour_type>
+				<Colour_value>blk</Colour_value>
+			</Core_colour>
+		</Core>
+		<Core id="id_317_4">
+			<Id>Core_1_sw_0.5</Id>
+			<Wire_type>SCHIRM</Wire_type>
+			<Cross_section_area id="id_334_26">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>0.5</Value_component>
+			</Cross_section_area>
+			<Outside_diameter id="id_334_28">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>2.3</Value_component>
+			</Outside_diameter>
+			<Bend_radius id="id_334_27">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>34</Value_component>
+			</Bend_radius>
+			<Core_colour id="id_348_6">
+				<Colour_type>Base Color</Colour_type>
+				<Colour_value>sw</Colour_value>
+			</Core_colour>
+		</Core>
+		<Cover_colour id="id_348_4">
+			<Colour_type>Base Color</Colour_type>
+			<Colour_value />
+		</Cover_colour>
+	</General_wire>
+	<General_wire id="id_327_3">
+		<Part_number>76693005</Part_number>
+		<Company_name>www.leonicables.com</Company_name>
+		<Version>0</Version>
+		<Abbreviation>FLCUSN03RY 0,13-A</Abbreviation>
+		<Description>0,13 Einzelleitung</Description>
+		<Mass_information id="id_334_33">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>2.1</Value_component>
+		</Mass_information>
+		<Material_information id="id_330_10">
+			<Material_key>CuSn0,3</Material_key>
+		</Material_information>
+		<Wire_type>FL</Wire_type>
+		<Bend_radius id="id_334_31">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>0</Value_component>
+		</Bend_radius>
+		<Cross_section_area id="id_334_30">
+			<Unit_component>id_346_2</Unit_component>
+			<Value_component>0.13</Value_component>
+		</Cross_section_area>
+		<Outside_diameter id="id_334_32">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>1.3</Value_component>
+		</Outside_diameter>
+		<Cover_colour id="id_348_7">
+			<Colour_type>Base Color</Colour_type>
+			<Colour_value>blau</Colour_value>
+		</Cover_colour>
+	</General_wire>
+	<General_wire id="id_327_4">
+		<Part_number>28529</Part_number>
+		<Company_name>www.helukabel.de</Company_name>
+		<Version>0</Version>
+		<Abbreviation>Vehicle Cable FLRY Type B weiß 1 x 1,5 mm</Abbreviation>
+		<Description>Vehicle Cable FLRY Type B</Description>
+		<Mass_information id="id_334_37">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>30.4</Value_component>
+		</Mass_information>
+		<Wire_type>FLRY-B</Wire_type>
+		<Bend_radius id="id_334_35">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>0</Value_component>
+		</Bend_radius>
+		<Cross_section_area id="id_334_34">
+			<Unit_component>id_346_2</Unit_component>
+			<Value_component>1.5</Value_component>
+		</Cross_section_area>
+		<Outside_diameter id="id_334_36">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>2.3</Value_component>
+		</Outside_diameter>
+		<Cover_colour id="id_348_8">
+			<Colour_type>Base Color</Colour_type>
+			<Colour_value>weiss</Colour_value>
+		</Cover_colour>
+	</General_wire>
+	<Harness id="id_328_1">
+		<Part_number>ASAP_LSRC3</Part_number>
+		<Company_name>ASAP</Company_name>
+		<Version>1</Version>
+		<Abbreviation>Robotic Challenge 2026</Abbreviation>
+		<Description>Leitungsstatz RoboticChallenge 2026</Description>
+		<Mass_information id="id_334_70">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>161</Value_component>
+		</Mass_information>
+		<External_references>id_322_1 id_322_2 id_322_3 id_322_4 id_322_5 id_322_6 id_322_7 id_322_8 id_322_9 id_322_10 id_322_11 id_322_12 id_322_13 id_322_14 id_322_15 id_322_16 id_322_17 id_322_18 id_322_19 id_322_20 id_322_21 id_322_22 id_322_23</External_references>
+		<Material_information id="id_330_17">
+			<Material_key>Leitungssatz</Material_key>
+		</Material_information>
+		<Project_number>LSRC3</Project_number>
+		<Car_classification_level_2>Robotik Challenge 2026</Car_classification_level_2>
+		<Model_year>2026</Model_year>
+		<Content>harness complete set</Content>
+		<Accessory_occurrence id="ID_ACC1">
+			<Id>ID_ACC1</Id>
+			<Alias_id id="id_302_7">
+				<Alias_id>2470829-9</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_7">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_16</Cartesian_point>
+			</Placement>
+			<Part>id_300_1</Part>
+			<Reference_element>ID_CON3 ID_CON1 ID_CON2</Reference_element>
+			<Installation_information id="id_329_19">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2470829-9</Instruction_value>
+			</Installation_information>
+		</Accessory_occurrence>
+		<Accessory_occurrence id="ID_ACC2">
+			<Id>ID_ACC2</Id>
+			<Alias_id id="id_302_8">
+				<Alias_id>2470839-1</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_8">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_17</Cartesian_point>
+			</Placement>
+			<Part>id_300_2</Part>
+			<Reference_element>ID_CON3 ID_CON1 ID_CON2</Reference_element>
+			<Installation_information id="id_329_20">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/de/product-2470839-1</Instruction_value>
+			</Installation_information>
+		</Accessory_occurrence>
+		<Connection id="id_314_1">
+			<Id>ID_WIR6</Id>
+			<Wire>ID_WIR6</Wire>
+			<Extremities id="id_377_1">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_12</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_2">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_6</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connection id="id_314_2">
+			<Id>ID_WIR8</Id>
+			<Wire>ID_WIR8</Wire>
+			<Extremities id="id_377_3">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_13</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_4">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_4</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connection id="id_314_3">
+			<Id>ID_WIR10</Id>
+			<Wire>ID_WIR10</Wire>
+			<Extremities id="id_377_5">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_14</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_6">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_3</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connection id="id_314_4">
+			<Id>ID_WIR14</Id>
+			<Wire>ID_WIR14</Wire>
+			<Extremities id="id_377_7">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_10</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_8">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_7</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connection id="id_314_5">
+			<Id>ID_WIR16</Id>
+			<Wire>ID_WIR16</Wire>
+			<Extremities id="id_377_9">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_11</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_10">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_5</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connection id="id_314_6">
+			<Id>ID_WIR18</Id>
+			<Wire>ID_WIR18</Wire>
+			<Extremities id="id_377_11">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_9</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_12">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_2</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connection id="id_314_7">
+			<Id>ID_WIR20</Id>
+			<Wire>ID_WIR20</Wire>
+			<Extremities id="id_377_13">
+				<Position_on_wire>0</Position_on_wire>
+				<Contact_point>id_372_8</Contact_point>
+			</Extremities>
+			<Extremities id="id_377_14">
+				<Position_on_wire>1</Position_on_wire>
+				<Contact_point>id_372_1</Contact_point>
+			</Extremities>
+		</Connection>
+		<Connector_occurrence id="ID_CON7">
+			<Id>ID_CON7</Id>
+			<Alias_id id="id_302_1">
+				<Alias_id>Stecker 1pol</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_1">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_10</Cartesian_point>
+			</Placement>
+			<Part>id_315_1</Part>
+			<Contact_points id="id_372_1">
+				<Id>ID_CON7_ID_WIR20_0</Id>
+				<Associated_parts>ID_TER18</Associated_parts>
+				<Contacted_cavity>id_370_1</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_2">
+				<Id>ID_CON7_ID_WIR18_1</Id>
+				<Contacted_cavity>id_370_2</Contacted_cavity>
+			</Contact_points>
+			<Installation_information id="id_329_13">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2-2310137-1.html</Instruction_value>
+			</Installation_information>
+			<Slots id="id_386_1" xsi:type="kbl:Slot_occurrence">
+				<Part>id_341_1</Part>
+				<Cavities id="id_370_1">
+					<Part>id_308_1</Part>
+				</Cavities>
+				<Cavities id="id_370_2">
+					<Part>id_308_2</Part>
+				</Cavities>
+			</Slots>
+		</Connector_occurrence>
+		<Connector_occurrence id="ID_CON5">
+			<Id>ID_CON5</Id>
+			<Alias_id id="id_302_2">
+				<Alias_id>Stecker 2pol</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_2">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_11</Cartesian_point>
+			</Placement>
+			<Part>id_315_2</Part>
+			<Contact_points id="id_372_3">
+				<Id>ID_CON5_ID_WIR10_0</Id>
+				<Associated_parts>ID_TER8</Associated_parts>
+				<Contacted_cavity>id_370_3</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_4">
+				<Id>ID_CON5_ID_WIR8_1</Id>
+				<Associated_parts>ID_TER9</Associated_parts>
+				<Contacted_cavity>id_370_4</Contacted_cavity>
+			</Contact_points>
+			<Installation_information id="id_329_14">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-1418796-3.html</Instruction_value>
+			</Installation_information>
+			<Slots id="id_386_2" xsi:type="kbl:Slot_occurrence">
+				<Part>id_341_2</Part>
+				<Cavities id="id_370_3">
+					<Part>id_308_3</Part>
+				</Cavities>
+				<Cavities id="id_370_4">
+					<Part>id_308_4</Part>
+				</Cavities>
+			</Slots>
+		</Connector_occurrence>
+		<Connector_occurrence id="ID_CON4">
+			<Id>ID_CON4</Id>
+			<Alias_id id="id_302_3">
+				<Alias_id>Stecker 10pol</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_3">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_12</Cartesian_point>
+			</Placement>
+			<Part>id_315_3</Part>
+			<Contact_points id="id_372_5">
+				<Id>ID_CON4_ID_WIR16_1</Id>
+				<Associated_parts>ID_TER14</Associated_parts>
+				<Contacted_cavity>id_370_6</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_6">
+				<Id>ID_CON4_ID_WIR6_2</Id>
+				<Associated_parts>ID_TER11</Associated_parts>
+				<Contacted_cavity>id_370_7</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_7">
+				<Id>ID_CON4_ID_WIR14_3</Id>
+				<Associated_parts>ID_TER13</Associated_parts>
+				<Contacted_cavity>id_370_8</Contacted_cavity>
+			</Contact_points>
+			<Installation_information id="id_329_15">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2302475-1.html</Instruction_value>
+			</Installation_information>
+			<Slots id="id_386_3" xsi:type="kbl:Slot_occurrence">
+				<Part>id_341_3</Part>
+				<Cavities id="id_370_5">
+					<Part>id_308_5</Part>
+				</Cavities>
+				<Cavities id="id_370_6">
+					<Part>id_308_6</Part>
+				</Cavities>
+				<Cavities id="id_370_7">
+					<Part>id_308_7</Part>
+				</Cavities>
+				<Cavities id="id_370_8">
+					<Part>id_308_8</Part>
+				</Cavities>
+				<Cavities id="id_370_9">
+					<Part>id_308_9</Part>
+				</Cavities>
+				<Cavities id="id_370_10">
+					<Part>id_308_10</Part>
+				</Cavities>
+				<Cavities id="id_370_11">
+					<Part>id_308_11</Part>
+				</Cavities>
+				<Cavities id="id_370_12">
+					<Part>id_308_12</Part>
+				</Cavities>
+				<Cavities id="id_370_13">
+					<Part>id_308_13</Part>
+				</Cavities>
+				<Cavities id="id_370_14">
+					<Part>id_308_14</Part>
+				</Cavities>
+			</Slots>
+		</Connector_occurrence>
+		<Connector_occurrence id="ID_CON2">
+			<Id>ID_CON2</Id>
+			<Alias_id id="id_302_4">
+				<Alias_id>Stecker Modul 3</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_4">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_13</Cartesian_point>
+			</Placement>
+			<Part>id_315_4</Part>
+			<Contact_points id="id_372_8">
+				<Id>ID_CON2_ID_WIR20_2</Id>
+				<Associated_parts>ID_TER17</Associated_parts>
+				<Contacted_cavity>id_370_17</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_9">
+				<Id>ID_CON2_ID_WIR18_3</Id>
+				<Contacted_cavity>id_370_18</Contacted_cavity>
+			</Contact_points>
+			<Installation_information id="id_329_16">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2470653-9.html</Instruction_value>
+			</Installation_information>
+			<Slots id="id_386_4" xsi:type="kbl:Slot_occurrence">
+				<Part>id_341_4</Part>
+				<Cavities id="id_370_15">
+					<Part>id_308_15</Part>
+				</Cavities>
+				<Cavities id="id_370_16">
+					<Part>id_308_16</Part>
+				</Cavities>
+				<Cavities id="id_370_17">
+					<Part>id_308_17</Part>
+				</Cavities>
+				<Cavities id="id_370_18">
+					<Part>id_308_18</Part>
+				</Cavities>
+				<Cavities id="id_370_19">
+					<Part>id_308_19</Part>
+				</Cavities>
+			</Slots>
+		</Connector_occurrence>
+		<Connector_occurrence id="ID_CON3">
+			<Id>ID_CON3</Id>
+			<Alias_id id="id_302_5">
+				<Alias_id>Stecker Modul 1</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_5">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_14</Cartesian_point>
+			</Placement>
+			<Part>id_315_5</Part>
+			<Contact_points id="id_372_10">
+				<Id>ID_CON3_ID_WIR14_7</Id>
+				<Associated_parts>ID_TER15</Associated_parts>
+				<Contacted_cavity>id_370_27</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_11">
+				<Id>ID_CON3_ID_WIR16_8</Id>
+				<Associated_parts>ID_TER16</Associated_parts>
+				<Contacted_cavity>id_370_28</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_12">
+				<Id>ID_CON3_ID_WIR6_16</Id>
+				<Associated_parts>ID_TER3</Associated_parts>
+				<Contacted_cavity>id_370_36</Contacted_cavity>
+			</Contact_points>
+			<Installation_information id="id_329_17">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2470646-9.html</Instruction_value>
+			</Installation_information>
+			<Slots id="id_386_5" xsi:type="kbl:Slot_occurrence">
+				<Part>id_341_5</Part>
+				<Cavities id="id_370_20">
+					<Part>id_308_20</Part>
+				</Cavities>
+				<Cavities id="id_370_21">
+					<Part>id_308_21</Part>
+				</Cavities>
+				<Cavities id="id_370_22">
+					<Part>id_308_22</Part>
+				</Cavities>
+				<Cavities id="id_370_23">
+					<Part>id_308_23</Part>
+				</Cavities>
+				<Cavities id="id_370_24">
+					<Part>id_308_24</Part>
+				</Cavities>
+				<Cavities id="id_370_25">
+					<Part>id_308_25</Part>
+				</Cavities>
+				<Cavities id="id_370_26">
+					<Part>id_308_26</Part>
+				</Cavities>
+				<Cavities id="id_370_27">
+					<Part>id_308_27</Part>
+				</Cavities>
+				<Cavities id="id_370_28">
+					<Part>id_308_28</Part>
+				</Cavities>
+				<Cavities id="id_370_29">
+					<Part>id_308_29</Part>
+				</Cavities>
+				<Cavities id="id_370_30">
+					<Part>id_308_30</Part>
+				</Cavities>
+				<Cavities id="id_370_31">
+					<Part>id_308_31</Part>
+				</Cavities>
+				<Cavities id="id_370_32">
+					<Part>id_308_32</Part>
+				</Cavities>
+				<Cavities id="id_370_33">
+					<Part>id_308_33</Part>
+				</Cavities>
+				<Cavities id="id_370_34">
+					<Part>id_308_34</Part>
+				</Cavities>
+				<Cavities id="id_370_35">
+					<Part>id_308_35</Part>
+				</Cavities>
+				<Cavities id="id_370_36">
+					<Part>id_308_36</Part>
+				</Cavities>
+				<Cavities id="id_370_37">
+					<Part>id_308_37</Part>
+				</Cavities>
+			</Slots>
+		</Connector_occurrence>
+		<Connector_occurrence id="ID_CON1">
+			<Id>ID_CON1</Id>
+			<Alias_id id="id_302_6">
+				<Alias_id>Stecker Modul 2</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_6">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_15</Cartesian_point>
+			</Placement>
+			<Part>id_315_6</Part>
+			<Contact_points id="id_372_13">
+				<Id>ID_CON1_ID_WIR8_0</Id>
+				<Associated_parts>ID_TER4</Associated_parts>
+				<Contacted_cavity>id_370_38</Contacted_cavity>
+			</Contact_points>
+			<Contact_points id="id_372_14">
+				<Id>ID_CON1_ID_WIR10_1</Id>
+				<Associated_parts>ID_TER5</Associated_parts>
+				<Contacted_cavity>id_370_39</Contacted_cavity>
+			</Contact_points>
+			<Installation_information id="id_329_18">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2470648-9.html</Instruction_value>
+			</Installation_information>
+			<Slots id="id_386_6" xsi:type="kbl:Slot_occurrence">
+				<Part>id_341_6</Part>
+				<Cavities id="id_370_38">
+					<Part>id_308_38</Part>
+				</Cavities>
+				<Cavities id="id_370_39">
+					<Part>id_308_39</Part>
+				</Cavities>
+				<Cavities id="id_370_40">
+					<Part>id_308_40</Part>
+				</Cavities>
+				<Cavities id="id_370_41">
+					<Part>id_308_41</Part>
+				</Cavities>
+			</Slots>
+		</Connector_occurrence>
+		<Fixing_occurrence id="ID_FIX1">
+			<Id>ID_FIX1</Id>
+			<Alias_id id="id_302_9">
+				<Alias_id>KB_01</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_9">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_18</Cartesian_point>
+			</Placement>
+			<Part>id_323_1</Part>
+			<Installation_information id="id_329_21">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.hellermanntyton.de/produkte/kabelbinder-mit-befestigungselementen/t50sosec13e/126-00000</Instruction_value>
+			</Installation_information>
+		</Fixing_occurrence>
+		<Fixing_occurrence id="ID_FIX2">
+			<Id>ID_FIX2</Id>
+			<Alias_id id="id_302_10">
+				<Alias_id>KB_02</Alias_id>
+			</Alias_id>
+			<Placement id="id_345_10">
+				<U>0</U>
+				<U>0</U>
+				<U>0</U>
+				<V>0</V>
+				<V>0</V>
+				<V>0</V>
+				<Cartesian_point>id_307_19</Cartesian_point>
+			</Placement>
+			<Part>id_323_1</Part>
+			<Installation_information id="id_329_22">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.hellermanntyton.de/produkte/kabelbinder-mit-befestigungselementen/t50sosec13e/126-00000</Instruction_value>
+			</Installation_information>
+		</Fixing_occurrence>
+		<General_wire_occurrence id="ID_MUL1" xsi:type="kbl:Special_wire_occurrence">
+			<Part>id_327_1</Part>
+			<Installation_information id="id_329_133">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>http://www.bedia-kabel.de/de/webshop/flry-2x/flry-a-2x035-15-gn-br-ws-br--ring-detail.html</Instruction_value>
+			</Installation_information>
+			<Length_information id="id_349_10">
+				<Length_type>production length</Length_type>
+				<Length_value id="id_334_90">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Special_wire_id>SL1</Special_wire_id>
+			<Core_occurrence id="ID_WIR14">
+				<Wire_number>1</Wire_number>
+				<Part>id_317_1</Part>
+				<Length_information id="id_349_11">
+					<Length_type>dmu length</Length_type>
+					<Length_value id="id_334_91">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>1000</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_12">
+					<Length_type>production length</Length_type>
+					<Length_value id="id_334_92">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>1000</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_13">
+					<Length_type>supplement</Length_type>
+					<Length_value id="id_334_93">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>0</Value_component>
+					</Length_value>
+				</Length_information>
+			</Core_occurrence>
+			<Core_occurrence id="ID_WIR16">
+				<Wire_number>2</Wire_number>
+				<Part>id_317_2</Part>
+				<Length_information id="id_349_14">
+					<Length_type>dmu length</Length_type>
+					<Length_value id="id_334_94">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>1000</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_15">
+					<Length_type>production length</Length_type>
+					<Length_value id="id_334_95">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>1000</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_16">
+					<Length_type>supplement</Length_type>
+					<Length_value id="id_334_96">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>0</Value_component>
+					</Length_value>
+				</Length_information>
+			</Core_occurrence>
+		</General_wire_occurrence>
+		<General_wire_occurrence id="ID_MUL2" xsi:type="kbl:Special_wire_occurrence">
+			<Part>id_327_2</Part>
+			<Installation_information id="id_329_134">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://shop.helukabel.com/de-de/coaxial-cable-rg-174-u-m400189/400189</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_135">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_136">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_137">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value>MultiCoreWire</Instruction_value>
+			</Installation_information>
+			<Length_information id="id_349_17">
+				<Length_type>production length</Length_type>
+				<Length_value id="id_334_97">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>985</Value_component>
+				</Length_value>
+			</Length_information>
+			<Special_wire_id>SL6</Special_wire_id>
+			<Core_occurrence id="ID_WIR18">
+				<Wire_number>7</Wire_number>
+				<Part>id_317_3</Part>
+				<Length_information id="id_349_18">
+					<Length_type>dmu length</Length_type>
+					<Length_value id="id_334_98">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>985</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_19">
+					<Length_type>production length</Length_type>
+					<Length_value id="id_334_99">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>985</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_20">
+					<Length_type>supplement</Length_type>
+					<Length_value id="id_334_100">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>0</Value_component>
+					</Length_value>
+				</Length_information>
+			</Core_occurrence>
+			<Core_occurrence id="ID_WIR20">
+				<Wire_number>6</Wire_number>
+				<Part>id_317_4</Part>
+				<Length_information id="id_349_21">
+					<Length_type>dmu length</Length_type>
+					<Length_value id="id_334_101">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>985</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_22">
+					<Length_type>production length</Length_type>
+					<Length_value id="id_334_102">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>985</Value_component>
+					</Length_value>
+				</Length_information>
+				<Length_information id="id_349_23">
+					<Length_type>supplement</Length_type>
+					<Length_value id="id_334_103">
+						<Unit_component>id_346_3</Unit_component>
+						<Value_component>0</Value_component>
+					</Length_value>
+				</Length_information>
+			</Core_occurrence>
+		</General_wire_occurrence>
+		<General_wire_occurrence id="ID_WIR6" xsi:type="kbl:Wire_occurrence">
+			<Part>id_327_3</Part>
+			<Length_information id="id_349_1">
+				<Length_type>dmu length</Length_type>
+				<Length_value id="id_334_81">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Length_information id="id_349_2">
+				<Length_type>production length</Length_type>
+				<Length_value id="id_334_82">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Length_information id="id_349_3">
+				<Length_type>supplement</Length_type>
+				<Length_value id="id_334_83">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>0</Value_component>
+				</Length_value>
+			</Length_information>
+			<Wire_number>3</Wire_number>
+		</General_wire_occurrence>
+		<General_wire_occurrence id="ID_WIR8" xsi:type="kbl:Wire_occurrence">
+			<Part>id_327_4</Part>
+			<Installation_information id="id_329_131">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://shop.helukabel.com/de-de/vehicle-cable-flry-m28484/28529</Instruction_value>
+			</Installation_information>
+			<Length_information id="id_349_4">
+				<Length_type>dmu length</Length_type>
+				<Length_value id="id_334_84">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Length_information id="id_349_5">
+				<Length_type>production length</Length_type>
+				<Length_value id="id_334_85">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Length_information id="id_349_6">
+				<Length_type>supplement</Length_type>
+				<Length_value id="id_334_86">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>0</Value_component>
+				</Length_value>
+			</Length_information>
+			<Wire_number>4</Wire_number>
+		</General_wire_occurrence>
+		<General_wire_occurrence id="ID_WIR10" xsi:type="kbl:Wire_occurrence">
+			<Part>id_327_4</Part>
+			<Installation_information id="id_329_132">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://shop.helukabel.com/de-de/vehicle-cable-flry-m28484/28529</Instruction_value>
+			</Installation_information>
+			<Length_information id="id_349_7">
+				<Length_type>dmu length</Length_type>
+				<Length_value id="id_334_87">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Length_information id="id_349_8">
+				<Length_type>production length</Length_type>
+				<Length_value id="id_334_88">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>1000</Value_component>
+				</Length_value>
+			</Length_information>
+			<Length_information id="id_349_9">
+				<Length_type>supplement</Length_type>
+				<Length_value id="id_334_89">
+					<Unit_component>id_346_3</Unit_component>
+					<Value_component>0</Value_component>
+				</Length_value>
+			</Length_information>
+			<Wire_number>5</Wire_number>
+		</General_wire_occurrence>
+		<Terminal_occurrence id="ID_TER3">
+			<Id>ID_TER3</Id>
+			<Part>id_326_2</Part>
+			<Installation_information id="id_329_1">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2141824-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER4">
+			<Id>ID_TER4</Id>
+			<Part>id_326_3</Part>
+			<Installation_information id="id_329_2">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-1241390-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER5">
+			<Id>ID_TER5</Id>
+			<Part>id_326_3</Part>
+			<Installation_information id="id_329_3">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-1241390-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER8">
+			<Id>ID_TER8</Id>
+			<Part>id_326_3</Part>
+			<Installation_information id="id_329_4">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-1241390-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER9">
+			<Id>ID_TER9</Id>
+			<Part>id_326_3</Part>
+			<Installation_information id="id_329_5">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-1241390-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER11">
+			<Id>ID_TER11</Id>
+			<Part>id_326_5</Part>
+			<Installation_information id="id_329_6">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-1-1703930-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER13">
+			<Id>ID_TER13</Id>
+			<Part>id_326_4</Part>
+			<Installation_information id="id_329_7">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2-1703930-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER14">
+			<Id>ID_TER14</Id>
+			<Part>id_326_4</Part>
+			<Installation_information id="id_329_8">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2-1703930-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER15">
+			<Id>ID_TER15</Id>
+			<Part>id_326_1</Part>
+			<Installation_information id="id_329_9">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-5-928999-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER16">
+			<Id>ID_TER16</Id>
+			<Part>id_326_1</Part>
+			<Installation_information id="id_329_10">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-5-928999-1.html</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER17">
+			<Id>ID_TER17</Id>
+			<Part>id_326_6</Part>
+			<Installation_information id="id_329_11">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2298510-1</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Terminal_occurrence id="ID_TER18">
+			<Id>ID_TER18</Id>
+			<Part>id_326_6</Part>
+			<Installation_information id="id_329_12">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.te.com/en/product-2298510-1</Instruction_value>
+			</Installation_information>
+		</Terminal_occurrence>
+		<Wire_protection_occurrence id="ID_TAP4">
+			<Id>SS_2</Id>
+			<Alias_id id="id_302_11">
+				<Alias_id>SS_2</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_73">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>444</Value_component>
+			</Protection_length>
+			<Part>id_351_1</Part>
+			<Installation_information id="id_329_23">
+				<Instruction_type>HasDesignCalculatedLength</Instruction_type>
+				<Instruction_value>true</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_24">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.tesa.com/de-de/industrie/tesa-triple-a-51036.html</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_25">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_26">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_27">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_28">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_29">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_30">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_31">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_32">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_33">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_34">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_35">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_36">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP8">
+			<Id>SS_11</Id>
+			<Alias_id id="id_302_12">
+				<Alias_id>SS_11</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_74">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>444</Value_component>
+			</Protection_length>
+			<Part>id_351_2</Part>
+			<Installation_information id="id_329_37">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_38">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_39">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_40">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_41">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_42">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_43">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_44">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_45">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_46">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_47">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_48">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_49">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.hellermanntyton.de/produkte/isolierbander/htape-protect180/712-10002?_gl=1*1x719z2*_up*MQ..*_gs*MQ..&amp;gclid=CjwKCAiA3L_JBhAlEiwAlcWO51_uobL61W7T8Mm2L7AI_Udfb7yRtdBKILlkWJ59v_vTXuV0_CRt3xoCMhQQAvD_BwE</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP5">
+			<Id>SS_1</Id>
+			<Alias_id id="id_302_13">
+				<Alias_id>SS_1</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_75">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>708</Value_component>
+			</Protection_length>
+			<Part>id_351_1</Part>
+			<Installation_information id="id_329_50">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.tesa.com/de-de/industrie/tesa-triple-a-51036.html</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_51">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_52">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_53">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_54">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_55">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_56">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_57">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_58">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_59">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_60">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_61">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_62">
+				<Instruction_type>HasDesignCalculatedLength</Instruction_type>
+				<Instruction_value>true</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_63">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP7">
+			<Id>SS_10</Id>
+			<Alias_id id="id_302_14">
+				<Alias_id>SS_10</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_76">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>708</Value_component>
+			</Protection_length>
+			<Part>id_351_2</Part>
+			<Installation_information id="id_329_64">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_65">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_66">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_67">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_68">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_69">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_70">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_71">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_72">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_73">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_74">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_75">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_76">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.hellermanntyton.de/produkte/isolierbander/htape-protect180/712-10002?_gl=1*1x719z2*_up*MQ..*_gs*MQ..&amp;gclid=CjwKCAiA3L_JBhAlEiwAlcWO51_uobL61W7T8Mm2L7AI_Udfb7yRtdBKILlkWJ59v_vTXuV0_CRt3xoCMhQQAvD_BwE</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP6">
+			<Id>SS_4</Id>
+			<Alias_id id="id_302_15">
+				<Alias_id>SS_4</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_77">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>327</Value_component>
+			</Protection_length>
+			<Part>id_351_1</Part>
+			<Installation_information id="id_329_77">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.tesa.com/de-de/industrie/tesa-triple-a-51036.html</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_78">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_79">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_80">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_81">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_82">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_83">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_84">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_85">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_86">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_87">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_88">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_89">
+				<Instruction_type>HasDesignCalculatedLength</Instruction_type>
+				<Instruction_value>true</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_90">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP10">
+			<Id>SS_13</Id>
+			<Alias_id id="id_302_16">
+				<Alias_id>SS_13</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_78">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>327</Value_component>
+			</Protection_length>
+			<Part>id_351_2</Part>
+			<Installation_information id="id_329_91">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_92">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_93">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_94">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_95">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_96">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_97">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_98">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_99">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_100">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_101">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_102">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_103">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.hellermanntyton.de/produkte/isolierbander/htape-protect180/712-10002?_gl=1*1x719z2*_up*MQ..*_gs*MQ..&amp;gclid=CjwKCAiA3L_JBhAlEiwAlcWO51_uobL61W7T8Mm2L7AI_Udfb7yRtdBKILlkWJ59v_vTXuV0_CRt3xoCMhQQAvD_BwE</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP2">
+			<Id>SS_3</Id>
+			<Alias_id id="id_302_17">
+				<Alias_id>SS_3</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_79">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>300</Value_component>
+			</Protection_length>
+			<Part>id_351_1</Part>
+			<Installation_information id="id_329_104">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.tesa.com/de-de/industrie/tesa-triple-a-51036.html</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_105">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_106">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_107">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_108">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_109">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_110">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_111">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_112">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_113">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_114">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_115">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_116">
+				<Instruction_type>HasDesignCalculatedLength</Instruction_type>
+				<Instruction_value>true</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_117">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Wire_protection_occurrence id="ID_TAP9">
+			<Id>SS_12</Id>
+			<Alias_id id="id_302_18">
+				<Alias_id>SS_12</Alias_id>
+			</Alias_id>
+			<Protection_length id="id_334_80">
+				<Unit_component>id_346_3</Unit_component>
+				<Value_component>300</Value_component>
+			</Protection_length>
+			<Part>id_351_2</Part>
+			<Installation_information id="id_329_118">
+				<Instruction_type>SpecialPartType</Instruction_type>
+				<Instruction_value></Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_119">
+				<Instruction_type>VobesType</Instruction_type>
+				<Instruction_value>WIRE_PROTECTION</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_120">
+				<Instruction_type>PrimaryPartType</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_121">
+				<Instruction_type>color</Instruction_type>
+				<Instruction_value>schwarz</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_122">
+				<Instruction_type>MassDetermination</Instruction_type>
+				<Instruction_value>Calculated</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_123">
+				<Instruction_type>MassUnit</Instruction_type>
+				<Instruction_value>gram*metre-1</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_124">
+				<Instruction_type>temperature_min</Instruction_type>
+				<Instruction_value>-40</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_125">
+				<Instruction_type>temperature_max</Instruction_type>
+				<Instruction_value>150</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_126">
+				<Instruction_type>width</Instruction_type>
+				<Instruction_value>19.0</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_127">
+				<Instruction_type>section_thickness</Instruction_type>
+				<Instruction_value>0.28</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_128">
+				<Instruction_type>allowedProcessing</Instruction_type>
+				<Instruction_value>SPECIAL_TAPES_TIGHT;TAPES_ON_SPACE;TAPES_SPARE;TAPES_TIGHT</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_129">
+				<Instruction_type>type</Instruction_type>
+				<Instruction_value>Tape</Instruction_value>
+			</Installation_information>
+			<Installation_information id="id_329_130">
+				<Instruction_type>Produktkatalog</Instruction_type>
+				<Instruction_value>https://www.hellermanntyton.de/produkte/isolierbander/htape-protect180/712-10002?_gl=1*1x719z2*_up*MQ..*_gs*MQ..&amp;gclid=CjwKCAiA3L_JBhAlEiwAlcWO51_uobL61W7T8Mm2L7AI_Udfb7yRtdBKILlkWJ59v_vTXuV0_CRt3xoCMhQQAvD_BwE</Instruction_value>
+			</Installation_information>
+		</Wire_protection_occurrence>
+		<Module id="ID_MOD1">
+			<Part_number>LSRC3_01</Part_number>
+			<Company_name>ASAP</Company_name>
+			<Version>1</Version>
+			<Abbreviation>RoboticChallenge 2026</Abbreviation>
+			<Description>Modul mit Tesa-Band</Description>
+			<Predecessor_part_number>LSRC3</Predecessor_part_number>
+			<Mass_information id="id_334_71">
+				<Unit_component>id_346_1</Unit_component>
+				<Value_component>171.301</Value_component>
+			</Mass_information>
+			<Material_information id="id_330_18">
+				<Material_key />
+			</Material_information>
+			<Car_classification_level_2 />
+			<Model_year>2026</Model_year>
+			<Content>module</Content>
+			<Module_configuration id="id_353_1">
+				<Logistic_control_information>+</Logistic_control_information>
+				<Configuration_type>option code</Configuration_type>
+				<Controlled_components>ID_TER3 ID_TER4 ID_TER5 ID_TER8 ID_TER9 ID_TER11 ID_TER13 ID_TER14 ID_TER15 ID_TER16 ID_TER17 ID_TER18 ID_CON7 ID_CON5 ID_CON4 ID_CON2 ID_CON3 ID_CON1 ID_ACC1 ID_ACC2 ID_FIX1 ID_FIX2 ID_TAP4 ID_TAP5 ID_TAP6 ID_TAP2 ID_WIR6 ID_WIR8 ID_WIR10 ID_MUL1 ID_MUL2 id_314_1 id_314_2 id_314_3 id_314_4 id_314_5 id_314_6 id_314_7</Controlled_components>
+				<Processing_instruction id="id_336_20">
+					<Instruction_type>LDD.MassState</Instruction_type>
+					<Instruction_value>ContainsInvalidSource</Instruction_value>
+				</Processing_instruction>
+			</Module_configuration>
+		</Module>
+		<Module id="ID_MOD2">
+			<Part_number>LSRC3_02</Part_number>
+			<Company_name>ASAP</Company_name>
+			<Version>1</Version>
+			<Abbreviation>RoboticChallenge 2026</Abbreviation>
+			<Description>Modul mit HellermannTyton-Tape</Description>
+			<Predecessor_part_number>Kopie von LSRC3_01</Predecessor_part_number>
+			<Mass_information id="id_334_72">
+				<Unit_component>id_346_1</Unit_component>
+				<Value_component>171.301</Value_component>
+			</Mass_information>
+			<Material_information id="id_330_19">
+				<Material_key />
+			</Material_information>
+			<Car_classification_level_2 />
+			<Model_year>2026</Model_year>
+			<Content>module</Content>
+			<Module_configuration id="id_353_2">
+				<Logistic_control_information>+</Logistic_control_information>
+				<Configuration_type>option code</Configuration_type>
+				<Controlled_components>ID_TER3 ID_TER4 ID_TER5 ID_TER8 ID_TER9 ID_TER11 ID_TER13 ID_TER14 ID_TER15 ID_TER16 ID_TER17 ID_TER18 ID_CON7 ID_CON5 ID_CON4 ID_CON2 ID_CON3 ID_CON1 ID_ACC1 ID_ACC2 ID_FIX1 ID_FIX2 ID_TAP8 ID_TAP7 ID_TAP10 ID_TAP9 ID_WIR6 ID_WIR8 ID_WIR10 ID_MUL1 ID_MUL2 id_314_1 id_314_2 id_314_3 id_314_4 id_314_5 id_314_6 id_314_7</Controlled_components>
+				<Processing_instruction id="id_336_21">
+					<Instruction_type>LDD.MassState</Instruction_type>
+					<Instruction_value>ContainsInvalidSource</Instruction_value>
+				</Processing_instruction>
+				<Processing_instruction id="id_336_22">
+					<Instruction_type>PredecessorPartNumbers</Instruction_type>
+					<Instruction_value>LSRC3_01[Copy];Kopie von LSRC3_01[Rename]</Instruction_value>
+				</Processing_instruction>
+			</Module_configuration>
+		</Module>
+	</Harness>
+	<Node id="ID_BNJ1">
+		<Id>ID_BNJ1</Id>
+		<Cartesian_point>id_307_1</Cartesian_point>
+		<Referenced_components>ID_ACC1 ID_ACC2</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ2">
+		<Id>ID_BNJ2</Id>
+		<Cartesian_point>id_307_2</Cartesian_point>
+	</Node>
+	<Node id="ID_BNJ3">
+		<Id>ID_BNJ3</Id>
+		<Cartesian_point>id_307_3</Cartesian_point>
+		<Referenced_cavities>id_370_1 id_370_2</Referenced_cavities>
+		<Referenced_components>ID_CON7</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ4">
+		<Id>ID_BNJ4</Id>
+		<Cartesian_point>id_307_4</Cartesian_point>
+		<Referenced_cavities>id_370_3 id_370_4</Referenced_cavities>
+		<Referenced_components>ID_CON5</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ5">
+		<Id>ID_BNJ5</Id>
+		<Cartesian_point>id_307_5</Cartesian_point>
+		<Referenced_cavities>id_370_5 id_370_6 id_370_7 id_370_8 id_370_9 id_370_10 id_370_11 id_370_12 id_370_13 id_370_14</Referenced_cavities>
+		<Referenced_components>ID_CON4</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ6">
+		<Id>ID_BNJ6</Id>
+		<Cartesian_point>id_307_6</Cartesian_point>
+		<Referenced_cavities>id_370_38 id_370_39 id_370_40 id_370_41</Referenced_cavities>
+		<Referenced_components>ID_CON1</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ7">
+		<Id>ID_BNJ7</Id>
+		<Cartesian_point>id_307_7</Cartesian_point>
+		<Referenced_cavities>id_370_15 id_370_16 id_370_17 id_370_18 id_370_19</Referenced_cavities>
+		<Referenced_components>ID_CON2</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ8">
+		<Id>ID_BNJ8</Id>
+		<Cartesian_point>id_307_8</Cartesian_point>
+		<Referenced_cavities>id_370_20 id_370_21 id_370_22 id_370_23 id_370_24 id_370_25 id_370_26 id_370_27 id_370_28 id_370_29 id_370_30 id_370_31 id_370_32 id_370_33 id_370_34 id_370_35 id_370_36 id_370_37</Referenced_cavities>
+		<Referenced_components>ID_CON3</Referenced_components>
+	</Node>
+	<Node id="ID_BNJ9">
+		<Id>ID_BNJ9</Id>
+		<Cartesian_point>id_307_9</Cartesian_point>
+	</Node>
+	<Routing id="id_338_1">
+		<Routed_wire>id_314_1</Routed_wire>
+		<Segments>ID_BNS7 ID_BNS8 ID_BNS9 ID_BNS4</Segments>
+	</Routing>
+	<Routing id="id_338_2">
+		<Routed_wire>id_314_2</Routed_wire>
+		<Segments>ID_BNS5 ID_BNS8 ID_BNS9 ID_BNS3</Segments>
+	</Routing>
+	<Routing id="id_338_3">
+		<Routed_wire>id_314_3</Routed_wire>
+		<Segments>ID_BNS5 ID_BNS8 ID_BNS9 ID_BNS3</Segments>
+	</Routing>
+	<Routing id="id_338_4">
+		<Routed_wire>id_314_4</Routed_wire>
+		<Segments>ID_BNS7 ID_BNS8 ID_BNS9 ID_BNS4</Segments>
+	</Routing>
+	<Routing id="id_338_5">
+		<Routed_wire>id_314_5</Routed_wire>
+		<Segments>ID_BNS7 ID_BNS8 ID_BNS9 ID_BNS4</Segments>
+	</Routing>
+	<Routing id="id_338_6">
+		<Routed_wire>id_314_6</Routed_wire>
+		<Segments>ID_BNS6 ID_BNS8 ID_BNS2</Segments>
+	</Routing>
+	<Routing id="id_338_7">
+		<Routed_wire>id_314_7</Routed_wire>
+		<Segments>ID_BNS6 ID_BNS8 ID_BNS2</Segments>
+	</Routing>
+	<Segment id="ID_BNS9">
+		<Id>ID_BNS9</Id>
+		<Virtual_length id="id_334_47">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>300</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_46">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>300</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ2</End_node>
+		<Start_node>ID_BNJ9</Start_node>
+		<Cross_section_area_information id="id_375_1">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_48">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>22.0599994659424</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Fixing_assignment id="id_324_2">
+			<Location>0.6296434</Location>
+			<Orientation>0</Orientation>
+			<Orientation>0</Orientation>
+			<Orientation>0</Orientation>
+			<Fixing>ID_FIX2</Fixing>
+		</Fixing_assignment>
+		<Processing_information id="id_336_4">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>5.3</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_5">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>5.3</Instruction_value>
+		</Processing_information>
+		<Protection_area id="id_337_1">
+			<Start_location>0</Start_location>
+			<End_location>1</End_location>
+			<Associated_protection>ID_TAP4</Associated_protection>
+		</Protection_area>
+		<Protection_area id="id_337_2">
+			<Start_location>0</Start_location>
+			<End_location>1</End_location>
+			<Associated_protection>ID_TAP8</Associated_protection>
+		</Protection_area>
+	</Segment>
+	<Segment id="ID_BNS8">
+		<Id>ID_BNS8</Id>
+		<Virtual_length id="id_334_50">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>400</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_49">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>400</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ9</End_node>
+		<Start_node>ID_BNJ1</Start_node>
+		<Cross_section_area_information id="id_375_2">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_51">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>35.3600006103516</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Fixing_assignment id="id_324_1">
+			<Location>0.6749999</Location>
+			<Orientation>0</Orientation>
+			<Orientation>0</Orientation>
+			<Orientation>0</Orientation>
+			<Fixing>ID_FIX1</Fixing>
+		</Fixing_assignment>
+		<Processing_information id="id_336_6">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>6.71</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_7">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>6.71</Instruction_value>
+		</Processing_information>
+		<Protection_area id="id_337_3">
+			<Start_location>0</Start_location>
+			<End_location>1</End_location>
+			<Associated_protection>ID_TAP5</Associated_protection>
+		</Protection_area>
+		<Protection_area id="id_337_4">
+			<Start_location>0</Start_location>
+			<End_location>1</End_location>
+			<Associated_protection>ID_TAP7</Associated_protection>
+		</Protection_area>
+	</Segment>
+	<Segment id="ID_BNS2">
+		<Id>ID_BNS2</Id>
+		<Virtual_length id="id_334_53">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>540</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_52">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>540</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ3</End_node>
+		<Start_node>ID_BNJ9</Start_node>
+		<Cross_section_area_information id="id_375_3">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_54">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>5.30999994277954</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Processing_information id="id_336_8">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>2.6</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_9">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>2.6</Instruction_value>
+		</Processing_information>
+	</Segment>
+	<Segment id="ID_BNS3">
+		<Id>ID_BNS3</Id>
+		<Virtual_length id="id_334_56">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>200</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_55">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>200</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ4</End_node>
+		<Start_node>ID_BNJ2</Start_node>
+		<Cross_section_area_information id="id_375_4">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_57">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>16.6900005340576</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Processing_information id="id_336_10">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>4.61</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_11">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>4.61</Instruction_value>
+		</Processing_information>
+		<Protection_area id="id_337_5">
+			<Start_location>0</Start_location>
+			<End_location>0.85</End_location>
+			<Associated_protection>ID_TAP6</Associated_protection>
+		</Protection_area>
+		<Protection_area id="id_337_6">
+			<Start_location>0</Start_location>
+			<End_location>0.85</End_location>
+			<Associated_protection>ID_TAP10</Associated_protection>
+		</Protection_area>
+	</Segment>
+	<Segment id="ID_BNS4">
+		<Id>ID_BNS4</Id>
+		<Virtual_length id="id_334_59">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>200</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_58">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>200</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ5</End_node>
+		<Start_node>ID_BNJ2</Start_node>
+		<Cross_section_area_information id="id_375_5">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_60">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>12.5699996948242</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Processing_information id="id_336_12">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>4</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_13">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>4</Instruction_value>
+		</Processing_information>
+		<Protection_area id="id_337_7">
+			<Start_location>0</Start_location>
+			<End_location>0.85</End_location>
+			<Associated_protection>ID_TAP2</Associated_protection>
+		</Protection_area>
+		<Protection_area id="id_337_8">
+			<Start_location>0</Start_location>
+			<End_location>0.85</End_location>
+			<Associated_protection>ID_TAP9</Associated_protection>
+		</Protection_area>
+	</Segment>
+	<Segment id="ID_BNS5">
+		<Id>ID_BNS5</Id>
+		<Virtual_length id="id_334_62">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>100</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_61">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>100</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ6</End_node>
+		<Start_node>ID_BNJ1</Start_node>
+		<Cross_section_area_information id="id_375_6">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_63">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>16.6900005340576</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Processing_information id="id_336_14">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>4.61</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_15">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>4.61</Instruction_value>
+		</Processing_information>
+	</Segment>
+	<Segment id="ID_BNS6">
+		<Id>ID_BNS6</Id>
+		<Virtual_length id="id_334_65">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>45</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_64">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>45</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ7</End_node>
+		<Start_node>ID_BNJ1</Start_node>
+		<Cross_section_area_information id="id_375_7">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_66">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>5.30999994277954</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Processing_information id="id_336_16">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>2.6</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_17">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>2.6</Instruction_value>
+		</Processing_information>
+	</Segment>
+	<Segment id="ID_BNS7">
+		<Id>ID_BNS7</Id>
+		<Virtual_length id="id_334_68">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>100</Value_component>
+		</Virtual_length>
+		<Physical_length id="id_334_67">
+			<Unit_component>id_346_3</Unit_component>
+			<Value_component>100</Value_component>
+		</Physical_length>
+		<End_node>ID_BNJ8</End_node>
+		<Start_node>ID_BNJ1</Start_node>
+		<Cross_section_area_information id="id_375_8">
+			<Value_determination>calculated</Value_determination>
+			<Area id="id_334_69">
+				<Unit_component>id_346_2</Unit_component>
+				<Value_component>12.5699996948242</Value_component>
+			</Area>
+		</Cross_section_area_information>
+		<Processing_information id="id_336_18">
+			<Instruction_type>LSRC3_02_Diameter</Instruction_type>
+			<Instruction_value>4</Instruction_value>
+		</Processing_information>
+		<Processing_information id="id_336_19">
+			<Instruction_type>LSRC3_01_Diameter</Instruction_type>
+			<Instruction_value>4</Instruction_value>
+		</Processing_information>
+	</Segment>
+	<Unit id="id_346_1">
+		<Si_unit_name>gram</Si_unit_name>
+	</Unit>
+	<Unit id="id_346_2">
+		<Si_unit_name>metre</Si_unit_name>
+		<Si_prefix>milli</Si_prefix>
+		<Si_dimension>square</Si_dimension>
+	</Unit>
+	<Unit id="id_346_3">
+		<Si_unit_name>metre</Si_unit_name>
+		<Si_prefix>milli</Si_prefix>
+	</Unit>
+	<Wire_protection id="id_351_1">
+		<Part_number>51036 PV2</Part_number>
+		<Company_name>www.tesa.com</Company_name>
+		<Version>1</Version>
+		<Abbreviation>tesa® 51036 PV2</Abbreviation>
+		<Description>PET-Gewebe</Description>
+		<Localized_description id="id_99913_8">
+			<Language_code>De</Language_code>
+			<Value>PET-Gewebe</Value>
+		</Localized_description>
+		<Mass_information id="id_334_38">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>4</Value_component>
+		</Mass_information>
+		<Processing_information id="id_336_2">
+			<Instruction_type>Width</Instruction_type>
+			<Instruction_value>19</Instruction_value>
+		</Processing_information>
+		<Protection_type>tight</Protection_type>
+	</Wire_protection>
+	<Wire_protection id="id_351_2">
+		<Part_number>712-10002</Part_number>
+		<Company_name>www.hellermanntyton.de</Company_name>
+		<Version>1</Version>
+		<Abbreviation>HTAPE-PROTECT180-PET-BK</Abbreviation>
+		<Description>PET-Gewebe</Description>
+		<Localized_description id="id_99913_9">
+			<Language_code>De</Language_code>
+			<Value>PET-Gewebe</Value>
+		</Localized_description>
+		<Mass_information id="id_334_39">
+			<Unit_component>id_346_1</Unit_component>
+			<Value_component>4</Value_component>
+		</Mass_information>
+		<Processing_information id="id_336_3">
+			<Instruction_type>Width</Instruction_type>
+			<Instruction_value>19</Instruction_value>
+		</Processing_information>
+		<Protection_type>tight</Protection_type>
+	</Wire_protection>
+</kbl:KBL_container>
+<?CreationInfo product="LDoradoDesign" version="1.7.1835" key="vQAbyuP6sgsvxcacmQs7Xg=="?>
