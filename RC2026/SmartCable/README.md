@@ -1,4 +1,12 @@
-# SmartCable
+# <img width="167" height="64" alt="image" src="https://github.com/user-attachments/assets/d5a218b1-63be-4bd2-b6e7-704efeb2d228" />
+
+**smartCable GmbH** ist ein innovatives Software- und Engineering-Unternehmen mit Sitz in Erlangen. 
+
+Mit über 20 Jahren Erfahrung entwickelt smartCable leistungsstarke Software-Lösungen für die Entwicklung und Fertigungsvorbereitung von Kabelbäumen. Das Unternehmen unterstützt Automobilhersteller und Zulieferer bei der Bewältigung der zunehmenden Komplexität moderner Bordnetze durch durchgängige digitale Prozesse und einen einheitlichen digitalen Zwilling des Leitungssatzes.
+
+**Website:** [www.smartcable.de](https://www.smartcable.de)
+
+---
 
 Der Beitrag von **SmartCable** zur **Robotik Challenge 2026** des **Transformations-Hub Leitungssatz** (gefördert vom BMWK). für das **Begleitforschungs- und Digitalisierungsmodul** ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
 
@@ -6,15 +14,7 @@ Ziel der Challenge ist die Entwicklung innovativer, robotergestützter Lösungen
 
 SmartCable stellt als **Spezialist für digitales Kabelbaum-Engineering** das realistische **digitale Modell** des für die Challenge verwendeten Leitungssatzes sowie die zugehörigen technischen Unterlagen bereit.
 
----
-
-## Über SmartCable
-
-**smartCable GmbH** ist ein innovatives Software- und Engineering-Unternehmen mit Sitz in Erlangen. 
-
-Mit über 20 Jahren Erfahrung entwickelt smartCable leistungsstarke Software-Lösungen für die Entwicklung und Fertigungsvorbereitung von Kabelbäumen. Das Unternehmen unterstützt Automobilhersteller und Zulieferer bei der Bewältigung der zunehmenden Komplexität moderner Bordnetze durch durchgängige digitale Prozesse und einen einheitlichen digitalen Zwilling des Leitungssatzes.
-
-**Website:** [www.smartcable.de](https://www.smartcable.de)
+<img width="2653" height="1865" alt="image" src="https://github.com/user-attachments/assets/4f07c275-78f3-4623-92b9-44ff8c074c26" />
 
 ---
 
