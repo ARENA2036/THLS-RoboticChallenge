@@ -35,9 +35,10 @@ Parallel zur physischen Automatisierung untersucht das Begleitforschungsmodul di
 
 ### Zentrale Forschungsziele
 
-1. **Förderung der Standardisierung** der branchenspezifischen Datenformate **VEC** und **KBL**
-2. **Erarbeitung eines Konzepts** für Digitale Fertigungsaufträge im Datenformat **AAS** (Asset Administration Shell)
-3. **Definition eines Digitalen Produktpasses (DPP)** für den Leitungssatz
+1. **Förderung der Standardisierung** der branchenspezifischen Datenformate [**VEC**](https://ecad-wiki.prostep.org/specifications/vec/) und [**KBL**](https://ecad-wiki.prostep.org/specifications/kbl/)
+2. **Erarbeitung eines Konzepts** für Digitale Fertigungsaufträge im Datenformat **AAS** (Asset Administration Shell) unter Anwendung der PPR- und CSS-Methodik.
+3. [**Definition eines Digitalen Produktpasses (DPP)**](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/DPP) für den Leitungssatz
+4. **PCF-Berechnung** für den Leitungssatz
 
 ### Konkret untersuchte Themen
 
