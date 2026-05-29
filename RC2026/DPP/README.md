@@ -42,6 +42,7 @@ Der Digitale Produktpass soll Transparenz, Rückverfolgbarkeit und Kreislauffäh
 - DPP-Datenmodell-Spezifikation (AAS Submodel Template für Leitungssätze)
 - [Referenzimplementierung zur automatischen Erzeugung](https://dpp-generator.arena2036.app/)
 - [Open-Source-Beiträge](https://github.com/ARENA2036/THLS-DPP-Generator)
+- [Veröffentlichung zur ETFA 2026](https://github.com/ARENA2036/THLS-RoboticChallenge/blob/main/RC2026/DPP/ETFA2026-0128__Digital_Product_Passport_for_the_Wiring_Harness.pdf)
 - Demonstrator am Innovationsforum Leitungssatz 2026
 ---
 
