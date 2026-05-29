@@ -34,21 +34,6 @@ Wir laden Unternehmen, Forschungseinrichtungen und Technologieanbieter ein, inno
 
 ---
 
-## 📁 Repository-Struktur
-
----
-
-## 🤝 Beteiligte Teams (Auswahl)
-
-- SmartCable
-- VOITAS Engineering
-- ASAP
-- EDAG
-- Team NEXUS
-- Weitere Partner aus Industrie und Forschung
-
----
-
 ## 🔗 Wichtige Links
 
 - [Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)
