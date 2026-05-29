@@ -4,8 +4,6 @@
 
 ---
 
-![Banner](https://www.leitungssatz-hub.de/wp-content/uploads/TrafoHub-LS-Logo-1_1.svg) 
-
 Der [Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de) veranstaltet die [**Robotik Challenge 2026**](https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2026/), um die Automatisierung komplexer manueller Prozesse in der Leitungssatzmontage entscheidend voranzutreiben.
 
 Dieses Repository dient als zentrale, transparente Plattform für alle **Challenge-Daten**, Ergebnisse und Erkenntnisse – insbesondere aus dem [**Begleitforschungs- und Digitalisierungsmodul**](https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2026/begleitforschungs-und-digitalisierungsmodul/) im Sinne der Förderung des offenen Innovationsaustauschs.
