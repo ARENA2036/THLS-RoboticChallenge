@@ -1,10 +1,11 @@
-# THLS Robotik Challenge
+![Banner](https://www.leitungssatz-hub.de/wp-content/uploads/TrafoHub-LS-Logo-1_1.svg) 
+# Robotik Challenge
 
-**Transformations-Hub Leitungssatz** – ARENA2036
+**Transformations-Hub Leitungssatz** – ein Projekt an der ARENA2036
 
 ---
 
-## 🎯 Über die Robotik Challenge
+## 🎯 Motivation
 
 Der **Leitungssatz** gehört zu den komplexesten und bisher weitgehend manuell gefertigten Komponenten in der Automobilproduktion. Steigende Variantenvielfalt, Elektromobilität und autonomes Fahren erhöhen die Anforderungen dramatisch.
 
