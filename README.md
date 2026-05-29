@@ -21,7 +21,12 @@ Wir laden Unternehmen, Forschungseinrichtungen und Technologieanbieter ein, inno
 |----------|--------------------------------------------|---------------------|-------------------------------------------------|
 | [Robotik Challenge 2024](https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2024/)   | Steckerbestückung                          | Abgeschlossen       | [RC2024](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2024) |
 | [Robotik Challenge 2024](https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2024/)   | Herstellung von Teilleitungssätzen         | Abgeschlossen       | [RC2025](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2025) | 
-| **[Robotik Challenge 2024](https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2024/)**   | **Hybride Leitungssatzfertigung**          | **Aktuell**         | [RC2026](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026) | 
+| **[Robotik Challenge 2024](https://www.leitungssatz-hub.de/robotik-challenge/robotik-challenge-2024/)**   | **Hybride Leitungssatzfertigung**          | **Aktuell**         | [**RC2026**](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026) | 
+
+Die Aufgaben bauen auf den vorherigen Challenges auf und führen diese konsequent in Richtung **seriennaher, integrierter Automatisierung** weiter.
+
+**Zeitraum:** jeweils von Januar – Mai  
+**Präsentation:** jeweils im Juni beim [Innovationsforum Leitungssatz](https://www.leitungssatz-hub.de/?s=innovationsforum) an der ARENA2036 in Stuttgart
 
 ---
 
