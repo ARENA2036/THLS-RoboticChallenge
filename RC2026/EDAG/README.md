@@ -20,26 +20,25 @@ EDAG stellt als **Engineering-Partner für Fahrzeugentwicklung und Bordnetzsyste
 
 ## Dateien
 
-| Datei                                     | Typ      | Beschreibung                                                                   | Link                                                 |
-| ----------------------------------------- | -------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- |
-| **`README.md`**                           | Markdown | Diese Projektdokumentation                                                     | [Öffnen](README.md)                                  |
-| **`EDAG_RobotikChallenge_2026.gl2`**      | GL2      | Digitales Leitungssatz-Modell im GL2-Format                                    | [Herunterladen](EDAG_RobotikChallenge_2026.gl2)      |
-| **`EDAG_RobotikChallenge_2026.kbl`**      | KBL      | Kabelbaum-Engineering-Daten im KBL-Format                                      | [Herunterladen](EDAG_RobotikChallenge_2026.kbl)      |
-| **`EDAG_RobotikChallenge_2026.tar`**      | TAR      | Komplettes Engineering-Paket des Leitungssatzes                                | [Herunterladen](EDAG_RobotikChallenge_2026.tar)      |
-| **`EDAG_RobotikChallenge_2026.tif`**      | TIF      | Technische Zeichnung / Grafik des Leitungssatzes                               | [Öffnen](EDAG_RobotikChallenge_2026.tif)             |
-| **`EDAG_RobotikChallenge_2026.xml`**      | XML      | Elektrisches Leitungssatz-Modell (ELZ) im XML-Format                           | [Öffnen](EDAG_RobotikChallenge_2026.xml)             |
-| **`EDAG_Stromlaufplan.pdf`**              | PDF      | **Stromlaufplan** – Detaillierte elektrische Schaltungsübersicht               | [Öffnen](EDAG_Stromlaufplan.pdf)                     |
-| **`EDAG_RobotikChallenge_2026_BOM.csv`**  | CSV      | **Bill of Materials (Stückliste)** – Vollständige Auflistung aller Komponenten | [Herunterladen](EDAG_RobotikChallenge_2026_BOM.csv)  |
-| **`EDAG_RobotikChallenge_2026_WIRE.csv`** | CSV      | **Wire List** – Detaillierte Liste aller Drähte mit technischen Parametern     | [Herunterladen](EDAG_RobotikChallenge_2026_WIRE.csv) |
+| Datei                                        | Typ      | Beschreibung                                                           | Link                                                      |
+| -------------------------------------------- | -------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
+| **`README.md`**                              | Markdown | Diese Projektdokumentation                                             | [Öffnen](README.md)                                       |
+| **`3D Data/`**                               | Ordner   | 3D-Geometriedaten und CAD-bezogene Dateien                             | [Öffnen](3D%20Data/)                                      |
+| **`Robotic_Challenge Geometrie.pdf`**        | PDF      | Geometrische Darstellung und technische Zeichnungen des Leitungssatzes | [Öffnen](Robotic_Challenge%20Geometrie.pdf)               |
+| **`Robotic_Challenge Stromlaufplan.pdf`**    | PDF      | **Stromlaufplan** – Detaillierte elektrische Schaltungsübersicht       | [Öffnen](Robotic_Challenge%20Stromlaufplan.pdf)           |
+| **`Robotic Challenge.kbl`**                  | KBL      | Kabelbaum-Engineering-Daten im KBL-Format                              | [Herunterladen](Robotic%20Challenge.kbl)                  |
+| **`Robotic Challenge_PreevisionExport.vec`** | VEC      | VEC-/PREEvision-Export des Leitungssatzes                              | [Herunterladen](Robotic%20Challenge_PreevisionExport.vec) |
+| **`Stecker10pol.vec`**                       | VEC      | Steckerdaten für den 10-poligen Steckverbinder                         | [Herunterladen](Stecker10pol.vec)                         |
+| **`Stecker1pol.vec`**                        | VEC      | Steckerdaten für den 1-poligen Steckverbinder                          | [Herunterladen](Stecker1pol.vec)                          |
+| **`Stecker2pol.vec`**                        | VEC      | Steckerdaten für den 2-poligen Steckverbinder                          | [Herunterladen](Stecker2pol.vec)                          |
+| **`SteckerModul 2470829-9.vec`**             | VEC      | Steckermodul-Daten des Typs 2470829-9                                  | [Herunterladen](SteckerModul%202470829-9.vec)             |
 
 ---
 
 EDAG liefert mit diesen Dateien eine umfassende digitale Grundlage für die teilnehmenden Robotik-Teams – inklusive verschiedener nativer Formate für Engineering, Simulation und robotische Prozessentwicklung.
+**KBL** wurde aus dem EDAG KBL Export Metric exportiert. Die Haupt-**VEC**-Datei wurde mit dem PREEvision-eigenen Export-Tool erstellt, die anderen stammen aus dem EDAG VEC Metric Export.
 
 ---
-
-**Teil des Transformations-Hub Leitungssatz**
-**ARENA2036** – Forschungscampus Stuttgart
 
 **Weitere Informationen:**
 [Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)
