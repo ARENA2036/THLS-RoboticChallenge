@@ -51,9 +51,6 @@ Das generative Design ergänzt automatisch notwendige Zusatzmaterialien – sowo
 
 ---
 
-**Teil des Transformations-Hub Leitungssatz**  
-**ARENA2036** – Forschungscampus Stuttgart
-
 **Weitere Informationen:**  
 [Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)  
 [ARENA2036](https://arena2036.de)  
