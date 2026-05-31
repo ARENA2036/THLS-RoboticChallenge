@@ -346,6 +346,238 @@ Die Autoren danken dem *Bundesministerium für Wirtschaft und Energie* (BMWE) f�
 
 ---
 
+# Referenzen
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-blomqvist2023network" class="csl-entry">
+
+Blomqvist, Eva, Huanyu Li, Robin Keskisärkkä, Mikael Lindecrantz, Mina
+Abd Nikooie Pour, Ying Li, and Patrick Lambrix. 2023. “Cross-Domain
+Modelling – a Network of Core Ontologies for the Circular Economy.” In
+*Proceedings of the 14th Workshop on Ontology Design and Patterns (WOP
+2023)*. <https://ceur-ws.org/Vol-3636/paper1.pdf>.
+
+</div>
+
+<div id="ref-CatenaX_Website" class="csl-entry">
+
+“Catena-x Automotive Network.” 2026. Catena-X Automotive Network e.V.;
+<https://catena-x.net/>.
+
+</div>
+
+<div id="ref-CatenaX_PCF_Calculation_Apps_Pitch_2025" class="csl-entry">
+
+“Catena-x Automotive Network Certified PCF Calculation Apps Pitch
+Session.” 2025. Catena-X Automotive Network e.V.;
+<https://catena-x.net/wp-content/uploads/2025/11/Catena-X-PCF-Calculation-APPs-Pitch-Session-v2.pdf>.
+
+</div>
+
+<div id="ref-CatenaX_PCF_Academy_Calculation_2024" class="csl-entry">
+
+“Catena-x PCF Academy – 3. PCF Calculation.” 2024. Catena-X Automotive
+Network e.V.;
+<https://catena-x.academy/index.php?gf-download=2024%2F11%2F2024-07-29_PCF-Calculation_V89428.pdf&form-id=1&field-id=5&hash=d235dd71bb2c49b8786bd13a5679be3b5017913726c541f1d0dc5904290d738a>.
+
+</div>
+
+<div id="ref-CatenaX2025" class="csl-entry">
+
+“Catena-x Product Carbon Footprint Rulebook (CX-PCF Rules).” 2025.
+Catena-X Automotive Network e.V.;
+<https://catena-x.net/wp-content/uploads/2025/10/Catena-X-Product-Carbon-Footprint-Rulebook_v4-with-line-numbers.pdf>.
+
+</div>
+
+<div id="ref-EUCouncilELV2025" class="csl-entry">
+
+Council of the European Union. 2025. “Circular Economy: Council and
+Parliament Strike Deal on Rules for Vehicle Circularity and Management
+of End-of-Life Vehicles.” December 2025.
+<https://www.consilium.europa.eu/en/press/press-releases/2025/12/12/circular-economy-council-and-parliament-strike-deal-on-rules-for-vehicle-circularity-and-management-of-end-of-life-vehicles/>.
+
+</div>
+
+<div id="ref-din_dke_spec_99100" class="csl-entry">
+
+DIN, and DKE. 2025. “DIN DKE SPEC 99100:2025-02 – <span
+class="nocase">Anforderungen an Datenattribute des
+Batteriepasses</span>.” Berlin, Germany: Beuth Verlag.
+<https://www.dinmedia.de/de/umweltschutz/BVFR050>.
+
+</div>
+
+<div id="ref-TractusX_PCF_SemanticModel_9_0_0" class="csl-entry">
+
+Eclipse Tractus-X. 2025. “Product Carbon Footprint (PCF) Semantic Data
+Model, Version 9.0.0.”
+<https://github.com/eclipse-tractusx/sldt-semantic-models/blob/main/io.catenax.pcf/9.0.0/gen/Pcf.html>.
+
+</div>
+
+<div id="ref-GHG_Protocol_Website" class="csl-entry">
+
+Greenhouse Gas Protocol. 2025. “GHG Protocol – Greenhouse Gas Protocol.”
+<https://ghgprotocol.org/>.
+
+</div>
+
+<div id="ref-Haenel2026_DigiTainWhitepaper" class="csl-entry">
+
+Haenel, Frauke, Jan Hedemann, and Martin Huschka. 2026. “Digital Product
+Passports: Enabling Sustainable Decisions in Early Product Development.”
+Stuttgart, Germany: ARENA2036 e.V.
+<https://arena2036.de/files/FinaleBilder/02_Projekte/DigiTain/20260327_digitain_whitepaper_v2_.pdf>.
+
+</div>
+
+<div id="ref-hartmann_ai-driven_2026" class="csl-entry">
+
+Hartmann, Annalena, Zetong Liu, Simon Lamprecht, Patrick Bründl, and
+Jörg Franke. 2026. “AI-Driven Multisensor Quality Inspection: A Focus
+on Robotic Wire Harness Assembly.” In *Advances in Production Management
+Systems. Cyber-Physical-Human Production Systems: Human-AI Collaboration
+and Beyond*, edited by Hajime Mizuyama, Eiji Morinaga, Tomomi Nonaka,
+Toshiya Kaihara, Gregor von Cieminski, and David Romero, 349–63. Cham:
+Springer Nature Switzerland.
+<https://doi.org/10.1007/978-3-032-03538-7_25>.
+
+</div>
+
+<div id="ref-idta020356materialcomposition" class="csl-entry">
+
+IDTA. 2025. “IDTA 02035-6: Digital Battery Passport – Part 6: Material
+Composition.” IDTA 02035-6. Industrial Digital Twin Association.
+<https://github.com/admin-shell-io/submodel-templates/blob/main/published/Digital%20Battery%20Passport/6_Material%20Composition/1/0/IDTA%2002035-6_DBP-Part-6_MaterialComposition.pdf>.
+
+</div>
+
+<div id="ref-idta02011HierarchicalStructuresBoM_1_1" class="csl-entry">
+
+“<span class="nocase">IDTA-02011-1-1 Submodel Template: Hierarchical
+Structures enabling Bills of Material</span>.” 2025. Specification.
+Industrial Digital Twin Association.
+<https://github.com/admin-shell-io/submodel-templates/blob/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/1/IDTA%2002011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf>.
+
+</div>
+
+<div id="ref-idta02023CarbonFootprint_1_0" class="csl-entry">
+
+“IDTA-02023-1-0 Submodel Template: Carbon Footprint.” 2024.
+Specification. Industrial Digital Twin Association.
+<https://github.com/admin-shell-io/submodel-templates/blob/main/published/Carbon%20Footprint/1/0/IDTA%2002023_Submodel_CarbonFootprint.pdf>.
+
+</div>
+
+<div id="ref-Informatica2025DPP" class="csl-entry">
+
+Informatica. 2025. “Digital Product Passport & Battery Passport
+Implementation Guide.” 2025.
+<https://www.informatica.com/resources/articles/digital-product-passport-battery-passport-guide.html>.
+
+</div>
+
+<div id="ref-ISO14067_2018" class="csl-entry">
+
+International Organization for Standardization. 2018. *Greenhouse Gases
+– Carbon Footprint of Products – Requirements and Guidelines for
+Quantification*. Geneva, Switzerland: ISO.
+<https://www.iso.org/standard/71206.html>.
+
+</div>
+
+<div id="ref-ISO_GHGP_partnership_2025" class="csl-entry">
+
+International Organization for Standardization (ISO). 2025. “ISO and GHG
+Protocol Announce Strategic Partnership to Deliver Unified Global
+Standards for Greenhouse Gas Emissions Accounting.”
+<https://www.iso.org/news/2025/09/iso-and-ghgp-partnership>.
+
+</div>
+
+<div id="ref-jansen2024modelling" class="csl-entry">
+
+Jansen, Maike, Eva Blomqvist, Robin Keskisärkkä, Huanyu Li, Mikael
+Lindecrantz, Karin Wannerberg, André Pomp, Tobias Meisen, and Holger
+Berg. 2024. “Modelling Digital Product Passports for the Circular
+Economy.” In *Kg4s 2024: The 2nd International Workshop on Knowledge
+Graphs for Sustainability*. <https://ceur-ws.org/Vol-3753/paper2.pdf>.
+
+</div>
+
+<div id="ref-Jansen2023DPPRequirements" class="csl-entry">
+
+Jansen, Maike, Tobias Meisen, Christiane Plociennik, Holger Berg, André
+Pomp, and Waldemar Windholz. 2023. “Stop Guessing in the Dark:
+Identified Requirements for Digital Product Passport Systems.” *Systems*
+11 (3): 123. <https://doi.org/10.3390/systems11030123>.
+
+</div>
+
+<div id="ref-Lamprecht_Connector_2025" class="csl-entry">
+
+Lamprecht, S., A. Hartmann, D. Makwana, P. Bründl, and J. Franke. 2025.
+“A Novel Connector-and-Gripper Design for Precision Robotic Peg-in-Hole
+Operations in Automated Wire Harness Applications.” In *2025 IEEE
+International Conference on Industrial Engineering and Engineering
+Management (IEEM)*, 0932–39.
+<https://doi.org/10.1109/IEEM63636.2025.11357806>.
+
+</div>
+
+<div id="ref-CatenaX_TfS_PCF_Verification_2025" class="csl-entry">
+
+“PCF Verification and PCF Program Certification Framework.” 2025.
+Catena-X Automotive Network; Together for Sustainability;
+<https://catena-x.net/wp-content/uploads/2025/11/PCF-verification-v2-with-line-numbers.pdf>.
+
+</div>
+
+<div id="ref-Salinas2024AASProcess" class="csl-entry">
+
+Salinas Segura, Alexander, M. Angos Mediavilla, L. Braun, M. Freund, C.
+Kosel, and M. Rodriguez. 2024. “A Process Model for Deriving Asset
+Administration Shells for Inter-Company Collaboration – a Practical
+Approach.” In *Springer Lecture Notes*.
+<https://doi.org/10.1007/978-3-031-71142-8_16>.
+
+</div>
+
+<div id="ref-Schnauffer2022AAS4WH" class="csl-entry">
+
+Schnauffer, G., D. Görzig, C. Kosel, and J. Diemer. 2022. “Asset
+Administration Shell for the Wiring Harness System.” In *Stuttgart
+Conference on Automotive Production (SCAP 2022)*, 324–32. Arena2036.
+Springer. <https://doi.org/10.1007/978-3-031-27933-1_30>.
+
+</div>
+
+<div id="ref-leitungssatz-hub-lca-2025" class="csl-entry">
+
+Transformations-Hub Leitungssatz. 2025. “LCA-Studie Zur Untersuchung Der
+Umweltauswirkungen von Kfz-Leitungssätzen Konventioneller Und
+Elektrischer Fahrzeuge.” Transformations-Hub Leitungssatz.
+<https://www.leitungssatz-hub.de/wp-content/uploads/LCA_Studie_2025_04.pdf>.
+
+</div>
+
+<div id="ref-warnecke_methods_2026" class="csl-entry">
+
+Warnecke, Jann, Steffen Auchtor, Patrick Bründl, and Jörg Franke. 2026.
+“Methods and Technologies for Modularising Wire Harness Designs in the
+Automotive Industry.” In *Advances in Production Management Systems.
+Cyber-Physical-Human Production Systems: Human-AI Collaboration and
+Beyond*, edited by Hajime Mizuyama, Eiji Morinaga, Tomomi Nonaka,
+Toshiya Kaihara, Gregor von Cieminski, and David Romero, 131–45. Cham:
+Springer Nature Switzerland.
+<https://doi.org/10.1007/978-3-032-03538-7_10>.
+
+</div>
+
+</div>
+
 ## Fußnoten
 
 [^1]: https://arena2036.de/digitain/
