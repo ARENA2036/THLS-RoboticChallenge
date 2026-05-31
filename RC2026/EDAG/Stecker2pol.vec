@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vec:VecContent id="id_00000" xmlns:vec="http://www.prostep.org/ecad-if/2011/vec">
+    <VecVersion>2.0.0</VecVersion>
+    <GeneratingSystemName>PREEvision VEC-Export Metric</GeneratingSystemName>
+    <DateOfCreation>2025-10-28T00:00:00</DateOfCreation>
+    <DocumentVersion id="id_00004">
+        <CompanyName>EDAG GmbH</CompanyName>
+        <Creation id="id_00003">
+            <CreationDate>2025-10-15T12:49:30.000+02:00</CreationDate>
+            <Creator id="id_00002">
+                <AliasId id="id_00001">
+                    <IdentificationValue>XH88469</IdentificationValue>
+                    <Type>UserAccount</Type>
+                </AliasId>
+            </Creator>
+        </Creation>
+        <DocumentNumber>2</DocumentNumber>
+        <DocumentType></DocumentType>
+        <DocumentVersion>1</DocumentVersion>
+        <DataFormat>application/vec</DataFormat>
+        <Specification xsi:type="vec:EEComponentSpecification" id="id_00006" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Identification>Stecker 2pol</Identification>
+            <HousingComponent id="id_00009">
+                <CustomProperty xsi:type="vec:SimpleValueProperty" id="id_00008">
+                    <Value>TE_1418796-3_2.8(AMPMCP)_2WAY_1ROW_FEMALE</Value>
+                </CustomProperty>
+                <Identification>TE_1418796-3_2.8(AMPMCP)_2WAY_1ROW_FEMALE</Identification>
+                <Description xsi:type="vec:LocalizedTypedString" id="id_00007">
+                    <Value>Connector Sachnummer 1418796-3</Value>
+                </Description>
+                <PinComponent id="id_00011">
+                    <Identification>Pin Sachnummer 1241390-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00010">
+                        <Value>Stecker 2pol : 2</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_1241390-1_AMPMCP 2.8K</PinComponentType>
+                    <ReferencedCavity>id_00014 Cavity Number: 2 Cavity Typ: 2.8mm(MCP)</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00017">
+                    <Identification>Pin Sachnummer 1241390-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00016">
+                        <Value>Stecker 2pol : 1</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_1241390-1_AMPMCP 2.8K</PinComponentType>
+                    <ReferencedCavity>id_00020 Cavity Number: 1 Cavity Typ: 2.8mm(MCP)</ReferencedCavity>
+                </PinComponent>
+            </HousingComponent>
+        </Specification>
+    </DocumentVersion>
+    <PartVersion id="id_00022">
+        <CompanyName>EDAG GmbH</CompanyName>
+        <PartNumber>2</PartNumber>
+        <PrimaryPartType>EEComponent</PrimaryPartType>
+    </PartVersion>
+</vec:VecContent>

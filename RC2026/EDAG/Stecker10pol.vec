@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vec:VecContent id="id_00000" xmlns:vec="http://www.prostep.org/ecad-if/2011/vec">
+    <VecVersion>2.0.0</VecVersion>
+    <GeneratingSystemName>PREEvision VEC-Export Metric</GeneratingSystemName>
+    <DateOfCreation>2025-10-28T00:00:00</DateOfCreation>
+    <DocumentVersion id="id_00004">
+        <CompanyName>EDAG GmbH</CompanyName>
+        <Creation id="id_00003">
+            <CreationDate>2025-10-15T13:01:09.000+02:00</CreationDate>
+            <Creator id="id_00002">
+                <AliasId id="id_00001">
+                    <IdentificationValue>XH88469</IdentificationValue>
+                    <Type>UserAccount</Type>
+                </AliasId>
+            </Creator>
+        </Creation>
+        <DocumentNumber>3</DocumentNumber>
+        <DocumentType></DocumentType>
+        <DocumentVersion>1</DocumentVersion>
+        <DataFormat>application/vec</DataFormat>
+        <Specification xsi:type="vec:EEComponentSpecification" id="id_00006" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Identification>Stecker 10pol</Identification>
+            <HousingComponent id="id_00009">
+                <CustomProperty xsi:type="vec:SimpleValueProperty" id="id_00008">
+                    <Value>TE_2302475-1_NANOMQS_COD A_0.5mm_10 WAY_2 ROW_FEMALE_UNSEALED</Value>
+                </CustomProperty>
+                <Identification>TE_2302475-1_NANOMQS_COD A_0.5mm_10 WAY_2 ROW_FEMALE_UNSEALED</Identification>
+                <Description xsi:type="vec:LocalizedTypedString" id="id_00007">
+                    <Value>Connector Sachnummer 2302475-1</Value>
+                </Description>
+                <PinComponent id="id_00011">
+                    <Identification>Pin Sachnummer 1-1703930-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00010">
+                        <Value>Stecker 10pol : 3</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_1-1703930-1_NanoMQS_0,13</PinComponentType>
+                    <ReferencedCavity>id_00014 Cavity Number: 3 Cavity Typ: 0.5mm(NANOMQS)</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00017">
+                    <Identification>Pin Sachnummer 2-1703930-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00016">
+                        <Value>Stecker 10pol : 4</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_2-1703930-1_NanoMQS_0,35</PinComponentType>
+                    <ReferencedCavity>id_00020 Cavity Number: 4 Cavity Typ: 0.5mm(NANOMQS)</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00023">
+                    <Identification>Pin Sachnummer 2-1703930-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00022">
+                        <Value>Stecker 10pol : 2</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_2-1703930-1_NanoMQS_0,35</PinComponentType>
+                    <ReferencedCavity>id_00026 Cavity Number: 2 Cavity Typ: 0.5mm(NANOMQS)</ReferencedCavity>
+                </PinComponent>
+            </HousingComponent>
+        </Specification>
+    </DocumentVersion>
+    <PartVersion id="id_00028">
+        <CompanyName>EDAG GmbH</CompanyName>
+        <PartNumber>3</PartNumber>
+        <PrimaryPartType>EEComponent</PrimaryPartType>
+    </PartVersion>
+</vec:VecContent>

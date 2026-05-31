@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vec:VecContent id="id_00000" xmlns:vec="http://www.prostep.org/ecad-if/2011/vec">
+    <VecVersion>2.0.0</VecVersion>
+    <GeneratingSystemName>PREEvision VEC-Export Metric</GeneratingSystemName>
+    <DateOfCreation>2025-10-28T00:00:00</DateOfCreation>
+    <DocumentVersion id="id_00004">
+        <CompanyName>EDAG GmbH</CompanyName>
+        <Creation id="id_00003">
+            <CreationDate>2025-10-15T12:49:10.000+02:00</CreationDate>
+            <Creator id="id_00002">
+                <AliasId id="id_00001">
+                    <IdentificationValue>XH88469</IdentificationValue>
+                    <Type>UserAccount</Type>
+                </AliasId>
+            </Creator>
+        </Creation>
+        <DocumentNumber>4</DocumentNumber>
+        <DocumentType></DocumentType>
+        <DocumentVersion>1</DocumentVersion>
+        <DataFormat>application/vec</DataFormat>
+        <Specification xsi:type="vec:EEComponentSpecification" id="id_00006" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Identification>Stecker Modul</Identification>
+            <HousingComponent id="id_00009">
+                <CustomProperty xsi:type="vec:SimpleValueProperty" id="id_00008">
+                    <Value>TE_2470653-9_Minicoax_4Pos</Value>
+                </CustomProperty>
+                <Identification>TE_2470653-9_Minicoax_4Pos</Identification>
+                <Description xsi:type="vec:LocalizedTypedString" id="id_00007">
+                    <Value>Connector Sachnummer 2470653-9</Value>
+                </Description>
+                <PinComponent id="id_00011">
+                    <Identification>Pin Sachnummer defaultFemale</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00010">
+                        <Value>Stecker Modul 3 : 3S</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>defaultFemale</PinComponentType>
+                    <ReferencedCavity>id_00014 Cavity Number: 3-S Cavity Typ: Minicoax</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00017">
+                    <Identification>Pin Sachnummer 2298510-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00016">
+                        <Value>Stecker Modul 3 : 3</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>MATE AX 180</PinComponentType>
+                    <ReferencedCavity>id_00020 Cavity Number: 3 Cavity Typ: Minicoax</ReferencedCavity>
+                </PinComponent>
+            </HousingComponent>
+            <HousingComponent id="id_00024">
+                <CustomProperty xsi:type="vec:SimpleValueProperty" id="id_00023">
+                    <Value>TE-2470649-9_2.8(MCP)_4WAY_1ROW_FEMALE_UNSEALED</Value>
+                </CustomProperty>
+                <Identification>TE-2470649-9_2.8(MCP)_4WAY_1ROW_FEMALE_UNSEALED</Identification>
+                <Description xsi:type="vec:LocalizedTypedString" id="id_00022">
+                    <Value>Connector Sachnummer 2470649-9</Value>
+                </Description>
+                <PinComponent id="id_00026">
+                    <Identification>Pin Sachnummer 1241390-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00025">
+                        <Value>Stecker Modul 2 : 1</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_1241390-1_AMPMCP 2.8K</PinComponentType>
+                    <ReferencedCavity>id_00029 Cavity Number: 1 Cavity Typ: AMP MCP2.8</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00032">
+                    <Identification>Pin Sachnummer 1241390-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00031">
+                        <Value>Stecker Modul 2 : 2</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_1241390-1_AMPMCP 2.8K</PinComponentType>
+                    <ReferencedCavity>id_00035 Cavity Number: 2 Cavity Typ: AMP MCP2.8</ReferencedCavity>
+                </PinComponent>
+            </HousingComponent>
+            <HousingComponent id="id_00039">
+                <CustomProperty xsi:type="vec:SimpleValueProperty" id="id_00038">
+                    <Value>TE_2470646-9_MQS_18WAY_2ROW_FEMALE_UNSEALED</Value>
+                </CustomProperty>
+                <Identification>TE_2470646-9_MQS_18WAY_2ROW_FEMALE_UNSEALED</Identification>
+                <Description xsi:type="vec:LocalizedTypedString" id="id_00037">
+                    <Value>Connector Sachnummer 2470646-9</Value>
+                </Description>
+                <PinComponent id="id_00041">
+                    <Identification>Pin Sachnummer 2141824-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00040">
+                        <Value>Stecker Modul 1 : 17</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_2141824-1_MQS_0,13</PinComponentType>
+                    <ReferencedCavity>id_00044 Cavity Number: 17 Cavity Typ: MQS</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00047">
+                    <Identification>Pin Sachnummer 5-928999-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00046">
+                        <Value>Stecker Modul 1 : 8 </Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_5-928999-1_MQS_0,35</PinComponentType>
+                    <ReferencedCavity>id_00050 Cavity Number: 8 Cavity Typ: MQS</ReferencedCavity>
+                </PinComponent>
+                <PinComponent id="id_00053">
+                    <Identification>Pin Sachnummer 5-928999-1</Identification>
+                    <Description xsi:type="vec:LocalizedTypedString" id="id_00052">
+                        <Value>Stecker Modul 1 : 9</Value>
+                        <Type>Pin Name</Type>
+                    </Description>
+                    <PinComponentType>TE_5-928999-1_MQS_0,35</PinComponentType>
+                    <ReferencedCavity>id_00056 Cavity Number: 9 Cavity Typ: MQS</ReferencedCavity>
+                </PinComponent>
+            </HousingComponent>
+        </Specification>
+    </DocumentVersion>
+    <PartVersion id="id_00058">
+        <CompanyName>EDAG GmbH</CompanyName>
+        <PartNumber>4</PartNumber>
+        <PrimaryPartType>EEComponent</PrimaryPartType>
+    </PartVersion>
+</vec:VecContent>
