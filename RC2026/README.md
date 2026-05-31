@@ -18,8 +18,9 @@ Dieses Repository dient als zentrale, transparente Plattform für alle **Challen
 ## 🎯 Challenge-Aufgabe 2026
 
 Die Aufgabenstellung war es, dass jedes Team eine **vollständig automatisierte Prozesskette** zur robotergestützten Herstellung eines **hybriden Leitungssatzmoduls** entwickelt.
-<img width="837" height="516" alt="image" src="https://github.com/user-attachments/assets/8c04eaf9-ffd2-405b-a181-fc9f5d11956a" />
-
+<p align="center">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/8c04eaf9-ffd2-405b-a181-fc9f5d11956a" />
+</p>
 
 **Inhalt des Moduls:**
 - Verschiedene Einzeladern
@@ -52,14 +53,16 @@ Die Aufgabe baut auf den vorherigen Challenges (2024/2025) auf und führt diese 
 
 Tabelle 1 Stückliste der Bauteile für den hybriden Leitungssatz
 
-<img width="839" height="572" alt="image" src="https://github.com/user-attachments/assets/7405bf69-9567-4ce5-a569-5779900197bf" />
-
+<p align="center">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/7405bf69-9567-4ce5-a569-5779900197bf" />
+</p>
 
 ## 🔍 Begleitforschungs- und Digitalisierungsmodul
 
 Parallel zur physischen Automatisierung untersuchte das Begleitforschungsmodul die **digitalen Grundlagen** einer zukünftigen durchgängig automatisierten Leitungssatzfertigung basierend auf digitalen Modelldaten.
-<img width="944" height="636" alt="image" src="https://github.com/user-attachments/assets/9f78d0df-cf37-4d50-8031-c7d069ae7734" />
-
+<p align="center">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/9f78d0df-cf37-4d50-8031-c7d069ae7734" />
+</p>
 
 ### Zentrale Forschungsziele
 
@@ -79,7 +82,6 @@ Parallel zur physischen Automatisierung untersuchte das Begleitforschungsmodul d
 ---
 ## 🤝 Beteiligte & Partner
 
-**Robotik-Teams:**
 - Bosch-Rexroth
 - THWS
 - TUM
@@ -89,7 +91,7 @@ Parallel zur physischen Automatisierung untersuchte das Begleitforschungsmodul d
 - EKS-Intec  
 - [Team NEXUS](https://github.com/ARENA2036/THLS-RoboticChallenge-2026-Nexus)
   
-**Digitalisierungsmodul:**  
+**Lieferanten der Engineering-Modelle:**  
 - [ASAP](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/ASAP)
 - [EDAG](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/EDAG)
 - [SmartCable](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/SmartCable)
