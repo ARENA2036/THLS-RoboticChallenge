@@ -40,9 +40,9 @@ Der Digitale Produktpass soll Transparenz, Rückverfolgbarkeit und Kreislauffäh
 
 **Geplante Deliverables:**
 - DPP-Datenmodell-Spezifikation (AAS Submodel Template für Leitungssätze)
-- [Referenzimplementierung zur automatischen Erzeugung](https://dpp-generator.arena2036.app/)
-- [Open-Source-Beiträge](https://github.com/ARENA2036/THLS-DPP-Generator)
-- [Ergebnisveröffentlichung](https://github.com/ARENA2036/THLS-RoboticChallenge/blob/main/RC2026/DPP/PCF-Berechnung_fuer_den_Leitungssatz-DPP.md)
+- Referenzimplementierung zur automatischen Erzeugung (https://dpp-generator.arena2036.app/)
+- Open-Source-Beiträge (https://github.com/ARENA2036/THLS-DPP-Generator)
+- [Untersuchung zur PCF-Berechnung](https://github.com/ARENA2036/THLS-RoboticChallenge/blob/main/RC2026/DPP/PCF-Berechnung_fuer_den_Leitungssatz-DPP.md)
 - Demonstrator am Innovationsforum Leitungssatz 2026
 ---
 
