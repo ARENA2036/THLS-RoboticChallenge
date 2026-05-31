@@ -40,9 +40,9 @@ EDAG liefert mit diesen Dateien eine umfassende digitale Grundlage für die teil
 
 ---
 
-**Weitere Informationen:**
-[Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)
-[ARENA2036](https://arena2036.de)
+**Weitere Informationen:**    
+[Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)    
+[ARENA2036](https://arena2036.de)    
 [EDAG Group](https://www.edag.com)
 
 ---
