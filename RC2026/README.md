@@ -95,7 +95,8 @@ Parallel zur physischen Automatisierung untersuchte das Begleitforschungsmodul d
 - [SmartCable](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/SmartCable)
 - [VOITAS Engineering](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/VOITAS)
 
-(weitere Partner werden laufend ergänzt)
+(weitere Partner werden ggf. laufend ergänzt)
+
 ---
 
 ## 🚀 Ziel des Repositories
