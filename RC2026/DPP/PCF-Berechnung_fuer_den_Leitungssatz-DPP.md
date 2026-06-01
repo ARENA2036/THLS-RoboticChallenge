@@ -3,32 +3,32 @@
 **Jann Warnecke**
 *Friedrich-Alexander-Universität*
 Nürnberg, Deutschland
-jann.warnecke@faps.fau.de
+(jann.warnecke@faps.fau.de)
 
 **Markus Rentschler**
 *ARENA2036 e.V.*
 Stuttgart, Deutschland
-markus.rentschler@arena2036.de
+(markus.rentschler@arena2036.de)
 
 **Yanni Sandro Astono**
 *Ludwig-Bölkow-Systemtechnik GmbH*
 Ottobrunn, Deutschland
-Yanni.Astono@LBST.de
+(Yanni.Astono@LBST.de)
 
 **Johannes Becker**
 *4Soft GmbH*
 München, Deutschland
-becker@4soft.de
+(becker@4soft.de)
 
 **Uwe Prüfer**
 *smartCable GmbH*
 Erlangen, Deutschland
-uwe.pruefer@smartcable.de
+(uwe.pruefer@smartcable.de)
 
 **Klaus Falkenberg**
 *SEI Automotive Europe GmbH*
 Wiesbaden, Deutschland
-Klaus.Falkenberg@sei-ae.com
+(Klaus.Falkenberg@sei-ae.com)
 
 ---
 
@@ -42,7 +42,7 @@ Diese Arbeit untersucht den aktuellen Stand standardisierter Methoden zur Erstel
 
 # 1. Einleitung
 
-Im Dezember 2025 erzielten EU-Rat und Europäisches Parlament eine vorläufige Einigung über die neue Altfahrzeug-Verordnung (ELV), die einen entscheidenden Schritt in Richtung einer zirkulären Automobilwirtschaft darstellt. Die Verordnung schreibt steigende Anteile von Recyclingkunststoffen in neuen Fahrzeugen vor: mindestens 15 % innerhalb von 6 Jahren nach Inkrafttreten, steigend auf 25 % innerhalb von 10 Jahren, wobei 20 % des Rezyklats aus dem Closed-Loop-Recycling stammen müssen (Materialien, die aus Altfahrzeugen zurückgewonnen wurden). (Rat der Europäischen Union 2025)
+Im Dezember 2025 erzielten EU-Rat und Europäisches Parlament eine vorläufige Einigung über die neue Altfahrzeug-Verordnung (ELV), die einen entscheidenden Schritt in Richtung einer zirkulären Automobilwirtschaft darstellt. Die Verordnung schreibt steigende Anteile von Recyclingkunststoffen in neuen Fahrzeugen vor: mindestens 15 % innerhalb von 6 Jahren nach Inkrafttreten, steigend auf 25 % innerhalb von 10 Jahren, wobei 20 % des Rezyklats aus dem Closed-Loop-Recycling stammen müssen (Materialien, die aus Altfahrzeugen zurückgewonnen wurden). \[1\]
 
 Um diese Ziele zu erreichen und zu messen, ist eine zentrale Innovation der verpflichtende **Kreislaufwirtschafts-Fahrzeugpass**. Dieser Digitale Produktpass (DPP) liefert detaillierte, aktuelle Daten zur Materialzusammensetzung, zu Rezyklat-Anteilen und zu genauen Demontageanweisungen und wirkt sich damit grundlegend darauf aus, wie Leitungssatzsysteme konstruiert, dokumentiert, demontiert und recycelt werden.
 
@@ -62,33 +62,33 @@ Der Rahmen dieser Arbeit ist auf den DPP während der Engineering- und Produktio
 
 # 2. Stand der Technik
 
-Dieser Abschnitt gibt einen Überblick über bestehende Standards, Datenmodelle und Rahmenwerke, die für die DPP-Erstellung und PCF-Berechnung bei automotiven Leitungssätzen relevant sind, und legt damit die Grundlage zur Beantwortung von **FF1**. Das Forschungsprojekt *DigiTain* (Digitalisierung für Nachhaltigkeit)[^1] entwickelte Prozesse, Methoden und Modelle für die vollständig digitale Produktentwicklung und Zertifizierung nachhaltiger elektrischer Antriebsarchitekturen. Ein zentrales Ziel von DigiTain war die Integration ökologischer und ökonomischer Nachhaltigkeitskriterien bereits in der frühen Entwicklungsphase. Dazu gehörte der Einsatz digitaler Technologien wie der Asset Administration Shell (AAS), Catena-X-Datenräumen und Digitalen Produktpässen (DPP), um einen nahtlosen Lebenszyklus-Datenaustausch, eine transparente PCF-Berechnung und Rückverfolgbarkeit entlang der automobilen Wertschöpfungskette zu ermöglichen. Die Konzepte wurden anhand eines Technologieträgers für elektrische Antriebskomponenten validiert (Haenel, Hedemann und Huschka 2026).
+Dieser Abschnitt gibt einen Überblick über bestehende Standards, Datenmodelle und Rahmenwerke, die für die DPP-Erstellung und PCF-Berechnung bei automotiven Leitungssätzen relevant sind, und legt damit die Grundlage zur Beantwortung von **FF1**. Das Forschungsprojekt *DigiTain* (Digitalisierung für Nachhaltigkeit)[^1] entwickelte Prozesse, Methoden und Modelle für die vollständig digitale Produktentwicklung und Zertifizierung nachhaltiger elektrischer Antriebsarchitekturen. Ein zentrales Ziel von DigiTain war die Integration ökologischer und ökonomischer Nachhaltigkeitskriterien bereits in der frühen Entwicklungsphase. Dazu gehörte der Einsatz digitaler Technologien wie der Asset Administration Shell (AAS), Catena-X-Datenräumen und Digitalen Produktpässen (DPP), um einen nahtlosen Lebenszyklus-Datenaustausch, eine transparente PCF-Berechnung und Rückverfolgbarkeit entlang der automobilen Wertschöpfungskette zu ermöglichen. Die Konzepte wurden anhand eines Technologieträgers für elektrische Antriebskomponenten validiert \[2\].
 
 ## 2.1 ISO 14067
 
-ISO 14067:2018 legt Grundsätze, Anforderungen und Richtlinien für die Quantifizierung und Berichterstattung des Carbon Footprints von Produkten, allgemein bekannt als Produkt-Carbon-Footprints (PCF), fest. Die Norm basiert auf dem Ökobilanz-Rahmenwerk der ISO 14040 und ISO 14044 und konzentriert sich ausschließlich auf die Wirkungskategorie Klimawandel, ausgedrückt in Kohlendioxidäquivalenten (CO₂eq). Ein PCF gemäß ISO 14067 erfordert eine Ziel- und Rahmendefinition, eine Sachbilanzanalyse (LCI), eine Wirkungsabschätzung (LCIA) und eine Interpretation der Ergebnisse. Die Norm ist nicht auf ein bestimmtes Produkt oder eine bestimmte Branche zugeschnitten, und die Ergebnisse hängen stark von den definierten Systemgrenzen, Modellierungsentscheidungen und Wirkungsabschätzungsmethoden ab. Dies schränkt die Vergleichbarkeit von PCF-Ergebnissen verschiedener Unternehmen ein.
+ISO 14067:2018 \[3\] legt Grundsätze, Anforderungen und Richtlinien für die Quantifizierung und Berichterstattung des Carbon Footprints von Produkten, allgemein bekannt als Produkt-Carbon-Footprints (PCF), fest. Die Norm basiert auf dem Ökobilanz-Rahmenwerk der ISO 14040 und ISO 14044 und konzentriert sich ausschließlich auf die Wirkungskategorie Klimawandel, ausgedrückt in Kohlendioxidäquivalenten (CO₂eq). Ein PCF gemäß ISO 14067 erfordert eine Ziel- und Rahmendefinition, eine Sachbilanzanalyse (LCI), eine Wirkungsabschätzung (LCIA) und eine Interpretation der Ergebnisse. Die Norm ist nicht auf ein bestimmtes Produkt oder eine bestimmte Branche zugeschnitten, und die Ergebnisse hängen stark von den definierten Systemgrenzen, Modellierungsentscheidungen und Wirkungsabschätzungsmethoden ab. Dies schränkt die Vergleichbarkeit von PCF-Ergebnissen verschiedener Unternehmen ein.
 
 ## 2.2 GHG-Protokoll
 
-Das GHG-Protokoll stellt einen internationalen Rahmen für die Quantifizierung und Verwaltung von Treibhausgasemissionen (THG) dar. Es wurde gemeinsam vom World Resources Institute (WRI) und dem World Business Council for Sustainable Development (WBCSD) entwickelt, um standardisierte Methoden bereitzustellen, die Transparenz, Konsistenz und Vergleichbarkeit von Emissionsdaten über Organisationen und Produkte hinweg gewährleisten. Das GHG-Protokoll bietet mehrere Standards, die sich hauptsächlich auf Corporate Carbon Footprints (CCF) konzentrieren. Innerhalb des CCF werden Emissionen in Scope 1 (direkte Emissionen), Scope 2 (indirekte Energieemissionen) und Scope 3 (Wertschöpfungskettenemissionen) eingeteilt. Neben CCF-Standards wird ein Produktlebenszyklus-Standard bereitgestellt, der eng mit ISO 14067 verwandt ist. Im Jahr 2025 kündigten ISO und GHG-Protokoll eine Partnerschaft zur Entwicklung einheitlicher globaler Standards für die THG-Emissionsbilanzierung an. Das PACT-Netzwerk stellt eine aktuelle Spezifikation des GHG-Datenaustauschprotokolls bereit.[^3]
+Das GHG-Protokoll stellt einen internationalen Rahmen für die Quantifizierung und Verwaltung von Treibhausgasemissionen (THG) dar \[4\].[^2] Es wurde gemeinsam vom World Resources Institute (WRI) und dem World Business Council for Sustainable Development (WBCSD) entwickelt, um standardisierte Methoden bereitzustellen, die Transparenz, Konsistenz und Vergleichbarkeit von Emissionsdaten über Organisationen und Produkte hinweg gewährleisten. Das GHG-Protokoll bietet mehrere Standards, die sich hauptsächlich auf Corporate Carbon Footprints (CCF) konzentrieren. Innerhalb des CCF werden Emissionen in Scope 1 (direkte Emissionen), Scope 2 (indirekte Energieemissionen) und Scope 3 (Wertschöpfungskettenemissionen) eingeteilt. Neben CCF-Standards wird ein Produktlebenszyklus-Standard bereitgestellt, der eng mit ISO 14067 verwandt ist. Im Jahr 2025 kündigten ISO und GHG-Protokoll eine Partnerschaft zur Entwicklung einheitlicher globaler Standards für die THG-Emissionsbilanzierung an \[5\]. Das PACT-Netzwerk stellt eine aktuelle Spezifikation des GHG-Datenaustauschprotokolls bereit.[^3]
 
 ## 2.3 LCA-Studie zu automotiven Leitungssätzen
 
-Der *Transformations-Hub Leitungssatz* veröffentlichte im April 2025 eine Studie mit dem vollständigen Titel *LCA-Studie zur Untersuchung der Umweltauswirkungen von Kfz-Leitungssätzen konventioneller und elektrischer Fahrzeuge*. Die Studie liefert eine vergleichende Cradle-to-Cradle-Ökobilanz von Teilleitungssätzen in konventionellen Verbrennungsfahrzeugen gegenüber batterieelektrischen Fahrzeugen, um Umweltauswirkungen zu quantifizieren, Hotspots zu identifizieren, Datenlücken aufzudecken und Hebel zur Wirkungsreduzierung abzuleiten (z. B. Materialoptimierung und Recycling). Sie unterstützt Nachhaltigkeit in der automobilen Lieferkette, Ökodesign, Closed-Loop-Recycling und EU-Vorschriften (z. B. bezüglich kritischer Rohstoffe).
+Der *Transformations-Hub Leitungssatz* veröffentlichte im April 2025 eine Studie mit dem vollständigen Titel *LCA-Studie zur Untersuchung der Umweltauswirkungen von Kfz-Leitungssätzen konventioneller und elektrischer Fahrzeuge* \[6\]. Die Studie liefert eine vergleichende Cradle-to-Cradle-Ökobilanz von Teilleitungssätzen in konventionellen Verbrennungsfahrzeugen gegenüber batterieelektrischen Fahrzeugen, um Umweltauswirkungen zu quantifizieren, Hotspots zu identifizieren, Datenlücken aufzudecken und Hebel zur Wirkungsreduzierung abzuleiten (z. B. Materialoptimierung und Recycling). Sie unterstützt Nachhaltigkeit in der automobilen Lieferkette, Ökodesign, Closed-Loop-Recycling und EU-Vorschriften (z. B. bezüglich kritischer Rohstoffe).
 
 ## 2.4 DIN DKE SPEC 99100
 
-DIN DKE SPEC 99100 (DIN und DKE 2025) definiert Datenattribute für den digitalen Batteriepass gemäß der EU-Batterieverordnung (Verordnung (EU) 2023/1542). Der Standard ist speziell auf Batterien zugeschnitten und kann nicht direkt auf Leitungssätze angewendet werden. Eine Anpassung als strukturelle Vorlage für andere Produktgruppen wie Elektronik, Fahrzeuge usw. ist jedoch vielversprechend. Der strukturierte Ansatz mit Pflicht- und Empfehlungsattributen, maschinenlesbarem Format, QR-Code-Verknüpfung usw. kann als Blaupause für einen Leitungssatzpass durch eine modulare Erweiterung dienen.
+DIN DKE SPEC 99100 \[7\] definiert Datenattribute für den digitalen Batteriepass gemäß der EU-Batterieverordnung (Verordnung (EU) 2023/1542). Der Standard ist speziell auf Batterien zugeschnitten und kann nicht direkt auf Leitungssätze angewendet werden. Eine Anpassung als strukturelle Vorlage für andere Produktgruppen wie Elektronik, Fahrzeuge usw. ist jedoch vielversprechend. Der strukturierte Ansatz mit Pflicht- und Empfehlungsattributen, maschinenlesbarem Format, QR-Code-Verknüpfung usw. kann als Blaupause für einen Leitungssatzpass durch eine modulare Erweiterung dienen.
 
 ## 2.5 Ontologien
 
-Forschungsgetriebene Ontologien für die Kreislaufwirtschaft (CEON)[^4] und DPP (DPPO)[^5] wurden definiert und als Open-Source veröffentlicht, um einen allgemeinen Rahmen für die Erstellung und den Austausch von Daten im Produktlebenszyklusmanagement bereitzustellen.
+Forschungsgetriebene Ontologien für die Kreislaufwirtschaft (CEON)[^4] \[8\] und DPP (DPPO)[^5] \[9\] wurden definiert und als Open-Source veröffentlicht, um einen allgemeinen Rahmen für die Erstellung und den Austausch von Daten im Produktlebenszyklusmanagement bereitzustellen.
 
 ## 2.6 Catena-X
 
-Das automotive Catena-X-Datenökosystem bietet eine kollaborative, souveräne Dateninfrastruktur für ein resilientes Lieferkettenmanagement. Es hat die PCF-Standardisierung in der Automobilindustrie durch sein PCF-Rulebook und das zugehörige semantische Datenmodell maßgeblich vorangetrieben.
+Das automotive Catena-X-Datenökosystem \[10\] bietet eine kollaborative, souveräne Dateninfrastruktur für ein resilientes Lieferkettenmanagement. Es hat die PCF-Standardisierung in der Automobilindustrie durch sein PCF-Rulebook \[11\] und das zugehörige semantische Datenmodell maßgeblich vorangetrieben.
 
-Das *„Product (Carbon) Footprint"*-Aspektmodell `(io.catenax.pcf/9.0.0)` ist eine SAMM-basierte[^6] Ontologie für den interoperablen, maschinenlesbaren Austausch von PCF-Daten entlang der Lieferkette. Es unterstützt den primärdatengetriebenen PCF-Austausch über Eclipse Dataspace Components (EDC), digitale Zwillinge und APIs und orientiert sich am Catena-X PCF-Rulebook. Das Rulebook definiert Berechnungsregeln, Datenqualitätsanforderungen, Allokationsmethoden und einen Cradle-to-Gate-Fokus, unter Einbeziehung von Standards wie ISO 14067 und dem GHG-Protokoll.
+Das *„Product (Carbon) Footprint"*-Aspektmodell `(io.catenax.pcf/9.0.0)` \[12\] ist eine SAMM-basierte[^6] Ontologie für den interoperablen, maschinenlesbaren Austausch von PCF-Daten entlang der Lieferkette. Es unterstützt den primärdatengetriebenen PCF-Austausch über Eclipse Dataspace Components (EDC), digitale Zwillinge und APIs und orientiert sich am Catena-X PCF-Rulebook. Das Rulebook definiert Berechnungsregeln, Datenqualitätsanforderungen, Allokationsmethoden und einen Cradle-to-Gate-Fokus, unter Einbeziehung von Standards wie ISO 14067 und dem GHG-Protokoll.
 
 Zu den wesentlichen Merkmalen gehören PCF-Werte in kg CO₂eq pro deklarierter Einheit, Produkt- und Unternehmensidentifikatoren, Rückverfolgbarkeitsinformationen, Stücklistenreferenzen und Unterstützung für mehrstufige Aggregation. Das Modell ist Teil des Catena-X Use Case PCF (CX-0136) und integriert sich in andere Aspektmodelle, einschließlich solcher für Digitale Produktpässe.
 
@@ -144,9 +144,9 @@ Mehrere AAS-Submodell-Vorlagen (SMTs) sind für Digitale Produktpässe im automo
 
 Die SMT-Reihe *IDTA-02035-x: Digital Battery Passport*[^8] definiert Datenstrukturen gemäß DIN DKE SPEC 99100 und der EU-Batterieverordnung (EU) 2023/1542. Sie umfasst sieben Teile, von denen viele für einen Leitungssatz-DPP angepasst werden können.
 
-Die SMT *IDTA-02023: Carbon Footprint* bietet ein standardisiertes, erweiterbares Modell für den Austausch anlagenbezogener Carbon-Footprint-Daten entlang von Wertschöpfungsketten. Es kombiniert eine generische übergeordnete Fußabdruckstruktur mit branchenspezifischen Berechnungsregeln und gewährleistet die Kompatibilität mit ISO 14067, ISO 14040/14044, dem GHG-Protokoll und den Catena-X PCF-Konventionen. Ein Berechnungsassistent für dieses Submodell wurde im BaSyx-Framework entwickelt.[^9]
+Die SMT *IDTA-02023: Carbon Footprint* \[13\] bietet ein standardisiertes, erweiterbares Modell für den Austausch anlagenbezogener Carbon-Footprint-Daten entlang von Wertschöpfungsketten. Es kombiniert eine generische übergeordnete Fußabdruckstruktur mit branchenspezifischen Berechnungsregeln und gewährleistet die Kompatibilität mit ISO 14067, ISO 14040/14044, dem GHG-Protokoll und den Catena-X PCF-Konventionen. Ein Berechnungsassistent für dieses Submodell wurde im BaSyx-Framework entwickelt.[^9]
 
-Die SMT *IDTA-02011: Hierarchical Structures enabling Bills of Material* definiert eine standardisierte Darstellung komplexer mehrstufiger Asset-Hierarchien und eignet sich damit besonders für die Modellierung der mehrstufigen Stückliste (BoM) und der verteilten Asset-Strukturen von Leitungssätzen.
+Die SMT *IDTA-02011: Hierarchical Structures enabling Bills of Material* \[14\] definiert eine standardisierte Darstellung komplexer mehrstufiger Asset-Hierarchien und eignet sich damit besonders für die Modellierung der mehrstufigen Stückliste (BoM) und der verteilten Asset-Strukturen von Leitungssätzen.
 
 ## 2.10 DIN 182xx
 
@@ -177,13 +177,13 @@ Die Leitungssatz-Lieferkette ist stark dezentralisiert, wobei die Beteiligten se
 
 ## 3.2 Materialeigenschaften in IMDS, KBL, VEC und AAS
 
-KBL und VEC bieten begrenzte Unterstützung für Materialeigenschaften, während IMDS häufig für die regulatorische Compliance (z. B. REACH, ELV) verwendet wird, obwohl es von den Standards nicht vorgeschrieben ist. Weder KBL noch VEC speichern nativ Informationen auf Stoffebene wie CAS-Nummern. Die IMDS-Integration in VEC kann erreicht werden, indem *referenceSystem* auf „https://public.mdsystem.com/" gesetzt und das Feld *key* für die IMDS-MDS-ID verwendet wird. Für reichhaltigere Materialdaten erlaubt VEC benutzerdefinierte Eigenschaften auf *GeneralTechnicalPartSpecification*. Ein verallgemeinertes AAS-Submodell basierend auf *IDTA-02035-6: Digital Battery Passport – Part 6: Material Composition* kann IMDS als Brücke nutzen, indem es die explizite Unterstützung für IMDS-Referenzen in KBL und VEC verwendet. Dieser Ansatz ermöglicht die semantische Ausrichtung über CAS-Nummern und Materialhierarchien bei minimalen benutzerdefinierten Erweiterungen. Allerdings führen inkonsistente Anwendungen von Standards (hauptsächlich VDA 231-106 und ISO 1043) in IMDS häufig zu semantischen Identifikationsproblemen, die bewältigt werden müssen.
+KBL und VEC bieten begrenzte Unterstützung für Materialeigenschaften, während IMDS häufig für die regulatorische Compliance (z. B. REACH, ELV) verwendet wird, obwohl es von den Standards nicht vorgeschrieben ist. Weder KBL noch VEC speichern nativ Informationen auf Stoffebene wie CAS-Nummern. Die IMDS-Integration in VEC kann erreicht werden, indem *referenceSystem* auf „https://public.mdsystem.com/" gesetzt und das Feld *key* für die IMDS-MDS-ID verwendet wird. Für reichhaltigere Materialdaten erlaubt VEC benutzerdefinierte Eigenschaften auf *GeneralTechnicalPartSpecification*. Ein verallgemeinertes AAS-Submodell basierend auf *IDTA-02035-6: Digital Battery Passport – Part 6: Material Composition* \[15\] kann IMDS als Brücke nutzen, indem es die explizite Unterstützung für IMDS-Referenzen in KBL und VEC verwendet. Dieser Ansatz ermöglicht die semantische Ausrichtung über CAS-Nummern und Materialhierarchien bei minimalen benutzerdefinierten Erweiterungen. Allerdings führen inkonsistente Anwendungen von Standards (hauptsächlich VDA 231-106 und ISO 1043) in IMDS häufig zu semantischen Identifikationsproblemen, die bewältigt werden müssen.
 
 ## 3.3 PCF-Berechnung
 
-Die PCF-Berechnung gemäß ISO 14067 umfasst mehrere methodische Entscheidungen, darunter die Definition der funktionellen Einheit, Systemgrenzen, Allokationsregeln und Wirkungsabschätzungsmethoden. Darüber hinaus werden die Ergebnisse von der Datenqualität und der Verwendung sekundärer Datensätze beeinflusst, was den Prozess komplex macht und ausgeprägte LCA-Expertise erfordert, insbesondere für kleinere Zulieferer.
+Die PCF-Berechnung gemäß ISO 14067 \[3\] umfasst mehrere methodische Entscheidungen, darunter die Definition der funktionellen Einheit, Systemgrenzen, Allokationsregeln und Wirkungsabschätzungsmethoden. Darüber hinaus werden die Ergebnisse von der Datenqualität und der Verwendung sekundärer Datensätze beeinflusst, was den Prozess komplex macht und ausgeprägte LCA-Expertise erfordert, insbesondere für kleinere Zulieferer.
 
-Um dem entgegenzuwirken, führt das Catena-X PCF-Rulebook branchenspezifische Berechnungsregeln ein, die den methodischen Spielraum reduzieren und die Vergleichbarkeit entlang automotiver Lieferketten verbessern. Ergänzende Mechanismen wie Primary Data Share (PDS), Data Quality Ratings (DQR) und Product Verification Share (PVS) erhöhen die Transparenz und das Vertrauen in die gemeldeten Ergebnisse bei gleichzeitiger Beibehaltung eines standardisierten Berechnungsansatzes.
+Um dem entgegenzuwirken, führt das Catena-X PCF-Rulebook branchenspezifische Berechnungsregeln ein, die den methodischen Spielraum reduzieren und die Vergleichbarkeit entlang automotiver Lieferketten verbessern. Ergänzende Mechanismen wie Primary Data Share (PDS), Data Quality Ratings (DQR) und Product Verification Share (PVS) erhöhen die Transparenz und das Vertrauen in die gemeldeten Ergebnisse bei gleichzeitiger Beibehaltung eines standardisierten Berechnungsansatzes. Der PVS wird gemäß dem PCF-Verifizierungsrahmen \[16\] ermittelt.
 
 ![PCF-Berechnungsbeispiel für den Crimpingprozess](https://github.com/user-attachments/assets/55e12e52-8621-4035-a5da-7d4222bfdd30)
 
@@ -195,9 +195,9 @@ $$PCF_i = \text{Aktivitätsdaten}_i \times \text{Emissionsfaktor}_i$$
 
 Im Catena-X-Ökosystem sind die Zulieferer der Produkte dafür verantwortlich, die jeweiligen PCF-Daten für die Berechnung bereitzustellen. In diesem Beispiel wird davon ausgegangen, dass die Zulieferer in wirtschaftlicher oder operativer Hinsicht für die ausgehende Logistik verantwortlich sind. Emissionen aus dem Transport des Kabels und des Terminals müssen in diesem Fall von den Zulieferern berücksichtigt werden. Der Emissionsfaktor für den Crimpingprozess wird in diesem Fall aus der Stromrechnung des Herstellers abgeleitet. Es ist zu beachten, dass die neueste Version des Catena-X PCF-Rulebooks vorschreibt, dass Infrastrukturemissionen aus der Stromerzeugung in die PCF-Berechnung einbezogen werden müssen. Sobald alle Eingaben berücksichtigt wurden, müssen die Emissionen aus den Ausgaben berechnet werden. Dieses Beispiel erzeugt keine direkten Emissionen, aber einen Materialfluss, der aus dem Schneiden des Kabelisoliermaterials resultiert. Die Behandlung dieses Isolationsabfalls führt zu THG-Emissionen, die dem Produktsystem zugerechnet werden müssen, das den Abfall erzeugt hat. Im Beispiel wird der Prozess der Verbrennung von Kunststoffabfällen ohne Energierückgewinnung angenommen und ein Emissionsfaktor aus einer Sekundärdatenbank verwendet.
 
-Dies ergibt einen Gesamt-PCF von 1,0055 kg CO₂eq für das produzierte gecrimpe Kabel. Der PCF des Crimpingprozesses einschließlich der Verbrennung des Isolationsabfalls beläuft sich auf 0,0005 kg CO₂eq, was nur 0,05 % des Gesamtergebnisses entspricht. Das Catena-X PCF-Rulebook erlaubt den Ausschluss von Emissionen, wenn ihre Summe weniger als 3 % des Gesamt-PCF ausmacht. Diese Cut-off-Regel kann auf eine Reihe von Prozessen bei der Herstellung von Leitungssätzen angewendet werden, da der Großteil der Emissionen in einem Leitungssatz-Lebenszyklus gemäß der LCA-Studie des Transformations-Hubs Leitungssatz während der Materialproduktion anfällt.
+Dies ergibt einen Gesamt-PCF von 1,0055 kg CO₂eq für das produzierte gecrimpe Kabel. Der PCF des Crimpingprozesses einschließlich der Verbrennung des Isolationsabfalls beläuft sich auf 0,0005 kg CO₂eq, was nur 0,05 % des Gesamtergebnisses entspricht. Das Catena-X PCF-Rulebook erlaubt den Ausschluss von Emissionen, wenn ihre Summe weniger als 3 % des Gesamt-PCF ausmacht \[11\]. Diese Cut-off-Regel kann auf eine Reihe von Prozessen bei der Herstellung von Leitungssätzen angewendet werden, da der Großteil der Emissionen in einem Leitungssatz-Lebenszyklus gemäß der LCA-Studie des Transformations-Hubs Leitungssatz während der Materialproduktion anfällt \[6\].
 
-Ein detaillierteres PCF-Berechnungsbeispiel gemäß dem Catena-X PCF-Rulebook einschließlich einer Screening-Analyse und der Anwendung des Cut-off-Ansatzes ist in der Catena-X PCF Academy verfügbar. Die Verarbeitung umfangreicherer Daten oder komplexer Berechnungen kann dedizierte PCF-Berechnungssoftware erfordern.
+Ein detaillierteres PCF-Berechnungsbeispiel gemäß dem Catena-X PCF-Rulebook einschließlich einer Screening-Analyse und der Anwendung des Cut-off-Ansatzes ist in der Catena-X PCF Academy verfügbar \[17\]. Die Verarbeitung umfangreicherer Daten oder komplexer Berechnungen kann dedizierte PCF-Berechnungssoftware erfordern \[18\].
 
 ## 3.4 PCF-Datenaustausch
 
@@ -209,7 +209,7 @@ Dieser Ansatz verteilt die Arbeitsbelastung theoretisch über die Lieferkette, w
 
 In der Praxis fehlt es vielen Tier-1- und niedrigeren Zulieferern noch an der Expertise, zuverlässige PCF-Daten zu generieren. Eine zentrale Aufgabe ist daher die systematische Erfassung standardisierter PCF-Datensätze von Komponentenherstellern. Diese müssen einen definierten Mindestumfang erfüllen und im JSON-Format gemäß dem Catena-X PCF-Submodell (Version 9.0.0) bereitgestellt werden.
 
-Tabelle 2 zeigt die relevanten Eigenschaften unter *productLifeCycleStagesandEmissions* – *productionStage* für das Kabel-Crimping-Beispiel. Die *distributionStage* und *packagingStage* folgen derselben Struktur. Alle Werte sind in kg CO₂eq pro deklarierter Einheit angegeben.
+Tabelle 2 zeigt die relevanten Eigenschaften unter *productLifeCycleStagesandEmissions* – *productionStage* für das Kabel-Crimping-Beispiel. Die *distributionStage* und *packagingStage* folgen derselben Struktur. Alle Werte sind in kg CO₂eq pro deklarierter Einheit angegeben. Weitere Details und optionale Parameter sind in der offiziellen HTML-Dokumentation des Submodells beschrieben \[12\]. Diese Beschreibungen sind jedoch oft zu technisch für Nicht-Experten, was die Notwendigkeit unterstreicht, die Benutzerfreundlichkeit zu verbessern.
 
 **Tabelle 2: Catena-X PCF-Submodell-Eigenschaften unter *productLifeCycleStagesandEmissions* – *productionStage* für das Kabel-Crimping-Beispiel**
 
@@ -240,13 +240,13 @@ Die Erstellung und kontinuierliche Aktualisierung eines DPP für Leitungssätze 
 
 ## 3.7 DPP während des Produktionsprozesses
 
-Die Erstellung und kontinuierliche Aktualisierung eines Digitalen Produktpasses (DPP) während der Produktion stellt vor allem bei stark manuellen Produkten wie Leitungssätzen vor mehrere Herausforderungen. Auch wenn die fortschreitende Modularisierung von Leitungssätzen darauf hindeutet, dass jeder Teilleitungssatz kleiner wird und damit die DPP-Berechnung einfacher, bleibt der Gesamtaufwand für das Gesamtprodukt hoch.
+Die Erstellung und kontinuierliche Aktualisierung eines Digitalen Produktpasses (DPP) während der Produktion stellt vor allem bei stark manuellen Produkten wie Leitungssätzen vor mehrere Herausforderungen. Auch wenn die fortschreitende Modularisierung von Leitungssätzen darauf hindeutet, dass jeder Teilleitungssatz kleiner wird \[19\] und damit die DPP-Berechnung einfacher, bleibt der Gesamtaufwand für das Gesamtprodukt hoch.
 
-Die **erste Herausforderung** ist die Echtzeit-Datenerfassung im Shopfloor. Die Leitungssatzproduktion umfasst zahlreiche manuelle und halbautomatisierte Schritte (Schneiden, Crimpen, Montage auf Formboards), die die Erfassung von Energieverbrauch, Materialeinsatz und Ausschussraten je Prozessschritt und deren Zuordnung zu einzelnen Produktinstanzen erfordern. Dedizierte Identifikations- und Rückverfolgungsmechanismen sind unerlässlich, um eine klare Verknüpfung zwischen dem physischen Produkt und seiner digitalen Repräsentation über die gesamte Produktionssequenz hinweg aufrechtzuerhalten.
+Die **erste Herausforderung** ist die Echtzeit-Datenerfassung im Shopfloor. Die Leitungssatzproduktion umfasst zahlreiche manuelle und halbautomatisierte Schritte (Schneiden, Crimpen, Montage auf Formboards), die die Erfassung von Energieverbrauch, Materialeinsatz und Ausschussraten je Prozessschritt und deren Zuordnung zu einzelnen Produktinstanzen erfordern \[20\]. Dedizierte Identifikations- und Rückverfolgungsmechanismen sind unerlässlich, um eine klare Verknüpfung zwischen dem physischen Produkt und seiner digitalen Repräsentation über die gesamte Produktionssequenz hinweg aufrechtzuerhalten \[21\].
 
-Die **zweite Herausforderung** ist die Festlegung der geeigneten Datengranularität. Ob der PCF auf Los-, Auftrags- oder Einzelstückebene berechnet wird, beeinflusst maßgeblich die erforderliche Messinfrastruktur und das Datenvolumen. Für viele kleine und mittelständische Unternehmen in der Leitungssatz-Lieferkette bleibt das Tracking auf Einzelstückebene aufgrund unzureichend digitalisierter Shopfloor-Systeme unpraktikabel. Dies wird durch fragmentierte und heterogene IT-Landschaften über ERP, PLM, MES und Qualitätsmanagementsysteme hinweg verschärft, denen häufig eine einzige Quelle der Wahrheit fehlt.
+Die **zweite Herausforderung** ist die Festlegung der geeigneten Datengranularität. Ob der PCF auf Los-, Auftrags- oder Einzelstückebene berechnet wird, beeinflusst maßgeblich die erforderliche Messinfrastruktur und das Datenvolumen. Für viele kleine und mittelständische Unternehmen in der Leitungssatz-Lieferkette bleibt das Tracking auf Einzelstückebene aufgrund unzureichend digitalisierter Shopfloor-Systeme unpraktikabel \[22\]. Dies wird durch fragmentierte und heterogene IT-Landschaften über ERP, PLM, MES und Qualitätsmanagementsysteme hinweg verschärft, denen häufig eine einzige Quelle der Wahrheit fehlt \[21\].
 
-Die **dritte Herausforderung** liegt in der schrittweisen Anreicherung des DPP. Anders als ein statisches Dokument muss der DPP progressiv aktualisiert werden, wenn das Produkt die aufeinanderfolgenden Produktionsstufen durchläuft. Dies erfordert robuste Aktualisierungsmechanismen, die Nacharbeit, Qualitätsabweichungen und Komponentensubstitutionen handhaben können, während die Datenkonsistenz gewahrt bleibt. Obwohl die AAS über modulare Submodelle ein standardisiertes Rahmenwerk bietet, bleibt ihre praktische Integration mit bestehenden Fertigungsleitsystemen eine erhebliche Engineering-Herausforderung, insbesondere für Unternehmen mit Legacy-Infrastruktur.
+Die **dritte Herausforderung** liegt in der schrittweisen Anreicherung des DPP. Anders als ein statisches Dokument muss der DPP progressiv aktualisiert werden, wenn das Produkt die aufeinanderfolgenden Produktionsstufen durchläuft. Insbesondere wenn lediglich geringfügige, marginale Änderungen am Produkt, wie z. B. von \[23\] vorgeschlagen, es notwendig machen, den Leitungssatz und seinen DPP wiederholt zu aktualisieren. Dies erfordert robuste Aktualisierungsmechanismen, die Nacharbeit, Qualitätsabweichungen und Komponentensubstitutionen handhaben können, während die Datenkonsistenz gewahrt bleibt. Obwohl die AAS über modulare Submodelle ein standardisiertes Rahmenwerk bietet \[24\], bleibt ihre praktische Integration mit bestehenden Fertigungsleitsystemen eine erhebliche Engineering-Herausforderung, insbesondere für Unternehmen mit Legacy-Infrastruktur \[20\].
 
 ## 3.8 Catena-X-Datenmodelle
 
@@ -262,7 +262,7 @@ Aufbauend auf der Analyse in Abschnitt 3 schlägt dieser Abschnitt konkrete Maß
 
 ## 4.1 Anpassung des Catena-X PCF-Aspektmodells in der AAS
 
-Das Catena-X PCF-Aspektmodell sollte als *SubmodelElementCollection* innerhalb von *ProductOrSectorSpecificRule* der SMT *IDTA-02023: Carbon Footprint* abgebildet werden.
+Das Catena-X PCF-Aspektmodell sollte als *SubmodelElementCollection* innerhalb von *ProductOrSectorSpecificRule* der SMT *IDTA-02023: Carbon Footprint* \[13\] abgebildet werden.
 
 Das Catena-X PCF-Aspektmodell (v4) sollte als *SubmodelElementCollection* innerhalb des *ProductOrSectorSpecificRule*-Elements der IDTA-02023 Carbon Footprint Submodel Template integriert werden. Ältere Catena-X-Versionen (v1–v3) gelten als veraltet. Ein neuer Eintrag für *Catena-X v4* (`urn:samm:io.catenax.pcf:9.0.0`) muss zur Werteliste *PcfCalculationMethod* hinzugefügt werden. Native Catena-X semanticIds werden gegenüber ECLASS-IRDIs stark bevorzugt, um externe Abhängigkeiten zu minimieren.
 
@@ -293,7 +293,7 @@ Da kein offizieller HTTP-Namespace für Catena-X SAMM-Modelle existiert, sollen 
 
 ## 4.2 Anpassung von AAS-Submodellen
 
-Aktuell existiert kein neutrales IDTA-Submodell für eine allgemeine Materialzusammensetzung. Die *IDTA-02035-6: Digital Battery Passport – Part 6: Material Composition* kann als geeignete Blaupause dienen und durch folgende Ersetzungen in ein neutrales *Product Material Composition*- oder *Asset Material Composition*-Submodell verallgemeinert werden:
+Aktuell existiert kein neutrales IDTA-Submodell für eine allgemeine Materialzusammensetzung. Die *IDTA-02035-6: Digital Battery Passport – Part 6: Material Composition* \[15\] kann als geeignete Blaupause dienen und durch folgende Ersetzungen in ein neutrales *Product Material Composition*- oder *Asset Material Composition*-Submodell verallgemeinert werden:
 
 - *Battery* → *Product* oder *Asset*
 - *batteryChemistry* → *materialChemistry*
@@ -305,9 +305,9 @@ Das resultierende Submodell ermöglicht die direkte Zuordnung von KBL/VEC- und I
 
 ## 4.3 Datenqualität
 
-Robuste Datenqualität und eindeutige semantische Identifikation sind für die Interoperabilität unerlässlich. Engineering-Werkzeuge sollten einen direkten IMDS-Import sowie eine proaktive, automatisierte Validierung aller semantischen Referenzen und Bezeichner von frühen Phasen des Produktlebenszyklus an implementieren. Vor der Freigabe eines KBL- oder VEC-Engineering-Modells sollten sofortiges Benutzerfeedback und kontextbezogene Hinweise für fehlende oder ungültige Referenzen bereitgestellt werden. Die VEC-Ontologie soll konsistent als primäres Referenzrahmenwerk verwendet werden. Wo keine web-auflösbaren Bezeichner existieren, werden folgende Standards empfohlen:
+Robuste Datenqualität und eindeutige semantische Identifikation sind für die Interoperabilität unerlässlich. Das Aufkommen KI-gesteuerter Multisensor-Qualitätsprüfung bietet vielversprechende neue Möglichkeiten zur Verfolgung von Qualitätsparametern, der Bedarf an hochwertigen Daten bleibt bestehen \[25\]. Engineering-Werkzeuge sollten einen direkten IMDS-Import sowie eine proaktive, automatisierte Validierung aller semantischen Referenzen und Bezeichner von den frühen Phasen des Produktlebenszyklus an implementieren. Vor der Freigabe eines KBL- oder VEC-Engineering-Modells sollten sofortiges Benutzerfeedback und kontextbezogene Hinweise für fehlende oder ungültige Referenzen bereitgestellt werden. Die VEC-Ontologie soll konsistent als primäres Referenzrahmenwerk verwendet werden. Wo keine web-auflösbaren Bezeichner existieren, werden folgende Standards empfohlen:
 
-- Leiter: IEC 61360-4
+- Elektrische Leiter: IEC 61360-4
 - Isolierung: ISO 1043 und ISO 6722
 
 ## 4.4 Handhabung der Datenkomplexität
@@ -320,7 +320,7 @@ Da vielen Tier-1- und niedrigeren Zulieferern die Expertise fehlt, PCF-Daten in 
 
 ## 4.6 Produktionsdatenerfassung
 
-Um Energieverbrauch, Materialeinsatz und Ausschussraten auf Prozessebene mit vertretbarem Aufwand zu erfassen, wird ein hybrider Ansatz empfohlen: Basislinienwerte auf Prozessebene werden während des Vorserien-Engineerings definiert. Selektive Echtzeitmessungen werden nur an kritischen oder hochwirksamen Prozessschritten durchgeführt und dazu verwendet, die Basisdaten kontinuierlich zu kalibrieren und zu verbessern. Diese stufenweise Methode balanciert die Genauigkeitsanforderungen für DPP und PCF mit der praktischen Umsetzbarkeit.
+Um Energieverbrauch, Materialeinsatz und Ausschussraten auf Prozessebene mit vertretbarem Aufwand zu erfassen, wird ein hybrider Ansatz empfohlen: Basislinienwerte auf Prozessebene werden während der Vorserien-Entwicklung definiert. Selektive Echtzeitmessungen in der Serienfertigung werden nur an kritischen oder hochwirksamen Prozessschritten durchgeführt und dazu verwendet, die Basisdaten kontinuierlich zu kalibrieren und zu verbessern. Diese stufenweise Methode balanciert die Genauigkeitsanforderungen für DPP und PCF mit der praktischen Umsetzbarkeit.
 
 ---
 
@@ -328,15 +328,15 @@ Um Energieverbrauch, Materialeinsatz und Ausschussraten auf Prozessebene mit ver
 
 Die Analyse des aktuellen Stands der Technik für die DPP-Erstellung in der Leitungssatzindustrie hat gezeigt, dass die primären Hindernisse für eine wirksame Implementierung *Datenqualität* und *Datenkomplexität* sind. Diese Herausforderungen resultieren aus fragmentierten Datenquellen, inkonsistenten Darstellungen entlang der Lieferkette und dem hohen technischen Detailgrad, der für umfassende DPPs erforderlich ist. Um diese Hindernisse zu überwinden und eine skalierbare DPP-Einführung zu ermöglichen, empfehlen wir folgende Schlüsselmaßnahmen:
 
-1. **Datenraum-Interoperabilität sicherstellen** von Leitungssatz-Artefakten durch das Vorschreiben webbasierter, global eindeutiger Objektbezeichner innerhalb von KBL- und VEC-Beschreibungen. Dies lässt sich am besten durch die direkte Integration von Engineering-Werkzeugen mit dem jeweiligen Datenraum erreichen.
+1. **Datenraum-Interoperabilität sicherstellen** durch die verpflichtende Verwendung webbasierter, global eindeutiger Objektbezeichner für Leitungssatz-Artefakte innerhalb von KBL- und VEC-Beschreibungen. Dies lässt sich am besten durch die direkte Integration der Engineering-Werkzeuge mit dem jeweiligen Datenraum erreichen.
 
-2. **Umfassende Werkzeugunterstützung bereitstellen** für die nahtlose Integration von IMDS, automatisierte Datenvalidierung und geführte Datenerfassung ab den frühesten Phasen des Produktlebenszyklus.
+2. **Umfassende Werkzeugunterstützung bereitstellen** durch die nahtlose Integration von IMDS, automatisierte Datenvalidierung und geführte Datenerfassung ab den frühesten Phasen des Produktlebenszyklus.
 
 3. **Catena-X PCF-Berechnungsstandard vereinfachen**, insbesondere hinsichtlich hochanspruchsvoller Attribute (z. B. Infrastrukturemissionen der Stromerzeugung), die viele Zulieferer unter den aktuellen Bedingungen realistischerweise nicht bereitstellen können.
 
-4. **Generalisierte SMTs entwickeln** für den Leitungssatz-DPP, aufbauend auf den bewährten Strukturen bestehender Batteriepass-SMTs.
+4. **Generalisierte SMTs entwickeln** für den Leitungssatz-DPP, z.B. aufbauend auf den bewährten Strukturen bestehender Batteriepass-SMTs.
 
-Im Rahmen der *Robotik Challenge 2026*[^11] wurde ein erster Demonstrator-Prototyp auf dem Mnestix-Open-Source-Framework[^12] entwickelt. Dieser Prototyp eines webbasierten DPP-Generators und -Viewers[^13] wird in nachfolgenden Projektphasen kontinuierlich erweitert und verfeinert.
+Im Rahmen der *Robotik Challenge 2026*[^11] wurde ein erster Demonstrator-Prototyp auf dem Mnestix-Open-Source-Framework[^12] entwickelt. Dieser Prototyp eines webbasierten DPP-Generators und -Viewers[^13] soll in nachfolgenden Projektphasen kontinuierlich erweitert und verfeinert werden.
 
 ---
 
@@ -348,55 +348,55 @@ Die Autoren danken dem *Bundesministerium für Wirtschaft und Energie* (BMWE) f�
 
 ## Literaturverzeichnis
 
-Blomqvist, Eva, Huanyu Li, Robin Keskisärkkä, Mikael Lindecrantz, Mina Abd Nikooie Pour, Ying Li, und Patrick Lambrix. 2023. „Cross-Domain Modelling – a Network of Core Ontologies for the Circular Economy." In *Proceedings of the 14th Workshop on Ontology Design and Patterns (WOP 2023)*. https://ceur-ws.org/Vol-3636/paper1.pdf
+\[1\] Rat der Europäischen Union. (2025, Dez.) Circular economy: Council and Parliament strike deal on rules for vehicle circularity and management of end-of-life vehicles. [Online]. Verfügbar: https://www.consilium.europa.eu/en/press/press-releases/2025/12/12/circular-economy-council-and-parliament-strike-deal-on-rules-for-vehicle-circularity-and-management-of-end-of-life-vehicles/
 
-„Catena-x Automotive Network." 2026. Catena-X Automotive Network e.V. https://catena-x.net/
+\[2\] F. Haenel, J. Hedemann und M. Huschka, „Digital product passports: Enabling sustainable decisions in early product development," ARENA2036 e.V., Stuttgart, Deutschland, Tech. Rep., März 2026, White Paper, Version v2, DigiTain-Forschungsprojekt (FKZ: 19S22006Z). [Online]. Verfügbar: https://arena2036.de/files/FinaleBilder/02_Projekte/DigiTain/20260327_digitain_whitepaper_v2_.pdf
 
-„Catena-x Automotive Network Certified PCF Calculation Apps Pitch Session." 2025. Catena-X Automotive Network e.V. https://catena-x.net/wp-content/uploads/2025/11/Catena-X-PCF-Calculation-APPs-Pitch-Session-v2.pdf
+\[3\] Internationale Organisation für Normung, *Greenhouse gases – Carbon footprint of products – Requirements and guidelines for quantification*, ISO Norm ISO 14067:2018, 2018. [Online]. Verfügbar: https://www.iso.org/standard/71206.html
 
-„Catena-x PCF Academy – 3. PCF Calculation." 2024. Catena-X Automotive Network e.V. https://catena-x.academy/index.php?gf-download=2024%2F11%2F2024-07-29_PCF-Calculation_V89428.pdf&form-id=1&field-id=5&hash=d235dd71bb2c49b8786bd13a5679be3b5017913726c541f1d0dc5904290d738a
+\[4\] Greenhouse Gas Protocol, „GHG Protocol – Greenhouse Gas Protocol," https://ghgprotocol.org/, 2025.
 
-„Catena-x Product Carbon Footprint Rulebook (CX-PCF Rules)." 2025. Catena-X Automotive Network e.V. https://catena-x.net/wp-content/uploads/2025/10/Catena-X-Product-Carbon-Footprint-Rulebook_v4-with-line-numbers.pdf
+\[5\] Internationale Organisation für Normung (ISO), „ISO and GHG Protocol announce strategic partnership to deliver unified global standards for greenhouse gas emissions accounting," https://www.iso.org/news/2025/09/iso-and-ghgp-partnership, 2025.
 
-Rat der Europäischen Union. 2025. „Circular Economy: Council and Parliament Strike Deal on Rules for Vehicle Circularity and Management of End-of-Life Vehicles." Dezember 2025. https://www.consilium.europa.eu/en/press/press-releases/2025/12/12/circular-economy-council-and-parliament-strike-deal-on-rules-for-vehicle-circularity-and-management-of-end-of-life-vehicles/
+\[6\] Transformations-Hub Leitungssatz, „LCA-Studie zur Untersuchung der Umweltauswirkungen von Kfz-Leitungssätzen konventioneller und elektrischer Fahrzeuge," Transformations-Hub Leitungssatz, Tech. Rep., Apr. 2025. [Online]. Verfügbar: https://www.leitungssatz-hub.de/wp-content/uploads/LCA_Studie_2025_04.pdf
 
-DIN und DKE. 2025. „DIN DKE SPEC 99100:2025-02 – Anforderungen an Datenattribute des Batteriepasses." Berlin, Deutschland: Beuth Verlag. https://www.dinmedia.de/de/umweltschutz/BVFR050
+\[7\] DIN und DKE, „DIN DKE SPEC 99100:2025-02 – Anforderungen an Datenattribute des Batteriepasses," Berlin, Deutschland, Feb. 2025. [Online]. Verfügbar: https://www.dinmedia.de/de/umweltschutz/BVFR050
 
-Eclipse Tractus-X. 2025. „Product Carbon Footprint (PCF) Semantic Data Model, Version 9.0.0." https://github.com/eclipse-tractusx/sldt-semantic-models/blob/main/io.catenax.pcf/9.0.0/gen/Pcf.html
+\[8\] E. Blomqvist, H. Li, R. Keskisärkkä, M. Lindecrantz, M. Abd Nikooie Pour, Y. Li und P. Lambrix, „Cross-domain modelling – a network of core ontologies for the circular economy," in *Proceedings of the 14th Workshop on Ontology Design and Patterns (WOP 2023)*, 2023. [Online]. Verfügbar: https://ceur-ws.org/Vol-3636/paper1.pdf
 
-Greenhouse Gas Protocol. 2025. „GHG Protocol – Greenhouse Gas Protocol." https://ghgprotocol.org/
+\[9\] M. Jansen, E. Blomqvist, R. Keskisärkkä, H. Li, M. Lindecrantz, K. Wannerberg, A. Pomp, T. Meisen und H. Berg, „Modelling digital product passports for the circular economy," in *KG4S 2024: The 2nd International Workshop on Knowledge Graphs for Sustainability*, 2024. [Online]. Verfügbar: https://ceur-ws.org/Vol-3753/paper2.pdf
 
-Haenel, Frauke, Jan Hedemann, und Martin Huschka. 2026. „Digital Product Passports: Enabling Sustainable Decisions in Early Product Development." Stuttgart, Deutschland: ARENA2036 e.V. https://arena2036.de/files/FinaleBilder/02_Projekte/DigiTain/20260327_digitain_whitepaper_v2_.pdf
+\[10\] „Catena-X Automotive Network," https://catena-x.net/, 2026.
 
-Hartmann, Annalena, Zetong Liu, Simon Lamprecht, Patrick Bründl, und Jörg Franke. 2026. „AI-Driven Multisensor Quality Inspection: A Focus on Robotic Wire Harness Assembly." In *Advances in Production Management Systems. Cyber-Physical-Human Production Systems: Human-AI Collaboration and Beyond*, herausgegeben von Hajime Mizuyama u. a., 349–63. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-03538-7_25
+\[11\] „Catena-X Product Carbon Footprint Rulebook (CX-PCF Rules)," Catena-X Automotive Network e.V., Tech. Rep., 2025, Version 4. [Online]. Verfügbar: https://catena-x.net/wp-content/uploads/2025/10/Catena-X-Product-Carbon-Footprint-Rulebook_v4-with-line-numbers.pdf
 
-IDTA. 2025. „IDTA 02035-6: Digital Battery Passport – Part 6: Material Composition." IDTA 02035-6. Industrial Digital Twin Association. https://github.com/admin-shell-io/submodel-templates/blob/main/published/Digital%20Battery%20Passport/6_Material%20Composition/1/0/IDTA%2002035-6_DBP-Part-6_MaterialComposition.pdf
+\[12\] Eclipse Tractus-X, „Product Carbon Footprint (PCF) Semantic Data Model, Version 9.0.0," 2025. [Online]. Verfügbar: https://github.com/eclipse-tractusx/sldt-semantic-models/blob/main/io.catenax.pcf/9.0.0/gen/Pcf.html
 
-„IDTA-02011-1-1 Submodel Template: Hierarchical Structures enabling Bills of Material." 2025. Spezifikation. Industrial Digital Twin Association. https://github.com/admin-shell-io/submodel-templates/blob/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/1/IDTA%2002011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf
+\[13\] „IDTA-02023-1-0 Submodel Template: Carbon Footprint," Industrial Digital Twin Association, Spezifikation IDTA-02023-1-0, Sep. 2024. [Online]. Verfügbar: https://github.com/admin-shell-io/submodel-templates/blob/main/published/Carbon%20Footprint/1/0/IDTA%2002023_Submodel_CarbonFootprint.pdf
 
-„IDTA-02023-1-0 Submodel Template: Carbon Footprint." 2024. Spezifikation. Industrial Digital Twin Association. https://github.com/admin-shell-io/submodel-templates/blob/main/published/Carbon%20Footprint/1/0/IDTA%2002023_Submodel_CarbonFootprint.pdf
+\[14\] „IDTA-02011-1-1 Submodel Template: Hierarchical Structures enabling Bills of Material," Industrial Digital Twin Association, Spezifikation IDTA-02011-1-1, Aug. 2025. [Online]. Verfügbar: https://github.com/admin-shell-io/submodel-templates/blob/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/1/IDTA%2002011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf
 
-Informatica. 2025. „Digital Product Passport & Battery Passport Implementation Guide." https://www.informatica.com/resources/articles/digital-product-passport-battery-passport-guide.html
+\[15\] IDTA, „IDTA 02035-6: Digital Battery Passport – Part 6: Material Composition," Industrial Digital Twin Association, Tech. Rep. IDTA 02035-6, 2025. [Online]. Verfügbar: https://github.com/admin-shell-io/submodel-templates/blob/main/published/Digital%20Battery%20Passport/6_Material%20Composition/1/0/IDTA%2002035-6_DBP-Part-6_MaterialComposition.pdf
 
-Internationale Organisation für Normung. 2018. *Greenhouse Gases – Carbon Footprint of Products – Requirements and Guidelines for Quantification*. Genf, Schweiz: ISO. https://www.iso.org/standard/71206.html
+\[16\] „PCF Verification and PCF Program Certification Framework," Catena-X Automotive Network und Together for Sustainability, Tech. Rep., 2025, Version 2. [Online]. Verfügbar: https://catena-x.net/wp-content/uploads/2025/11/PCF-verification-v2-with-line-numbers.pdf
 
-Internationale Organisation für Normung (ISO). 2025. „ISO and GHG Protocol Announce Strategic Partnership to Deliver Unified Global Standards for Greenhouse Gas Emissions Accounting." https://www.iso.org/news/2025/09/iso-and-ghgp-partnership
+\[17\] „Catena-X PCF Academy – 3. PCF Calculation," 2024. [Online]. Verfügbar: https://catena-x.academy/index.php?gf-download=2024%2F11%2F2024-07-29_PCF-Calculation_V89428.pdf&form-id=1&field-id=5&hash=d235dd71bb2c49b8786bd13a5679be3b5017913726c541f1d0dc5904290d738a
 
-Jansen, Maike, Eva Blomqvist, Robin Keskisärkkä, Huanyu Li, Mikael Lindecrantz, Karin Wannerberg, André Pomp, Tobias Meisen, und Holger Berg. 2024. „Modelling Digital Product Passports for the Circular Economy." In *KG4S 2024: The 2nd International Workshop on Knowledge Graphs for Sustainability*. https://ceur-ws.org/Vol-3753/paper2.pdf
+\[18\] „Catena-X Automotive Network Certified PCF Calculation Apps Pitch Session," 2025. [Online]. Verfügbar: https://catena-x.net/wp-content/uploads/2025/11/Catena-X-PCF-Calculation-APPs-Pitch-Session-v2.pdf
 
-Jansen, Maike, Tobias Meisen, Christiane Plociennik, Holger Berg, André Pomp, und Waldemar Windholz. 2023. „Stop Guessing in the Dark: Identified Requirements for Digital Product Passport Systems." *Systems* 11 (3): 123. https://doi.org/10.3390/systems11030123
+\[19\] J. Warnecke, S. Auchtor, P. Bründl und J. Franke, „Methods and Technologies for Modularising Wire Harness Designs in the Automotive Industry," in *Advances in Production Management Systems. Cyber-Physical-Human Production Systems: Human-AI Collaboration and Beyond*, H. Mizuyama u. a., Hrsg. Cham: Springer Nature Switzerland, 2026, S. 131–145. https://doi.org/10.1007/978-3-032-03538-7_10
 
-Lamprecht, S., A. Hartmann, D. Makwana, P. Bründl, und J. Franke. 2025. „A Novel Connector-and-Gripper Design for Precision Robotic Peg-in-Hole Operations in Automated Wire Harness Applications." In *2025 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)*, 0932–39. https://doi.org/10.1109/IEEM63636.2025.11357806
+\[20\] G. Schnauffer, D. Görzig, C. Kosel und J. Diemer, „Asset Administration Shell for the Wiring Harness System," in *Stuttgart Conference on Automotive Production (SCAP 2022)*, Reihe ARENA2036. Springer, 2022, S. 324–332. https://doi.org/10.1007/978-3-031-27933-1_30
 
-„PCF Verification and PCF Program Certification Framework." 2025. Catena-X Automotive Network; Together for Sustainability. https://catena-x.net/wp-content/uploads/2025/11/PCF-verification-v2-with-line-numbers.pdf
+\[21\] M. Jansen, T. Meisen, C. Plociennik, H. Berg, A. Pomp und W. Windholz, „Stop guessing in the dark: Identified requirements for digital product passport systems," *Systems*, Jg. 11, Nr. 3, S. 123, 2023. https://doi.org/10.3390/systems11030123
 
-Salinas Segura, Alexander, M. Angos Mediavilla, L. Braun, M. Freund, C. Kosel, und M. Rodriguez. 2024. „A Process Model for Deriving Asset Administration Shells for Inter-Company Collaboration – a Practical Approach." In *Springer Lecture Notes*. https://doi.org/10.1007/978-3-031-71142-8_16
+\[22\] Informatica. (2025) Digital product passport & battery passport implementation guide. [Online]. Verfügbar: https://www.informatica.com/resources/articles/digital-product-passport-battery-passport-guide.html
 
-Schnauffer, G., D. Görzig, C. Kosel, und J. Diemer. 2022. „Asset Administration Shell for the Wiring Harness System." In *Stuttgart Conference on Automotive Production (SCAP 2022)*, 324–32. Arena2036. Springer. https://doi.org/10.1007/978-3-031-27933-1_30
+\[23\] S. Lamprecht, A. Hartmann, D. Makwana, P. Bründl und J. Franke, „A novel connector-and-gripper design for precision robotic peg-in-hole operations in automated wire harness applications," in *2025 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)*, 2025, S. 0932–0939. https://doi.org/10.1109/IEEM63636.2025.11357806
 
-Transformations-Hub Leitungssatz. 2025. „LCA-Studie zur Untersuchung der Umweltauswirkungen von Kfz-Leitungssätzen konventioneller und elektrischer Fahrzeuge." Transformations-Hub Leitungssatz. https://www.leitungssatz-hub.de/wp-content/uploads/LCA_Studie_2025_04.pdf
+\[24\] A. Salinas Segura, M. Angos Mediavilla, L. Braun, M. Freund, C. Kosel und M. Rodriguez, „A process model for deriving asset administration shells for inter-company collaboration – a practical approach," in *Springer Lecture Notes*, 2024. https://doi.org/10.1007/978-3-031-71142-8_16
 
-Warnecke, Jann, Steffen Auchtor, Patrick Bründl, und Jörg Franke. 2026. „Methods and Technologies for Modularising Wire Harness Designs in the Automotive Industry." In *Advances in Production Management Systems. Cyber-Physical-Human Production Systems: Human-AI Collaboration and Beyond*, herausgegeben von Hajime Mizuyama u. a., 131–45. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-03538-7_10
+\[25\] A. Hartmann, Z. Liu, S. Lamprecht, P. Bründl und J. Franke, „AI-Driven Multisensor Quality Inspection: A Focus on Robotic Wire Harness Assembly," in *Advances in Production Management Systems. Cyber-Physical-Human Production Systems: Human-AI Collaboration and Beyond*, H. Mizuyama u. a., Hrsg. Cham: Springer Nature Switzerland, 2026, S. 349–363. https://doi.org/10.1007/978-3-032-03538-7_25
 
 ---
 
