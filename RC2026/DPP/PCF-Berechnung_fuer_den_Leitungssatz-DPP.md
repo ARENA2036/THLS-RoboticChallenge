@@ -233,7 +233,7 @@ Aufgrund der hohen Anzahl an Komponenten und der extremen Varianz bei automotive
 
 ## 3.5 DPP während des Engineerings
 
-In der Engineering-Phase müssen relevante Daten in den Engineering-Modellen und zugehörigen Systemen für die spätere Erstellung eines DPP im Produktionsprozess bereitgestellt werden. In der Praxis bestehen häufig Lücken, die KBL- und VEC-Engineering-Modelle weitgehend ungeeignet machen, um ordnungsgemäß in Datenraum-Umgebungen übertragen zu werden. Die Engineering-Werkzeuge und ihre Fähigkeiten sind in dieser Phase entscheidend, um eine ausreichende Datenqualität und die Anbindung an Datenräume wie Catena-X sicherzustellen.
+In der Engineering-Phase müssen relevante Daten in den Engineering-Modellen und zugehörigen Systemen für die spätere Erstellung eines DPP im Produktionsprozess bereitgestellt werden. In der Praxis bestehen häufig Lücken, die KBL- und VEC-Engineering-Modelle weitgehend unzureichend machen, um ordnungsgemäß in Datenraum-Umgebungen verwendet zu werden. Die Engineering-Werkzeuge und ihre Fähigkeiten sind in dieser Phase entscheidend, um eine ausreichende Datenqualität und die Anbindung an Datenräume wie Catena-X sicherzustellen.
 
 ## 3.6 DPP in der Lieferkette
 
@@ -306,7 +306,7 @@ Das resultierende Submodell ermöglicht die direkte Zuordnung von KBL/VEC- und I
 
 ## 4.3 Datenqualität
 
-Robuste Datenqualität und eindeutige semantische Identifikation sind für die Interoperabilität unerlässlich. Während der Aufstieg KI-gesteuerter Multisensor-Qualitätsprüfung vielversprechende neue Möglichkeiten zur Verfolgung von Qualitätsparametern bietet, bleibt der Bedarf an hochwertigen Daten bestehen [[25]](#ref-25). Engineering-Werkzeuge sollten einen direkten IMDS-Import sowie eine proaktive, automatisierte Validierung aller semantischen Referenzen und Bezeichner von frühen Phasen des Produktlebenszyklus an implementieren. Vor der Freigabe eines KBL- oder VEC-Engineering-Modells sollten sofortiges Benutzerfeedback und kontextbezogene Hinweise für fehlende oder ungültige Referenzen bereitgestellt werden. Die VEC-Ontologie soll konsistent als primäres Referenzrahmenwerk verwendet werden. Wo keine web-auflösbaren Bezeichner existieren, werden folgende Standards empfohlen:
+Robuste Datenqualität und eindeutige semantische Identifikation sind für die Interoperabilität unerlässlich. Das Aufkommen KI-gesteuerter Multisensor-Qualitätsprüfung bietet vielversprechende neue Möglichkeiten zur Verfolgung von Qualitätsparametern, während der Bedarf an hochwertigen Daten bestehen bleibt [[25]](#ref-25). Engineering-Werkzeuge sollten einen direkten IMDS-Import sowie eine proaktive, automatisierte Validierung aller semantischen Referenzen und Bezeichner schon in den frühen Phasen des Produktlebenszyklus implementieren. Vor der Freigabe eines KBL- oder VEC-Engineering-Modells sollten sofortiges Benutzerfeedback und kontextbezogene Hinweise für fehlende oder ungültige Referenzen bereitgestellt werden. Die VEC-Ontologie sollte konsistent als primäres Referenzrahmenwerk verwendet werden. Wo keine web-auflösbaren Bezeichner existieren, werden folgende Standards empfohlen:
 
 - Elektrische Leiter: IEC 61360-4
 - Isolierung: ISO 1043 und ISO 6722
@@ -341,7 +341,7 @@ Im Rahmen der *Robotik Challenge 2026*[^11] wurde ein erster Demonstrator-Protot
 
 ---
 
-# Danksagung
+## Danksagung
 
 Die Autoren danken dem *Bundesministerium für Wirtschaft und Energie* (BMWE) für die Unterstützung durch das Projekt „Transformationshub Leitungssatz" (Förderkennzeichen 16THB0003A). Darüber hinaus gilt der Dank den vielen aktiven Teilnehmern des Projekts und der Arbeitsgruppen der Plattform Industrie 4.0 und verwandter Initiativen.
 
