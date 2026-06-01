@@ -14,6 +14,26 @@ Dieses Repository dient als zentrale, transparente Plattform für alle **Challen
 **Finale Präsentation:** Innovationsforum Leitungssatz 2026 am 17.Juni 2026
 
 ---
+## 🤝 Beteiligte & Partner
+
+- Bosch-Rexroth
+- THWS
+- TUM
+- [Wemonte](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/WEMONTE)
+- Mowito
+- DreamMachines
+- EKS-Intec  
+- [Team NEXUS](https://github.com/ARENA2036/THLS-RoboticChallenge-2026-Nexus)
+  
+**Lieferanten der Engineering-Modelle:**  
+- [ASAP](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/ASAP)
+- [EDAG](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/EDAG)
+- [SmartCable](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/SmartCable)
+- [VOITAS Engineering](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/VOITAS)
+
+(weitere Partner werden ggf. laufend ergänzt)
+
+---
 
 ## 🎯 Challenge-Aufgabe 2026
 
@@ -78,26 +98,6 @@ Parallel zur physischen Automatisierung untersuchte das Begleitforschungsmodul d
 - Protokollierung der Fertigungsprozesse
 - Automatisierte Erzeugung eines Digitalen Produktpasses
 - Schnittstellen und Interoperabilität zwischen Engineering, Fertigung und Qualitätssicherung
-
----
-## 🤝 Beteiligte & Partner
-
-- Bosch-Rexroth
-- THWS
-- TUM
-- Wemonte
-- Mowito
-- DreamMachines
-- EKS-Intec  
-- [Team NEXUS](https://github.com/ARENA2036/THLS-RoboticChallenge-2026-Nexus)
-  
-**Lieferanten der Engineering-Modelle:**  
-- [ASAP](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/ASAP)
-- [EDAG](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/EDAG)
-- [SmartCable](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/SmartCable)
-- [VOITAS Engineering](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/VOITAS)
-
-(weitere Partner werden ggf. laufend ergänzt)
 
 ---
 
