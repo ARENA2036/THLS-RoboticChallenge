@@ -76,9 +76,6 @@ Die Arbeiten zeigen einen durchgängigen Ansatz zur automatisierten Leitungssatz
 
 ---
 
-**Teil des Transformations-Hub Leitungssatz**
-**ARENA2036** – Forschungscampus Stuttgart
-
 **Beteiligte Partner:**
 
 * Technische Hochschule Würzburg-Schweinfurt (THWS)
