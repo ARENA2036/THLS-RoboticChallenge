@@ -16,13 +16,13 @@ Dieses Repository dient als zentrale, transparente Plattform für alle **Challen
 ---
 ## 🤝 Beteiligte & Partner
 
-- Bosch-Rexroth
-- THWS
-- TUM
+- [Bosch-Rexroth](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/BOSCH)
+- [THWS](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/THWS)
+- [TUM](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/TUM)
 - [Wemonte](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/WEMONTE)
-- Mowito
-- DreamMachines
-- EKS-Intec  
+- [Mowito](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/MOWITO)
+- [DreamMachines](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/DREAM)
+- [EKS Intec](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/EKS-INTEC) 
 - [Team NEXUS](https://github.com/ARENA2036/THLS-RoboticChallenge-2026-Nexus)
   
 **Lieferanten der Engineering-Modelle:**  
