@@ -118,6 +118,7 @@ Der Demonstrator umfasst folgende **Prozessschritte**:
 |---|---|---|---|
 | **`README.md`** | Markdown | Diese Projektdokumentation | [Öffnen](README.md) |
 | **`mowito_Robotik_presentation.pdf`** | PDF | Präsentation mit Systemkonfiguration, Prozessschritten und Videos | [Öffnen](mowito_Robotik_presentation.pdf) |
+| **`Wire_harness_assembly_by_Mowito.pdf`** | PDF | Technische Lösungsbeschreibung: Hardware, NeuralGripper-Innovationen, Trainingsmethodik | [Öffnen](Wire_harness_assembly_by_Mowito.pdf) |
 
 ---
 
