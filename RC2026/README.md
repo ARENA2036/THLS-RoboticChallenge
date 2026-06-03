@@ -89,7 +89,7 @@ Parallel zur physischen Automatisierung untersuchte das Begleitforschungsmodul d
 1. **Förderung der Standardisierung** der branchenspezifischen Datenformate [**VEC**](https://ecad-wiki.prostep.org/specifications/vec/) und [**KBL**](https://ecad-wiki.prostep.org/specifications/kbl/)
 2. **Erarbeitung eines Konzepts** für Digitale Fertigungsaufträge im Datenformat **AAS** (Asset Administration Shell) unter Anwendung der PPR- und CSS-Methodik.
 3. [**Definition eines Digitalen Produktpasses (DPP)**](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/DPP) für den Leitungssatz
-4. [**PCF-Berechnung**](https://github.com/ARENA2036/THLS-RoboticChallenge/blob/main/RC2026/DPP/ETFA2026-0128__Digital_Product_Passport_for_the_Wiring_Harness.pdf) für den Leitungssatz
+4. [**PCF-Berechnung**](https://github.com/ARENA2036/THLS-RoboticChallenge/blob/main/RC2026/DPP/PCF-Berechnung_fuer_den_Leitungssatz-DPP.md) für den Leitungssatz
 
 ### Konkret untersuchte Themen
 
