@@ -17,7 +17,7 @@ Dieses Repository dient als zentrale, transparente Plattform für alle **Challen
 ## 🤝 Beteiligte & Partner
 
 - [Bosch-Rexroth](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/BOSCH)
-- [FAPS]((https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/FAPS)
+- [FAPS](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/FAPS)
 - [THWS](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/THWS)
 - [TUM](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/TUM)
 - [Wemonte](https://github.com/ARENA2036/THLS-RoboticChallenge/tree/main/RC2026/WEMONTE)
