@@ -60,14 +60,6 @@ Der Demonstrator umfasst folgende Prozessschritte:
 
 ---
 
-## Dateien
-
-| Datei           | Typ      | Beschreibung               | Link                |
-| --------------- | -------- | -------------------------- | ------------------- |
-| **`README.md`** | Markdown | Diese Projektdokumentation | [Öffnen](README.md) |
-
----
-
 **Weitere Informationen:**    
 [Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)     
 [ARENA2036](https://arena2036.de)     
