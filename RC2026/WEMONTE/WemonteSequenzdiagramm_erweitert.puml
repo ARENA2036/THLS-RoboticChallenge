@@ -1,0 +1,89 @@
+@startuml
+title Wemonte Robotik Challenge 2026 - Erweitertes Sequenzdiagramm
+
+autonumber
+actor "Bediener / Operator" as Op
+boundary "Zentraler PC / CPS" as PC
+entity "Marvelmind System\n(4x Beacons + Modem)" as MM
+entity "Boden-Arduino\n(Sender + nRF24)" as Sender
+database "Konfigurationsmatrix\n(KBL / Excel)" as DB
+entity "On-Board Arduino\n(Empfänger)" as Drohne
+control "Flugsteuerung\n(Drohnen-Akkus)" as Flight
+control "Servo\n(Greifer-PWM)" as Servo
+control "Schrittmotor\n(Linearachse)" as Motor
+
+== Phase 1: Inbetriebnahme & Kalibrierung ==
+
+Op -> Flight : Einschalten (Hauptakku)
+Flight -> Drohne : USB-Spannung EIN (On-Board Elektronik & mobiler Beacon)
+Op -> PC : Marvelmind-Modem & Boden-Arduino anschließen
+PC -> MM : Initialisiere serielle Schnittstelle
+MM -> MM : Kalibriere 3D-Raum über 4 stationäre Beacons
+PC -> DB : Lese Produktdaten (Variante 1/2/3 aus smartCable_LSRC3...)
+DB --> PC : Konfiguration geladen
+
+== Phase 2: Etappe 1 - Home & Anflug Zone 1 (Kabelstation) ==
+
+PC -> Flight : Startbefehl & Autonomer Steigflug
+loop Kontinuierliche Positionsüberwachung
+    MM -> PC : Sende aktuelle Position (X, Y, Z) in Echtzeit
+end
+
+PC -> Sender : Übermittle Rohdaten via SoftwareSerial (Pin 2)
+Sender -> Sender : Berechne gleitenden Mittelwert (numReadings = 10)
+
+alt Drohne erreicht Zone 1 (X: 1.4-1.5, Y: -2.6-2.5, Z: 0.9-1.1)
+    Sender -> Drohne : Funkbefehl "Befehl == 1" via nRF24L01 (Adresse: 00001)
+    Drohne -> Servo : write(GREIFER_OFFEN) [Winkel: 20°]
+    Drohne -> Motor : zurueckziehenBisEndstop() [ENABLE = LOW]
+    
+    note over Motor : Fährt zurück bis\nENDSTOP_PIN == LOW
+    
+    Motor --> Drohne : Endschalter ausgelöst
+    Drohne -> Motor : Motor stromlos schalten [ENABLE = HIGH]
+    Drohne --> Sender : Quittierung: Etappe 1 abgeschlossen
+end
+
+== Phase 3: Etappe 2 - Aufnahme & Fügeoperation Zone 2 ==
+
+PC -> Flight : Flug zu Zone 2 (Steckstation)
+note over PC, MM : Wegpunktregelung über Marvelmind-Koordinaten
+
+alt Drohne erreicht Zone 2 (X: -0.1-0.1, Y: -5.6--5.4, Z: 1.0-1.2)
+    Sender -> Drohne : Funkbefehl "Befehl == 2" via nRF24L01
+    
+    group Greifen mit Feedback-Schleife
+        Drohne -> Servo : schliesseGreiferMitFeedback(GREIFER_GESCHLOSSEN)
+        Servo -> Drohne : Analogwert einlesen (SERVO_FB_PIN / A1)
+        note over Drohne : Prüfe Blockade gegen Schwellenwert\n(Delta Schwellenwert = 4)
+    end
+    
+    Drohne -> Motor : ausfahren(1800 Schritte) [Füge Crimpkontakt in Gehäuse]
+    Drohne --> Sender : Quittierung: Etappe 2 abgeschlossen
+end
+
+== Phase 4: Etappe 3 - Nachjustierung & Weitertransport Zone 3 ==
+
+alt Drohne verbleibt in Zone 2 / Übergang zu Zone 3
+    Sender -> Drohne : Funkbefehl "Befehl == 3" via nRF24L01
+    
+    note over Drohne : Beginn der Nachfassbewegung\nzur Sicherung des Kontakts
+    
+    Drohne -> Motor : zurueckziehen(700 Schritte)
+    Drohne -> Servo : write(GREIFER_OFFEN) [Winkel: 20°]
+    Drohne -> Drohne : delay(800) [Warten auf Beruhigung]
+    Drohne -> Motor : ausfahren(700 Schritte)
+    Drohne -> Servo : write(GREIFER_GESCHLOSSEN_SANFT) [Winkel: 100°]
+    
+    PC -> Flight : Flug zu Zone 3 (Umgehäusestation: X: 3.0-3.3, Y: 1.4-1.7, Z: -1.7--1.5)
+    note over Drohne : Transport des bestückten Moduls
+end
+
+== Phase 5: Etappe 4 - Ablegen & Rückflug ==
+
+PC -> Flight : Landeanflug & Ablegen in Zone 3
+Sender -> Drohne : Funkbefehl "Befehl == 4" (oder Manueller Reset "9")
+Drohne -> Servo : write(GREIFER_OFFEN) [Bauteil freigeben]
+PC -> Flight : Autonomer Rückflug zur Basisstation (Zone 1)
+
+@endum
