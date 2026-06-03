@@ -185,6 +185,10 @@ with mandatory and recommended attributes, machine-readable format,
 QR-code linkage etc. can serve as a blueprint for a wiring harness
 passport by creating a modular extension rather.
 
+## IEC 61360-7
+
+The IEC 61360-7 data dictionary provides concepts intended for cross-domain use and has recently defined classes with properties for *Product Footprint* ([link](https://cdd.iec.ch/CDD/IEC61360-7/cdddev.nsf/Classes/0112-2---61360_7%23CAA101)) and *Carbon Footprint* ([link](https://cdd.iec.ch/CDD/IEC61360-7/cdddev.nsf/Classes/0112-2---61360_7%23CAA102)), based on the *WBCSD PACT Pathfinder Network – PCF Data Exchange – V1.0.0*.
+
 ## Ontologies
 
 Research-driven ontologies for circular ecomomy (CEON)[^4] (Blomqvist et
