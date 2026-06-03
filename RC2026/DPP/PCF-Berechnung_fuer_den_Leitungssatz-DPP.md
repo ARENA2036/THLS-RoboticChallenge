@@ -81,11 +81,15 @@ Der *Transformations-Hub Leitungssatz* veröffentlichte im April 2025 eine Studi
 
 DIN DKE SPEC 99100 [[7]](#ref-7) definiert Datenattribute für den digitalen Batteriepass gemäß der EU-Batterieverordnung (Verordnung (EU) 2023/1542). Der Standard ist speziell auf Batterien zugeschnitten und kann nicht direkt auf Leitungssätze angewendet werden. Eine Anpassung als strukturelle Vorlage für andere Produktgruppen wie Elektronik, Fahrzeuge usw. ist jedoch vielversprechend. Der strukturierte Ansatz mit Pflicht- und Empfehlungsattributen, maschinenlesbarem Format, QR-Code-Verknüpfung usw. kann als Blaupause für einen Leitungssatzpass durch eine modulare Erweiterung dienen.
 
-## 2.5 Ontologien
+## 2.5 IEC 61360-7
+
+Das IEC-61360-7-Datenwörterbuch ("Common Data Dictionary") stellt domänenübergreifende semantische Konzepte bereit und hat kürzlich Klassen mit Eigenschaften für den *Product Footprint* ([Link](https://cdd.iec.ch/CDD/IEC61360-7/cdddev.nsf/Classes/0112-2---61360_7%23CAA101)) sowie den *Carbon Footprint* ([Link](https://cdd.iec.ch/CDD/IEC61360-7/cdddev.nsf/Classes/0112-2---61360_7%23CAA102)) definiert. Diese basieren auf dem *WBCSD PACT Pathfinder Network – PCF Data Exchange – V1.0.0*.
+
+## 2.6 Ontologien
 
 Forschungsgetriebene Ontologien für die Kreislaufwirtschaft (CEON)[^4] [[8]](#ref-8) und DPP (DPPO)[^5] [[9]](#ref-9) wurden definiert und als Open-Source veröffentlicht, um einen allgemeinen Rahmen für die Erstellung und den Austausch von Daten im Produktlebenszyklusmanagement bereitzustellen.
 
-## 2.6 Catena-X
+## 2.7 Catena-X
 
 Das automotive Catena-X-Datenökosystem [[10]](#ref-10) bietet eine kollaborative, souveräne Dateninfrastruktur für ein resilientes Lieferkettenmanagement. Es hat die PCF-Standardisierung in der Automobilindustrie durch sein PCF-Rulebook [[11]](#ref-11) und das zugehörige semantische Datenmodell maßgeblich vorangetrieben.
 
@@ -93,7 +97,7 @@ Das *„Product (Carbon) Footprint"*-Aspektmodell `(io.catenax.pcf/9.0.0)` [[12]
 
 Zu den wesentlichen Merkmalen gehören PCF-Werte in kg CO₂eq pro deklarierter Einheit, Produkt- und Unternehmensidentifikatoren, Rückverfolgbarkeitsinformationen, Stücklistenreferenzen und Unterstützung für mehrstufige Aggregation. Das Modell ist Teil des Catena-X Use Case PCF (CX-0136) und integriert sich in andere Aspektmodelle, einschließlich solcher für Digitale Produktpässe.
 
-## 2.7 IMDS
+## 2.8 IMDS
 
 Das *International Material Data System* (IMDS) ist die weltweit etablierte Plattform zur Erfassung und zum Austausch von Materialzusammensetzungsdaten in der Automobilindustrie. Es dient als zentrale Datenbank zur Dokumentation der Material- und Stoffzusammensetzung von Bauteilen, Halbzeugen und Rohstoffen, um die Einhaltung von Vorschriften wie ELV, REACH und GADSL zu gewährleisten und Recyclingbewertungen zu unterstützen.
 
@@ -129,7 +133,7 @@ Für die bevorstehende EU-Altfahrzeug-Verordnung bietet IMDS eine solide Grundla
 
 Seit der Veröffentlichung von IMDS Version 15.0 können PCF-Daten direkt in Material- und Komponentendatensätzen gemäß Empfehlung 027 eingegeben werden, die am Catena-X PCF-Rulebook ausgerichtet ist. Dies ermöglicht eine konsistente Berichterstattung über produkt- und transportbezogene CO₂-Fußabdrücke in kg CO₂eq bei gleichzeitiger Wahrung der Datensouveränität. Es wird erwartet, dass IMDS das primäre System für Lieferanten-Materialdeklarationen bleibt, muss jedoch durch zusätzliche digitale Werkzeuge wie Catena-X und Digitale Produktpässe für vollständige Lebenszykltransparenz und künftige ESG/CSRD-Anforderungen ergänzt werden.
 
-## 2.8 KBL und VEC
+## 2.9 KBL und VEC
 
 KBL (*KAbelBaumListe*, VDA-4964) und VEC (*Vehicle Electric Container*, VDA-4968) sind Engineering-Datenstandards für automotive elektrische Systeme. Beide sind XML-basiert und unterstützen Erweiterungen über benutzerdefinierte Eigenschaften. Das VEC-Modell wird zudem als OWL2-Ontologie für Semantic-Web-Anwendungen veröffentlicht. Sie werden im Engineering-Prozess zur Beschreibung des Designs eines Leitungssatzes sowie im Fall des VEC für detaillierte technische Komponentendaten weitgehend eingesetzt. Aus PCF-Perspektive sind die wichtigsten Informationen, die sie liefern, die vollständige Stücklistenhierarchie des Leitungssatzes, die in klassischen PDM-Systemen aufgrund der Produktkomplexität oft fehlt. In begrenztem Umfang liefern sie auch die beteiligten Materialien und ihre Gewichte.
 
@@ -137,7 +141,7 @@ Die **KBL** ordnet Teile in einer hierarchischen Stückliste (Leitungssatz, Modu
 
 Der **VEC** bietet dieselben Möglichkeiten wie die KBL. Darüber hinaus ermöglicht er die gleichzeitige Referenzierung von Materialdefinitionen aus verschiedenen Referenzsystemen. Er verfügt auch über eine formal definierte und web-referenzierbare Ontologie[^7]. Außerdem erlaubt er die Spezifikation von Materialzusammensetzungen einschließlich Massenanteilen. Für die Identifizierung spezifischer Materialien und Stoffe definiert der VEC jedoch kein eigenes Referenzsystem, sondern stützt sich auf externe Standards.
 
-## 2.9 Asset Administration Shell (AAS)
+## 2.10 Asset Administration Shell (AAS)
 
 Die *Asset Administration Shell* (AAS) ist das zentrale standardisierte Rahmenwerk von Industrie 4.0 für die semantische Modellierung und den interoperablen Austausch von anlagenbezogenen Daten über den gesamten Lebenszyklus. Als Kernimplementierung des digitalen Zwillings bietet sie ein modulares, maschinenlesbares Informationsmodell bestehend aus Submodellen, die Eigenschaften, Fähigkeiten, Zustände, Dienste und Lebenszyklusinformationen physischer oder logischer Assets beschreiben. Ihre standardisierten Schnittstellen und Serialisierungsformate ermöglichen eine nahtlose Datenintegration und automatisierte Nutzung über heterogene Systeme und Organisationsgrenzen hinweg.
 
@@ -149,7 +153,7 @@ Die SMT *IDTA-02023: Carbon Footprint* [[13]](#ref-13) bietet ein standardisiert
 
 Die SMT *IDTA-02011: Hierarchical Structures enabling Bills of Material* [[14]](#ref-14) definiert eine standardisierte Darstellung komplexer mehrstufiger Asset-Hierarchien und eignet sich damit besonders für die Modellierung der mehrstufigen Stückliste (BoM) und der verteilten Asset-Strukturen von Leitungssätzen.
 
-## 2.10 DIN 182xx
+## 2.11 DIN 182xx
 
 Die kürzlich veröffentlichte DIN EN 182xx-Reihe ist eine Gruppe von Spezifikationen zur technischen Infrastruktur für DPPs, d. h. zur Datenhandhabung, -sicherheit und zum Zugang für, jedoch nicht zum eigentlichen Inhalt des digitalen Produktpasses, der aus produktspezifischen delegierten Rechtsakten stammt.
 
