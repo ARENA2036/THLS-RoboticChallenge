@@ -1,8 +1,8 @@
 # <img width="180" alt="mowito logo" src="https://cdn.prod.website-files.com/61b318e08b693e2bd64e9a90/65ded674eabb951dca601555_MW_LOGO_H_COLOR_NT.svg" />
 
-**mowito robotics** ist ein KI-Robotik-Startup mit Sitz in Indien, spezialisiert auf lernbasierte Robotersteuerung für industrielle Montageanwendungen.
-
-Das Unternehmen entwickelt **Mowito-NeuralStack**, ein multimodales KI-Modell (Physical AI), das Roboter durch menschliche Demonstration trainiert – ohne klassische Programmierung. Statt starrer Programme lernt das System aus Sensor-, Kamera- und Gelenkwinkeldaten und generalisiert auf veränderte Umgebungen und Produktpositionen. mowito überträgt diese Technologie auf die robotergestützte Leitungssatzmontage.
+**mowito** ist ein Physical-AI-Unternehmen für die Fertigungsindustrie, gegründet 2024, mit Sitz in Detroit. Das Unternehmen entwickelt KI-Software, die Industrieroboter befähigt, komplexe Montageaufgaben aus menschlichen Demonstrationen zu erlernen und mit produktionsreifer Präzision autonom auszuführen.
+ 
+Kern der Technologie ist ein proprietärer **Physical-AI-Stack**, der Imitation Learning, Reinforcement Learning, Computer Vision und Echtzeit-Robotersteuerung kombiniert. Statt monatelanger Roboterprogrammierung lernen Roboter direkt von erfahrenen Bedienern und passen sich kontinuierlich an reale Fabrikbedingungen an. mowito ist bereits auf sechs Live-Produktionslinien bei führenden Unternehmen im Einsatz – darunter Foxconn (Elektronikmontage) und Denso (Fortune-500-Automobilzulieferer). Das Unternehmen wird von führenden KI- und Robotikinvestoren unterstützt, darunter Soumith Chintala, CTO von Thinking Machines. Gründer Puru Rastogi und Safar vereinen über 17 Jahre kombinierte Erfahrung in Robotik und Industrieautomation; Mitgründer Adityanag Nagesh ist Serial Entrepreneur und baut mit mowito sein drittes Startup.
 
 **Website:** https://mowito.ai, https://www.youtube.com/@mowito7248
 
