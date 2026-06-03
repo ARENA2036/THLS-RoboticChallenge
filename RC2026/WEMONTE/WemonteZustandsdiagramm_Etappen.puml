@@ -1,0 +1,43 @@
+@startuml
+title Wemonte Drohnensteuerung - Zustandsdiagramm (Etappenlogik)
+
+[*] --> Init : Systemstart / Reset
+
+state Init {
+    [*] --> HardwareSetup
+    HardwareSetup --> RadioListening : nRF24 initialisiert
+}
+
+Init --> Etappe0_Bereit : Loop gestartet (aktuelleEtappe = 0)
+
+state Etappe0_Bereit {
+    [*] --> WartenAufBefehl1
+}
+
+Etappe0_Bereit --> Etappe1_Home : empfangenerBefehl == 1
+state Etappe1_Home {
+    [*] --> GreiferOeffnen
+    GreiferOeffnen --> AchseZurueckBisEndstop
+    AchseZurueckBisEndstop --> MotorAus
+}
+
+Etappe1_Home --> Etappe2_Greifen : empfangenerBefehl == 2
+state Etappe2_Greifen {
+    [*] --> GreiferSchliessenMitFeedback
+    GreiferSchliessenMitFeedback --> AchseAusfahren_1800_Schritte
+}
+
+Etappe2_Greifen --> Etappe3_Nachjustierung : empfangenerBefehl == 3
+state Etappe3_Nachjustierung {
+    [*] --> AchseZurueck_700
+    AchseZurueck_700 --> GreiferOeffnen_E3
+    GreiferOeffnen_E3 --> AchseAusfahren_700
+    AchseAusfahren_700 --> GreiferSchliessenSanft
+}
+
+Etappe3_Nachjustierung --> Etappe0_Bereit : empfangenerBefehl == 4 (Rückflug abgeschlossen)
+Etappe1_Home --> Etappe0_Bereit : empfangenerBefehl == 9 (Manueller Reset)
+Etappe2_Greifen --> Etappe0_Bereit : empfangenerBefehl == 9 (Manueller Reset)
+Etappe3_Nachjustierung --> Etappe0_Bereit : empfangenerBefehl == 9 (Manueller Reset)
+
+@endum
