@@ -35,7 +35,7 @@ Im Rahmen eines Proof-of-Concept wurde die vollständige Verarbeitung einer einz
 Zum Einsatz kommen **zwei Universal-Robots-Arme (Dual-Arm-System)** mit je einem NeuralGripper als Kernelement:
 
 * jeder NeuralGripper besteht aus 2 Fingern mit je 2 Freiheitsgraden (4 DOF gesamt)
-* an der Spitze jedes Fingers sitzt ein **GelSight-Taktilsensor** (Silikon-Membran mit eingebetteter Kamera; ~1.000 USD pro Paar)
+* an der Spitze jedes Fingers sitzt ein **GelSight-Taktilsensor** (Silikon-Membran mit eingebetteter Kamera
 * der linke Arm trägt zusätzlich das HellermannTyton-Kabelbindewerkzeug (permanent montiert)
 * stationäre Zweifingergreifer halten das Kabel in definierter Ausgangslage zur Aufnahme durch den NeuralGripper
 
@@ -69,12 +69,11 @@ Der Demonstrator umfasst folgende **Prozessschritte**:
 | KI-Steuerungszykluszeit | ~200 ms (Sensorfusion + Greiferbewegungsberechnung) |
 | Roboterarme | 2 (Dual-Arm, Universal Robots) |
 | Greifer | NeuralGripper (4-DOF, Eigenentwicklung) + statische 2-Finger-Greifer |
-| Taktilsensor | GelSight (~1.000 USD/Paar) |
+| Taktilsensor | GelSight |
 | Kamerasystem | 2× statische 2D-Kameras + taktile Kamera in jedem Greiferfinger |
 | Werkzeugwechsel | keiner (HellermannTyton-Kabelbindewerkzeug permanent montiert) |
 | Trainingsaufwand pro Aufgabe | 10–15 manuelle Demonstrationen |
-| Gesamtkosten Hardware + Software | **~120.000 €** (bei Produktion in Indien: ~80.000–90.000 € Hardware, ~30.000–35.000 € Software) |
-| Anlagen für 400.000 Stück/Jahr | ca. **3–4 Anlagen** |
+
 
 ---
 
