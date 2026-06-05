@@ -4,7 +4,7 @@
 
 Das Unternehmen entwickelt einen KI-basierten Ansatz zur Roboterautomatisierung, der auf Demonstration statt auf klassischer Programmierung basiert: Statt einen Roboter Schritt für Schritt zu programmieren, macht ein Bediener die gewünschte Aufgabe am realen Roboter vor. Ein vortrainiertes multimodales KI-Modell (basierend auf dem Open-Source-Modell **π0** / Pi Zero, vortrainiert auf ~25.000 Stunden Robotikdaten) erlernt daraus die Steuerungspolitik und führt die Aufgabe anschließend autonom aus. Das Ziel: Automatisierung, die von den Personen durchgeführt werden kann, die die Aufgabe bereits kennen – ohne Systemintegrator und ohne Programmierkenntnisse.
 
-**Website:** (in Aufbau)
+**Website:** https://dream-machines.eu/
 
 ---
 
