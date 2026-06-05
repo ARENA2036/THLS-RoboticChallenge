@@ -26,7 +26,7 @@ Der Demonstrator umfasst unter anderem:
 * **14-Gelenkwinkel-Fusion**: Modell verarbeitet simultane Kamerabilder und alle 14 aktuellen Gelenkwinkel als einzige Eingabe – keine Trajektorienplanung, keine Kraft-Sollwerte
 * **Kraftschätzung via Motorstrom**: Widerstand und Anpresskraft lassen sich über das Drehmoment-Strom-Verhältnis der Antriebe berechnen – ohne separaten Kraftsensor
 * **Vollständige Prozessaufzeichnung**: jede Bewegung ist kamerabasiert aufgezeichnet und nachvollziehbar; ein separates visuelles Inspektionsmodell kann parallel auf denselben Daten laufen
-* **3D-gedruckte Greifer**: anpassbar in ~10 Minuten CAD-Änderung + 1 Stunde Druckzeit; Materialkosten ca. 1 €
+* **3D-gedruckte Greifer**: anpassbar in ~10 Minuten CAD-Änderung + 1 Stunde Druckzeit; geringe Materialkosten
 
 **Dream Machines** präsentierte einen funktionsfähigen Demonstrator, der – nach ~100 Teleoperation-Demonstrationen und 6–12 Stunden GPU-Training – ein einzelnes vorkonfektioniertes Kabel autonom greift und beidseitig in die entsprechenden Steckverbinder einsteckt.
 
@@ -34,10 +34,9 @@ Im Rahmen des Proof-of-Concept wurde ein einzelnes Kabel verarbeitet: Das System
 
 Zum Einsatz kommen **zwei 6-DOF-Roboterarme** als Kernsystem:
 
-* Einkaufspreis ca. **7.000 € für beide Arme** (Produktionskosten ca. 3.000 €); perspektivisch weiter sinkend
 * aufgebaut auf einem Item-Aluminiumprofil-Tisch; mobil und rollbar
 * Greifer: stabil (nicht elastisch), 3D-gedruckt; optimiert für Kabelhandhabung und Steckgehäuse-Griff
-* lokale Inferenz über GPU (ca. **5.000 €**); alternativ cloudbasiert bei guter Netzwerkanbindung möglich (dann Gesamtstationskosten: ca. **7.000 €**); Gesamtkosten pro Station mit lokalem GPU: ca. **12.000 €**
+* lokale Inferenz über GPU; alternativ cloudbasiert bei guter Netzwerkanbindung möglich
 
 Das **KI-Modell (π0 / Pi Zero)** basiert auf einem Open-Source-Foundation-Modell:
 
@@ -71,8 +70,6 @@ Der Demonstrator umfasst folgende Prozessschritte:
 | Trainingsaufwand | ~100 Teleoperation-Demonstrationen; 6–12 h GPU-Training |
 | Kraftmessung | indirekt via Drehmoment-Strom-Verhältnis (kein separater Kraftsensor) |
 | Pull-Prüfung / Verrastungskontrolle | nicht implementiert |
-| Gesamtkosten pro Arbeitsstation | **~12.000 €** (7.000 € Arme + 5.000 € GPU); alternativ ~7.000 € bei Cloud-Inferenz |
-| Anlagen für 400.000 Stück/Jahr | nicht kalkuliert (Zykluszeit noch nicht serienreif) |
 
 ---
 
@@ -103,24 +100,17 @@ Der Demonstrator umfasst folgende Prozessschritte:
 
 | Komponente | Beschreibung |
 |---|---|
-| Roboterarme | 2× 6-DOF-Arme; Einkaufspreis ~7.000 € für beide |
+| Roboterarme | 2× 6-DOF-Arme |
 | KI-Modell | π0 (Pi Zero), Open-Source, vortrainiert auf ~25.000 h Robotikdaten |
 | Trainingsdaten | ~100 Teleoperation-Demonstrationen per Joystick |
 | Kameras | 3× (1 Übersicht + 2 handnah) |
-| Inferenz-Hardware | lokale GPU (~5.000 €) oder Cloud-basiert |
+| Inferenz-Hardware | lokale GPU oder Cloud-basiert |
 | Greifer | 3D-gedruckt, aufgabenspezifisch; Materialkosten ~1 €; Anpassung in ~1 h |
 | Aufbau | Item-Aluminiumprofil-Tisch; mobil, rollbar |
 | Datenaufnahme | Joystick-Teleoperation; Lernkurve ~15–20 min für neue Bediener |
 
 ---
 
-## Dateien
-
-| Datei | Typ | Beschreibung | Link |
-|---|---|---|---|
-| **`README.md`** | Markdown | Diese Projektdokumentation | [Öffnen](README.md) |
-
----
 
 **Weitere Informationen:**  
 [Transformations-Hub Leitungssatz](https://www.leitungssatz-hub.de)  
