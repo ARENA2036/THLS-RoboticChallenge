@@ -91,9 +91,6 @@ Der Demonstrator umfasst folgende **Prozessschritte**:
 | Werkzeugwechsel | keiner |
 | Druckluft | keine |
 | Spannungsversorgung | 220 V |
-| Hardwarekosten | **58.300 € VK** (ctrlX CORE+IPC 3.700 € + KR1205 31.500 € + Schunk EGK 3.100 € + Aluprofile 3.000 € + Cambrian 17.000 €) |
-| Betriebskosten/Jahr | **~10.000 €** (verschlissene Teile, Strom) |
-| Investitionskosten Gesamtanlage | **~100.000 €** (60.000 € Hardware + 40.000 € Inbetriebnahme & Software) |
 | KI-Onboarding-Ziel (neue Variante) | **< 1 Woche** |
 
 ---
