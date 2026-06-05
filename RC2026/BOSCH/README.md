@@ -137,15 +137,15 @@ Das Herzstück des Bosch-Rexroth-Beitrags ist eine **LLM-fähige Automatisierung
 
 ## Verwendete Komponenten (Auswahl)
 
-| Komponente | Hersteller | Beschreibung | VK-Preis |
-|---|---|---|---|
-| KR1205 | Kassow Robots / Bosch Rexroth | 7-Achsen-Kollaborativroboter, 120 cm, 5 kg | 31.500 € |
-| ctrlX CORE X5/X7 + IPC | Bosch Rexroth | Industrial OS, Echtzeit-Linux, offenes App-Ökosystem | 3.700 € |
-| Schunk EGK | Schunk | Standard-Zweifingergreifer, 3D-gedruckte Backen (gummiert) | 3.100 € |
-| Cambrian Vision System | Cambrian | Kameramodul + CAD-basierte 6D-Pose-Erkennung, < 1 s | 17.000 € |
-| Aluprofile + Verkleidung | Item | Transportabler Zellenaufbau | 3.000 € |
-| Trichtervorrichtung | Eigenentwicklung | Funnel-Align-Insert für Twisted-Pair; Schutzanmeldung eingereicht | – |
-| LLM-Integrationsschicht | Eigenentwicklung | Skills + Flows + CLIs; NDJSON Session-Recordings | – |
+| Komponente | Hersteller | Beschreibung |
+|---|---|---|
+| KR1205 | Kassow Robots / Bosch Rexroth | 7-Achsen-Kollaborativroboter, 120 cm, 5 kg |
+| ctrlX CORE X5/X7 + IPC | Bosch Rexroth | Industrial OS, Echtzeit-Linux, offenes App-Ökosystem  |
+| Schunk EGK | Schunk | Standard-Zweifingergreifer, 3D-gedruckte Backen (gummiert)  |
+| Cambrian Vision System | Cambrian | Kameramodul + CAD-basierte 6D-Pose-Erkennung, < 1 s  |
+| Aluprofile + Verkleidung | Item | Transportabler Zellenaufbau |
+| Trichtervorrichtung | Eigenentwicklung | Funnel-Align-Insert für Twisted-Pair; Schutzanmeldung eingereicht  |
+| LLM-Integrationsschicht | Eigenentwicklung | Skills + Flows + CLIs; NDJSON Session-Recordings  |
 
 ---
 
