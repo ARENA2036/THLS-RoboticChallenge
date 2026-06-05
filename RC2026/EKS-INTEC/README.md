@@ -106,10 +106,6 @@ Der Demonstrator umfasst folgende **Prozessschritte** (Zeitangaben aus dem Taktz
 | QR-Code-Verifikation | je Stecker vor Einlegen in Formnest |
 | Sekundärverriegelungen | automatisch nach Kabeln 1+2, 3+4 und 5 (3× im Zyklus) |
 | Werker-Entkopplungszeit | ~45 Minuten (Entnahmeband Station 060) |
-| Investitionskosten (1 Zelle) | **875.000 €** (inkl. Engineering & Dienstleistungen) |
-| davon Hardwarekosten (Großkaufteile) | ca. **418.000 €** (davon ~80 % wiederverwertbar bei Produktwechsel) |
-| Anlagen für 400.000 Stück/Jahr | ca. **4 Zellen** |
-| Technische Verfügbarkeit (Ziel) | ~100 % (Hauptfehlerquelle: Werker) |
 
 ---
 
@@ -125,14 +121,6 @@ EKS InTec legte besonderen Fokus auf die durchgängige Digitalisierung des Engin
 * **Metaverse-Integration** via Nvidia Omniverse (kollaborative Live-Kopplung möglich)
 * **Prozessanalyse & DPP-Export** in AutomationML-Format für nachgelagerte Nutzung
 
----
-
-## Dateien
-
-| Datei | Typ | Beschreibung | Link |
-|---|---|---|---|
-| **`README.md`** | Markdown | Diese Projektdokumentation | [Öffnen](README.md) |
-| **`20260416_Taktzeitdiagramm.pdf`** | PDF | Taktzeitdiagramm ST50 – Zyklus 185 s, alle Ressourcen und Prozessschritte | [Öffnen](20260416_Taktzeitdiagramm.pdf) |
 
 ---
 
