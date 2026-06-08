@@ -15,7 +15,8 @@ Ziel der Challenge ist die Entwicklung innovativer, robotergestützter Lösungen
 
 **EKS InTec** verfolgt einen industriell erprobten, volldigitalen Ansatz: Statt eines reinen Demonstrations-Setups wurde die Zelle behandelt wie ein reales Kundenprojekt – inklusive Taktzeit-Analyse, Sicherheitskonzept, CE-Zertifizierungsplanung, Kostenkalkulation und virtueller Inbetriebnahme. Als Kalkulationsrahmen wurde der Mutterkonzern FFT als fiktiver Auftraggeber und Anlagenbauer gesetzt.
 
-<!-- Bild Gesamtanlage hier einfügen -->
+<img width="3665" height="1832" alt="image" src="https://github.com/user-attachments/assets/a30efc96-d867-497e-900f-cae72099143f" />
+
 
 Der Demonstrator basiert auf einer umhausten, vollautomatisierten Roboterzelle mit drei kollaborierenden Robotern, einem 180°-Drehtisch und kameragestützter Positionserkennung. Über Stauförderanlagen werden Stecker und Kabel zugeführt; ein Werker befüllt die Anlage in entkoppelten Zeitfenstern.
 
