@@ -1,13 +1,4 @@
 {
-  "$schema": "https://admin-shell.io/aas/3/0/AasxEnvironment",
-  "_comment": "Digital Manufacturing Order AAS – RC2026 NEXUS Reference Scenario",
-  "_smts": {
-    "IDTA-02006": "Digital Nameplate (Product Identity – PPR:P)",
-    "IDTA-02011": "Hierarchical Structures / BOM (Product Composition – PPR:P)",
-    "IDTA-02020": "Capability Description (Resource Modelling – PPR:R)",
-    "IDTA-02031-1": "Process Parameters Type (Bill of Process – PPR:P+R)"
-  },
-
   "assetAdministrationShells": [
     {
       "idShort": "ManufacturingOrder",
