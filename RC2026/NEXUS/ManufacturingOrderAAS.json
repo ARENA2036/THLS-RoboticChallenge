@@ -1,0 +1,858 @@
+{
+  "$schema": "https://admin-shell.io/aas/3/0/AasxEnvironment",
+  "_comment": "Digital Manufacturing Order AAS – RC2026 NEXUS Reference Scenario",
+  "_smts": {
+    "IDTA-02006": "Digital Nameplate (Product Identity – PPR:P)",
+    "IDTA-02011": "Hierarchical Structures / BOM (Product Composition – PPR:P)",
+    "IDTA-02020": "Capability Description (Resource Modelling – PPR:R)",
+    "IDTA-02031-1": "Process Parameters Type (Bill of Process – PPR:P+R)"
+  },
+
+  "assetAdministrationShells": [
+    {
+      "idShort": "ManufacturingOrder",
+      "modelType": "AssetAdministrationShell",
+      "id": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/shell",
+      "assetInformation": {
+        "assetKind": "Instance",
+        "globalAssetId": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001",
+        "specificAssetIds": [
+          {
+            "name": "HarnessPartNumber",
+            "value": "WH-SIMPLE-001",
+            "externalSubjectId": {
+              "type": "ExternalReference",
+              "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:harness:WH-SIMPLE-001:simple_harness" }]
+            }
+          },
+          {
+            "name": "OrderNumber",
+            "value": "MO-2026-001"
+          }
+        ]
+      },
+      "submodels": [
+        { "type": "ModelReference", "keys": [{ "type": "Submodel", "value": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/DigitalNameplate" }] },
+        { "type": "ModelReference", "keys": [{ "type": "Submodel", "value": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/HierarchicalBOM" }] },
+        { "type": "ModelReference", "keys": [{ "type": "Submodel", "value": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/CapabilityDescription" }] },
+        { "type": "ModelReference", "keys": [{ "type": "Submodel", "value": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/ProcessParameters" }] }
+      ]
+    }
+  ],
+
+  "submodels": [
+
+    {
+      "_ppr": "P – Product Identity",
+      "idShort": "Nameplate",
+      "modelType": "Submodel",
+      "id": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/DigitalNameplate",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/nameplate/3/0/Nameplate" }]
+      },
+      "description": [{ "language": "en", "text": "IDTA 02006-3-0 – Digital Nameplate. Identifies the manufacturing order asset and the wire harness being produced." }],
+      "submodelElements": [
+        {
+          "idShort": "ManufacturerName",
+          "modelType": "Property",
+          "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "0112/2///61987#ABA565#009" }] },
+          "description": [{ "language": "en", "text": "Legal name of the Tier-1 assembler issuing this manufacturing order." }],
+          "value": "NEXUS",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "ManufacturerProductDesignation",
+          "modelType": "Property",
+          "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "0112/2///61987#ABA567#009" }] },
+          "description": [{ "language": "en", "text": "Human-readable designation of the product being assembled in this order." }],
+          "value": "Simple 2-connector wire harness – 2 wires (FLRY-0.5-RD, FLRY-0.5-BK)",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "ProductArticleNumberOfManufacturer",
+          "modelType": "Property",
+          "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "0112/2///61987#ABA581#007" }] },
+          "description": [{ "language": "en", "text": "Tier-1 internal part number of the target harness assembly." }],
+          "value": "WH-SIMPLE-001",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "ManufacturerProductFamily",
+          "modelType": "Property",
+          "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "0112/2///61987#ABP464#002" }] },
+          "description": [{ "language": "en", "text": "Product family classification within the manufacturer portfolio." }],
+          "value": "WireHarness",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "ManufacturingOrderId",
+          "modelType": "Property",
+          "description": [{ "language": "en", "text": "Unique identifier of this manufacturing order instance." }],
+          "value": "MO-2026-001",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "OrderStatus",
+          "modelType": "Property",
+          "description": [{ "language": "en", "text": "Current lifecycle status of the manufacturing order. Values: PLANNED | IN_PROGRESS | COMPLETED | REJECTED." }],
+          "value": "PLANNED",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "DateOfIssue",
+          "modelType": "Property",
+          "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "0112/2///61987#ABB757#007" }] },
+          "description": [{ "language": "en", "text": "ISO-8601 timestamp when this manufacturing order was issued." }],
+          "value": "2026-06-08T00:00:00Z",
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "HarnessAASReference",
+          "modelType": "ReferenceElement",
+          "description": [{ "language": "en", "text": "Cross-AAS reference to the Product-AAS (wire_harness_aas) that defines the harness being produced." }],
+          "value": {
+            "type": "ExternalReference",
+            "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:harness:WH-SIMPLE-001:simple_harness/shell" }]
+          }
+        },
+        {
+          "idShort": "BoardLayoutAASReference",
+          "modelType": "ReferenceElement",
+          "description": [{ "language": "en", "text": "Cross-AAS reference to the Resource-AAS (assembly_board_layout_aas) that defines the physical assembly board." }],
+          "value": {
+            "type": "ExternalReference",
+            "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:layout:simple_harness/shell" }]
+          }
+        }
+      ]
+    },
+
+    {
+      "_ppr": "P – Product Composition (BOM)",
+      "idShort": "HierarchicalStructures",
+      "modelType": "Submodel",
+      "id": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/HierarchicalBOM",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel" }]
+      },
+      "description": [{ "language": "en", "text": "IDTA 02011-1-1 – Hierarchical Structures. BOM of the manufacturing order: the exact component set to be assembled, with quantities and cross-references to supplier component AAS." }],
+      "submodelElements": [
+        {
+          "idShort": "EntryNode",
+          "modelType": "SubmodelElementCollection",
+          "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0" }] },
+          "description": [{ "language": "en", "text": "Root BOM node representing the complete wire harness assembly WH-SIMPLE-001." }],
+          "value": [
+            {
+              "idShort": "HarnessId",
+              "modelType": "Property",
+              "description": [{ "language": "en", "text": "Unique identifier of the harness asset being assembled." }],
+              "value": "simple_harness",
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "PartNumber",
+              "modelType": "Property",
+              "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:PartNumber" }] },
+              "value": "WH-SIMPLE-001",
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "ArcheType",
+              "modelType": "Property",
+              "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/ArcheType/1/0" }] },
+              "value": "Full",
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Children",
+              "modelType": "SubmodelElementCollection",
+              "description": [{ "language": "en", "text": "All component occurrences that must be procured and assembled for this manufacturing order." }],
+              "value": [
+                {
+                  "idShort": "conn_Conn_A",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0" }] },
+                  "value": [
+                    { "idShort": "OccurrenceType", "modelType": "Property", "value": "ConnectorOccurrence", "valueType": "xs:string" },
+                    {
+                      "idShort": "PartNumber", "modelType": "Property",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:PartNumber" }] },
+                      "value": "SIMPLE-2P", "valueType": "xs:string"
+                    },
+                    { "idShort": "Label", "modelType": "Property", "value": "Connector A", "valueType": "xs:string" },
+                    { "idShort": "Quantity", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    {
+                      "idShort": "SameAs", "modelType": "ReferenceElement",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0" }] },
+                      "value": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:connector:SIMPLE-2P" }] }
+                    },
+                    {
+                      "idShort": "BoardPosition",
+                      "modelType": "SubmodelElementCollection",
+                      "description": [{ "language": "en", "text": "Board position derived from assembly_board_layout_aas (ConnectorHolder Conn_A)." }],
+                      "value": [
+                        { "idShort": "X", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "Y", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "HolderType", "modelType": "Property", "value": "SMALL", "valueType": "xs:string" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "conn_Conn_B",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0" }] },
+                  "value": [
+                    { "idShort": "OccurrenceType", "modelType": "Property", "value": "ConnectorOccurrence", "valueType": "xs:string" },
+                    {
+                      "idShort": "PartNumber", "modelType": "Property",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:PartNumber" }] },
+                      "value": "SIMPLE-2P", "valueType": "xs:string"
+                    },
+                    { "idShort": "Label", "modelType": "Property", "value": "Connector B", "valueType": "xs:string" },
+                    { "idShort": "Quantity", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    {
+                      "idShort": "SameAs", "modelType": "ReferenceElement",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0" }] },
+                      "value": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:connector:SIMPLE-2P" }] }
+                    },
+                    {
+                      "idShort": "BoardPosition",
+                      "modelType": "SubmodelElementCollection",
+                      "description": [{ "language": "en", "text": "Board position derived from assembly_board_layout_aas (ConnectorHolder Conn_B)." }],
+                      "value": [
+                        { "idShort": "X", "modelType": "Property", "value": "720.0", "valueType": "xs:double" },
+                        { "idShort": "Y", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "HolderType", "modelType": "Property", "value": "SMALL", "valueType": "xs:string" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "wire_W001",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0" }] },
+                  "value": [
+                    { "idShort": "OccurrenceType", "modelType": "Property", "value": "WireOccurrence", "valueType": "xs:string" },
+                    {
+                      "idShort": "PartNumber", "modelType": "Property",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:PartNumber" }] },
+                      "value": "FLRY-0.5-RD", "valueType": "xs:string"
+                    },
+                    { "idShort": "Label", "modelType": "Property", "value": "W001", "valueType": "xs:string" },
+                    { "idShort": "Quantity", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    { "idShort": "LengthMm", "modelType": "Property", "value": "600.0", "valueType": "xs:double" },
+                    { "idShort": "Color", "modelType": "Property", "value": "RD", "valueType": "xs:string" },
+                    {
+                      "idShort": "SameAs", "modelType": "ReferenceElement",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0" }] },
+                      "value": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:wire:FLRY-0.5-RD" }] }
+                    }
+                  ]
+                },
+                {
+                  "idShort": "wire_W002",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0" }] },
+                  "value": [
+                    { "idShort": "OccurrenceType", "modelType": "Property", "value": "WireOccurrence", "valueType": "xs:string" },
+                    {
+                      "idShort": "PartNumber", "modelType": "Property",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:PartNumber" }] },
+                      "value": "FLRY-0.5-BK", "valueType": "xs:string"
+                    },
+                    { "idShort": "Label", "modelType": "Property", "value": "W002", "valueType": "xs:string" },
+                    { "idShort": "Quantity", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    { "idShort": "LengthMm", "modelType": "Property", "value": "600.0", "valueType": "xs:double" },
+                    { "idShort": "Color", "modelType": "Property", "value": "BK", "valueType": "xs:string" },
+                    {
+                      "idShort": "SameAs", "modelType": "ReferenceElement",
+                      "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0" }] },
+                      "value": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:component:wire:FLRY-0.5-BK" }] }
+                    }
+                  ]
+                },
+                {
+                  "idShort": "peg_0001",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0" }] },
+                  "value": [
+                    { "idShort": "OccurrenceType", "modelType": "Property", "value": "PegOccurrence", "valueType": "xs:string" },
+                    { "idShort": "Label", "modelType": "Property", "value": "Peg 0001 (INTERVAL, seg_ab)", "valueType": "xs:string" },
+                    { "idShort": "Quantity", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    { "idShort": "PegType", "modelType": "Property", "value": "INTERVAL", "valueType": "xs:string" },
+                    {
+                      "idShort": "BoardPosition",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "X", "modelType": "Property", "value": "350.0", "valueType": "xs:double" },
+                        { "idShort": "Y", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "90.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "peg_0002",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0" }] },
+                  "value": [
+                    { "idShort": "OccurrenceType", "modelType": "Property", "value": "PegOccurrence", "valueType": "xs:string" },
+                    { "idShort": "Label", "modelType": "Property", "value": "Peg 0002 (INTERVAL, seg_ab)", "valueType": "xs:string" },
+                    { "idShort": "Quantity", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    { "idShort": "PegType", "modelType": "Property", "value": "INTERVAL", "valueType": "xs:string" },
+                    {
+                      "idShort": "BoardPosition",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "X", "modelType": "Property", "value": "550.0", "valueType": "xs:double" },
+                        { "idShort": "Y", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "90.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "_ppr": "R – Resource / Capability Description",
+      "idShort": "CapabilityDescription",
+      "modelType": "Submodel",
+      "id": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/CapabilityDescription",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/CapabilityDescription/1/0/Submodel" }]
+      },
+      "description": [{ "language": "en", "text": "IDTA 02020-1-0 – Capability Description. Formally describes the robotic workcell capabilities required (and matched) for executing this manufacturing order." }],
+      "submodelElements": [
+        {
+          "idShort": "WorkcellCapabilities",
+          "modelType": "SubmodelElementCollection",
+          "description": [{ "language": "en", "text": "Top-level container for all capability entries of the dual-arm assembly cell." }],
+          "value": [
+            {
+              "idShort": "CAP_PEG_PLACEMENT",
+              "modelType": "SubmodelElementCollection",
+              "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/CapabilityDescription/Capability/1/0" }] },
+              "description": [{ "language": "en", "text": "Capability: Place a peg or connector holder at a specified board coordinate." }],
+              "value": [
+                { "idShort": "CapabilityName", "modelType": "Property", "value": "PegAndHolderPlacement", "valueType": "xs:string" },
+                { "idShort": "CapabilityDescription", "modelType": "Property", "value": "Pick peg or connector holder from supply tray and place at target (x,y,orientation) on the assembly board.", "valueType": "xs:string" },
+                { "idShort": "CapabilityState", "modelType": "Property", "value": "AVAILABLE", "valueType": "xs:string" },
+                {
+                  "idShort": "AssignedResource",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    { "idShort": "ResourceId", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    { "idShort": "ResourceType", "modelType": "Property", "value": "UR10e_with_Robotiq2F85", "valueType": "xs:string" },
+                    { "idShort": "WorkspaceZones", "modelType": "Property", "value": "ZONE_1,ZONE_2,ZONE_3", "valueType": "xs:string" }
+                  ]
+                },
+                {
+                  "idShort": "CapabilityParameters",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    { "idShort": "MaxReachMm", "modelType": "Property", "value": "1300.0", "valueType": "xs:double" },
+                    { "idShort": "PositioningAccuracyMm", "modelType": "Property", "value": "0.5", "valueType": "xs:double" },
+                    { "idShort": "SupportedPegTypes", "modelType": "Property", "value": "INTERVAL,BREAKOUT", "valueType": "xs:string" },
+                    { "idShort": "SupportedHolderTypes", "modelType": "Property", "value": "SMALL,MEDIUM,LARGE", "valueType": "xs:string" }
+                  ]
+                }
+              ]
+            },
+            {
+              "idShort": "CAP_WIRE_ROUTING",
+              "modelType": "SubmodelElementCollection",
+              "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/CapabilityDescription/Capability/1/0" }] },
+              "description": [{ "language": "en", "text": "Capability: Pick a pre-crimped wire and route it through an ordered sequence of peg waypoints." }],
+              "value": [
+                { "idShort": "CapabilityName", "modelType": "Property", "value": "WireRouting", "valueType": "xs:string" },
+                { "idShort": "CapabilityDescription", "modelType": "Property", "value": "Retrieve a pre-cut, pre-crimped wire from the delivery tray and guide it along the peg waypoint sequence defined in the BoP.", "valueType": "xs:string" },
+                { "idShort": "CapabilityState", "modelType": "Property", "value": "AVAILABLE", "valueType": "xs:string" },
+                {
+                  "idShort": "AssignedResource",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    { "idShort": "ResourceId", "modelType": "Property", "value": "ARM_LEFT_OR_RIGHT", "valueType": "xs:string" },
+                    { "idShort": "ResourceType", "modelType": "Property", "value": "UR10e_with_Robotiq2F85", "valueType": "xs:string" },
+                    { "idShort": "AllocationStrategy", "modelType": "Property", "value": "CAPABILITY_MATCHING_BY_ZONE", "valueType": "xs:string" }
+                  ]
+                },
+                {
+                  "idShort": "CapabilityParameters",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    { "idShort": "MaxWireLengthMm", "modelType": "Property", "value": "2000.0", "valueType": "xs:double" },
+                    { "idShort": "GripperType", "modelType": "Property", "value": "Robotiq2F-85", "valueType": "xs:string" },
+                    { "idShort": "CooperativeMode", "modelType": "Property", "value": "true", "valueType": "xs:boolean" }
+                  ]
+                }
+              ]
+            },
+            {
+              "idShort": "CAP_TERMINAL_INSERTION",
+              "modelType": "SubmodelElementCollection",
+              "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/CapabilityDescription/Capability/1/0" }] },
+              "description": [{ "language": "en", "text": "Capability: Insert a crimped terminal into a specific connector cavity." }],
+              "value": [
+                { "idShort": "CapabilityName", "modelType": "Property", "value": "TerminalInsertion", "valueType": "xs:string" },
+                { "idShort": "CapabilityDescription", "modelType": "Property", "value": "Insert a pre-crimped terminal into the designated connector cavity at the specified insertion depth and direction.", "valueType": "xs:string" },
+                { "idShort": "CapabilityState", "modelType": "Property", "value": "AVAILABLE", "valueType": "xs:string" },
+                {
+                  "idShort": "AssignedResource",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    { "idShort": "ResourceId", "modelType": "Property", "value": "ARM_LEFT_OR_RIGHT", "valueType": "xs:string" },
+                    { "idShort": "ResourceType", "modelType": "Property", "value": "UR10e_with_Robotiq2F85", "valueType": "xs:string" }
+                  ]
+                },
+                {
+                  "idShort": "CapabilityParameters",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    { "idShort": "SupportedTerminalTypes", "modelType": "Property", "value": "PIN-0.5,PIN-1.0,PIN-1.5", "valueType": "xs:string" },
+                    { "idShort": "MaxInsertionForceMm", "modelType": "Property", "value": "30.0", "valueType": "xs:double" },
+                    { "idShort": "InsertionStrategy", "modelType": "Property", "value": "INNER_CAVITY_FIRST", "valueType": "xs:string" }
+                  ]
+                }
+              ]
+            },
+            {
+              "idShort": "BoardConfig_Resource",
+              "modelType": "SubmodelElementCollection",
+              "description": [{ "language": "en", "text": "Physical assembly board resource parameters – sourced from assembly_board_layout_aas." }],
+              "value": [
+                { "idShort": "BoardId", "modelType": "Property", "value": "BOARD_SIMPLE_HARNESS_001", "valueType": "xs:string" },
+                { "idShort": "WidthMm", "modelType": "Property", "value": "900.0", "valueType": "xs:double" },
+                { "idShort": "HeightMm", "modelType": "Property", "value": "400.0", "valueType": "xs:double" },
+                { "idShort": "TotalPegs", "modelType": "Property", "value": "2", "valueType": "xs:integer" },
+                { "idShort": "TotalHolders", "modelType": "Property", "value": "2", "valueType": "xs:integer" },
+                {
+                  "idShort": "BoardLayoutRef",
+                  "modelType": "ReferenceElement",
+                  "description": [{ "language": "en", "text": "Reference to the Resource-AAS providing the complete board layout specification." }],
+                  "value": {
+                    "type": "ExternalReference",
+                    "keys": [{ "type": "GlobalReference", "value": "urn:NEXUS:layout:simple_harness/submodel/AssemblyBoardLayout" }]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "_ppr": "P (Process) + R (Skill binding) – Bill of Process",
+      "idShort": "ProcessParameters",
+      "modelType": "Submodel",
+      "id": "urn:NEXUS:mfg-order:WH-SIMPLE-001:MO-2026-001/submodel/ProcessParameters",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/1/0/Submodel" }]
+      },
+      "description": [{ "language": "en", "text": "IDTA 02031-1 – Process Parameters Type. Complete Bill of Process (BoP) for manufacturing order MO-2026-001. Each step is a self-contained, typed parameter set directly executable by the robotic workcell or MuJoCo simulation." }],
+      "submodelElements": [
+        {
+          "idShort": "BillOfProcess",
+          "modelType": "SubmodelElementCollection",
+          "description": [{ "language": "en", "text": "Ordered sequence of all assembly steps grouped into the four DIN-72036-aligned phases." }],
+          "value": [
+
+            {
+              "idShort": "Phase_1_BoardSetup",
+              "modelType": "SubmodelElementCollection",
+              "description": [{ "language": "en", "text": "Phase 1 – Board Setup: Place all pegs and connector holders on the assembly board." }],
+              "value": [
+                {
+                  "idShort": "STEP_001_PLACE_HOLDER_Conn_A",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_001", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "PLACE_HOLDER", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Place connector holder for Conn_A (SIMPLE-2P) at board position (180, 150), orientation 0°.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "1", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_PEG_PLACEMENT", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "ConnectorOccurrenceId", "modelType": "Property", "value": "Conn_A", "valueType": "xs:string" },
+                        { "idShort": "ConnectorPartNumber", "modelType": "Property", "value": "SIMPLE-2P", "valueType": "xs:string" },
+                        { "idShort": "TargetPositionX_mm", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionY_mm", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionZ_mm", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "HolderType", "modelType": "Property", "value": "SMALL", "valueType": "xs:string" },
+                        { "idShort": "HolderWidthMm", "modelType": "Property", "value": "25.0", "valueType": "xs:double" },
+                        { "idShort": "HolderHeightMm", "modelType": "Property", "value": "15.0", "valueType": "xs:double" },
+                        { "idShort": "MatingDirection", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "BufferRadiusMm", "modelType": "Property", "value": "50.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_002_PLACE_HOLDER_Conn_B",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_002", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "PLACE_HOLDER", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Place connector holder for Conn_B (SIMPLE-2P) at board position (720, 150), orientation 180°.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "2", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_PEG_PLACEMENT", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_RIGHT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "ConnectorOccurrenceId", "modelType": "Property", "value": "Conn_B", "valueType": "xs:string" },
+                        { "idShort": "ConnectorPartNumber", "modelType": "Property", "value": "SIMPLE-2P", "valueType": "xs:string" },
+                        { "idShort": "TargetPositionX_mm", "modelType": "Property", "value": "720.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionY_mm", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionZ_mm", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "HolderType", "modelType": "Property", "value": "SMALL", "valueType": "xs:string" },
+                        { "idShort": "HolderWidthMm", "modelType": "Property", "value": "25.0", "valueType": "xs:double" },
+                        { "idShort": "HolderHeightMm", "modelType": "Property", "value": "15.0", "valueType": "xs:double" },
+                        { "idShort": "MatingDirection", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "BufferRadiusMm", "modelType": "Property", "value": "50.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_003_PLACE_PEG_0001",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_003", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "PLACE_PEG", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Place INTERVAL peg peg_0001 on segment seg_ab at board position (350, 150).", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "3", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_PEG_PLACEMENT", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "PegId", "modelType": "Property", "value": "peg_0001", "valueType": "xs:string" },
+                        { "idShort": "PegType", "modelType": "Property", "value": "INTERVAL", "valueType": "xs:string" },
+                        { "idShort": "SegmentId", "modelType": "Property", "value": "seg_ab", "valueType": "xs:string" },
+                        { "idShort": "TargetPositionX_mm", "modelType": "Property", "value": "350.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionY_mm", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionZ_mm", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "90.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_004_PLACE_PEG_0002",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_004", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "PLACE_PEG", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Place INTERVAL peg peg_0002 on segment seg_ab at board position (550, 150).", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "4", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_PEG_PLACEMENT", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_RIGHT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "PegId", "modelType": "Property", "value": "peg_0002", "valueType": "xs:string" },
+                        { "idShort": "PegType", "modelType": "Property", "value": "INTERVAL", "valueType": "xs:string" },
+                        { "idShort": "SegmentId", "modelType": "Property", "value": "seg_ab", "valueType": "xs:string" },
+                        { "idShort": "TargetPositionX_mm", "modelType": "Property", "value": "550.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionY_mm", "modelType": "Property", "value": "150.0", "valueType": "xs:double" },
+                        { "idShort": "TargetPositionZ_mm", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "OrientationDeg", "modelType": "Property", "value": "90.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            {
+              "idShort": "Phase_2_WireRouting",
+              "modelType": "SubmodelElementCollection",
+              "description": [{ "language": "en", "text": "Phase 2 – Wire Routing & Terminal Insertion: Route each wire through its peg-waypoint sequence and insert terminals into connector cavities." }],
+              "value": [
+                {
+                  "idShort": "STEP_005_ROUTE_WIRE_W001",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_005", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "ROUTE_WIRE", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Pick wire W001 (FLRY-0.5-RD, 600 mm) and route through pegs peg_0001 → peg_0002 along seg_ab. Priority: SIGNAL_1.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "5", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_WIRE_ROUTING", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "WireOccurrenceId", "modelType": "Property", "value": "wire_W001", "valueType": "xs:string" },
+                        { "idShort": "WirePartNumber", "modelType": "Property", "value": "FLRY-0.5-RD", "valueType": "xs:string" },
+                        { "idShort": "WireLengthMm", "modelType": "Property", "value": "600.0", "valueType": "xs:double" },
+                        { "idShort": "SignalName", "modelType": "Property", "value": "SIGNAL_1", "valueType": "xs:string" },
+                        { "idShort": "SegmentId", "modelType": "Property", "value": "seg_ab", "valueType": "xs:string" },
+                        {
+                          "idShort": "PegWaypointSequence",
+                          "modelType": "SubmodelElementList",
+                          "orderRelevant": true,
+                          "typeValueListElement": "Property",
+                          "valueTypeListElement": "xs:string",
+                          "value": [
+                            { "modelType": "Property", "value": "peg_0001", "valueType": "xs:string" },
+                            { "modelType": "Property", "value": "peg_0002", "valueType": "xs:string" }
+                          ]
+                        },
+                        { "idShort": "PickupPointRef", "modelType": "Property", "value": "TRAY_SLOT_W001", "valueType": "xs:string" },
+                        { "idShort": "StartConnectorOccurrenceId", "modelType": "Property", "value": "Conn_A", "valueType": "xs:string" },
+                        { "idShort": "EndConnectorOccurrenceId", "modelType": "Property", "value": "Conn_B", "valueType": "xs:string" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_006_INSERT_TERMINAL_W001_CavA1",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_006", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "INSERT_TERMINAL", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Insert W001 terminal (PIN-0.5) into Conn_A cavity 1 (cp_a1). Insertion direction: 0°.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "6", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_TERMINAL_INSERTION", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "WireOccurrenceId", "modelType": "Property", "value": "wire_W001", "valueType": "xs:string" },
+                        { "idShort": "ConnectorOccurrenceId", "modelType": "Property", "value": "Conn_A", "valueType": "xs:string" },
+                        { "idShort": "ContactPointId", "modelType": "Property", "value": "cp_a1", "valueType": "xs:string" },
+                        { "idShort": "CavityNumber", "modelType": "Property", "value": "1", "valueType": "xs:string" },
+                        { "idShort": "TerminalPartNumber", "modelType": "Property", "value": "PIN-0.5", "valueType": "xs:string" },
+                        { "idShort": "InsertionDirectionDeg", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "InsertionDepthMm", "modelType": "Property", "value": "12.0", "valueType": "xs:double" },
+                        { "idShort": "PositionOnWire", "modelType": "Property", "value": "0.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_007_INSERT_TERMINAL_W001_CavB1",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_007", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "INSERT_TERMINAL", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Insert W001 terminal (PIN-0.5) into Conn_B cavity 1 (cp_b1). Insertion direction: 180°.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "7", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_TERMINAL_INSERTION", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_RIGHT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "WireOccurrenceId", "modelType": "Property", "value": "wire_W001", "valueType": "xs:string" },
+                        { "idShort": "ConnectorOccurrenceId", "modelType": "Property", "value": "Conn_B", "valueType": "xs:string" },
+                        { "idShort": "ContactPointId", "modelType": "Property", "value": "cp_b1", "valueType": "xs:string" },
+                        { "idShort": "CavityNumber", "modelType": "Property", "value": "1", "valueType": "xs:string" },
+                        { "idShort": "TerminalPartNumber", "modelType": "Property", "value": "PIN-0.5", "valueType": "xs:string" },
+                        { "idShort": "InsertionDirectionDeg", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "InsertionDepthMm", "modelType": "Property", "value": "12.0", "valueType": "xs:double" },
+                        { "idShort": "PositionOnWire", "modelType": "Property", "value": "1.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_008_ROUTE_WIRE_W002",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_008", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "ROUTE_WIRE", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Pick wire W002 (FLRY-0.5-BK, 600 mm) and route through pegs peg_0001 → peg_0002 along seg_ab. Signal: GND.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "8", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_WIRE_ROUTING", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "WireOccurrenceId", "modelType": "Property", "value": "wire_W002", "valueType": "xs:string" },
+                        { "idShort": "WirePartNumber", "modelType": "Property", "value": "FLRY-0.5-BK", "valueType": "xs:string" },
+                        { "idShort": "WireLengthMm", "modelType": "Property", "value": "600.0", "valueType": "xs:double" },
+                        { "idShort": "SignalName", "modelType": "Property", "value": "GND", "valueType": "xs:string" },
+                        { "idShort": "SegmentId", "modelType": "Property", "value": "seg_ab", "valueType": "xs:string" },
+                        {
+                          "idShort": "PegWaypointSequence",
+                          "modelType": "SubmodelElementList",
+                          "orderRelevant": true,
+                          "typeValueListElement": "Property",
+                          "valueTypeListElement": "xs:string",
+                          "value": [
+                            { "modelType": "Property", "value": "peg_0001", "valueType": "xs:string" },
+                            { "modelType": "Property", "value": "peg_0002", "valueType": "xs:string" }
+                          ]
+                        },
+                        { "idShort": "PickupPointRef", "modelType": "Property", "value": "TRAY_SLOT_W002", "valueType": "xs:string" },
+                        { "idShort": "StartConnectorOccurrenceId", "modelType": "Property", "value": "Conn_A", "valueType": "xs:string" },
+                        { "idShort": "EndConnectorOccurrenceId", "modelType": "Property", "value": "Conn_B", "valueType": "xs:string" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_009_INSERT_TERMINAL_W002_CavA2",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_009", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "INSERT_TERMINAL", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Insert W002 terminal (PIN-0.5) into Conn_A cavity 2 (cp_a2). Insertion direction: 0°.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "9", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_TERMINAL_INSERTION", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "WireOccurrenceId", "modelType": "Property", "value": "wire_W002", "valueType": "xs:string" },
+                        { "idShort": "ConnectorOccurrenceId", "modelType": "Property", "value": "Conn_A", "valueType": "xs:string" },
+                        { "idShort": "ContactPointId", "modelType": "Property", "value": "cp_a2", "valueType": "xs:string" },
+                        { "idShort": "CavityNumber", "modelType": "Property", "value": "2", "valueType": "xs:string" },
+                        { "idShort": "TerminalPartNumber", "modelType": "Property", "value": "PIN-0.5", "valueType": "xs:string" },
+                        { "idShort": "InsertionDirectionDeg", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "InsertionDepthMm", "modelType": "Property", "value": "12.0", "valueType": "xs:double" },
+                        { "idShort": "PositionOnWire", "modelType": "Property", "value": "0.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "idShort": "STEP_010_INSERT_TERMINAL_W002_CavB2",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_010", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "INSERT_TERMINAL", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Insert W002 terminal (PIN-0.5) into Conn_B cavity 2 (cp_b2). Insertion direction: 180°.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "10", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_TERMINAL_INSERTION", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_RIGHT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "WireOccurrenceId", "modelType": "Property", "value": "wire_W002", "valueType": "xs:string" },
+                        { "idShort": "ConnectorOccurrenceId", "modelType": "Property", "value": "Conn_B", "valueType": "xs:string" },
+                        { "idShort": "ContactPointId", "modelType": "Property", "value": "cp_b2", "valueType": "xs:string" },
+                        { "idShort": "CavityNumber", "modelType": "Property", "value": "2", "valueType": "xs:string" },
+                        { "idShort": "TerminalPartNumber", "modelType": "Property", "value": "PIN-0.5", "valueType": "xs:string" },
+                        { "idShort": "InsertionDirectionDeg", "modelType": "Property", "value": "180.0", "valueType": "xs:double" },
+                        { "idShort": "InsertionDepthMm", "modelType": "Property", "value": "12.0", "valueType": "xs:double" },
+                        { "idShort": "PositionOnWire", "modelType": "Property", "value": "1.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            {
+              "idShort": "Phase_3_ProtectionAndFixing",
+              "modelType": "SubmodelElementCollection",
+              "description": [{ "language": "en", "text": "Phase 3 – Protection & Fixing: Apply wire protection materials along segment seg_ab." }],
+              "value": [
+                {
+                  "idShort": "STEP_011_APPLY_PROTECTION_seg_ab",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_011", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "APPLY_PROTECTION", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Apply corrugated conduit protection over full span of segment seg_ab (start 0% to end 100%).", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "11", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_WIRE_ROUTING", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "SegmentId", "modelType": "Property", "value": "seg_ab", "valueType": "xs:string" },
+                        { "idShort": "ProtectionType", "modelType": "Property", "value": "CORRUGATED_CONDUIT", "valueType": "xs:string" },
+                        { "idShort": "ProtectionMaterialPN", "modelType": "Property", "value": "CONDUIT-10mm", "valueType": "xs:string" },
+                        { "idShort": "SpanStartParametric", "modelType": "Property", "value": "0.0", "valueType": "xs:double" },
+                        { "idShort": "SpanEndParametric", "modelType": "Property", "value": "1.0", "valueType": "xs:double" },
+                        { "idShort": "SpanLengthMm", "modelType": "Property", "value": "600.0", "valueType": "xs:double" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            {
+              "idShort": "Phase_4_Finalization",
+              "modelType": "SubmodelElementCollection",
+              "description": [{ "language": "en", "text": "Phase 4 – Finalization: Remove completed harness from board and transfer to downstream QA station." }],
+              "value": [
+                {
+                  "idShort": "STEP_012_REMOVE_HARNESS",
+                  "modelType": "SubmodelElementCollection",
+                  "semanticId": { "type": "ExternalReference", "keys": [{ "type": "GlobalReference", "value": "https://admin-shell.io/idta/ProcessParameters/Type/ProcessStep/1/0" }] },
+                  "value": [
+                    { "idShort": "StepId", "modelType": "Property", "value": "STEP_012", "valueType": "xs:string" },
+                    { "idShort": "StepType", "modelType": "Property", "value": "REMOVE_HARNESS", "valueType": "xs:string" },
+                    { "idShort": "StepDescription", "modelType": "Property", "value": "Remove completed harness WH-SIMPLE-001 from board BOARD_SIMPLE_HARNESS_001 and transfer to QA transfer point.", "valueType": "xs:string" },
+                    { "idShort": "SequenceNumber", "modelType": "Property", "value": "12", "valueType": "xs:integer" },
+                    { "idShort": "AssignedCapability", "modelType": "Property", "value": "CAP_WIRE_ROUTING", "valueType": "xs:string" },
+                    { "idShort": "AssignedArm", "modelType": "Property", "value": "ARM_LEFT_OR_RIGHT", "valueType": "xs:string" },
+                    {
+                      "idShort": "Parameters",
+                      "modelType": "SubmodelElementCollection",
+                      "value": [
+                        { "idShort": "BoardId", "modelType": "Property", "value": "BOARD_SIMPLE_HARNESS_001", "valueType": "xs:string" },
+                        { "idShort": "HarnessId", "modelType": "Property", "value": "simple_harness", "valueType": "xs:string" },
+                        { "idShort": "HarnessPartNumber", "modelType": "Property", "value": "WH-SIMPLE-001", "valueType": "xs:string" },
+                        { "idShort": "TransferPointPoseX_mm", "modelType": "Property", "value": "450.0", "valueType": "xs:double" },
+                        { "idShort": "TransferPointPoseY_mm", "modelType": "Property", "value": "-200.0", "valueType": "xs:double" },
+                        { "idShort": "TransferPointPoseZ_mm", "modelType": "Property", "value": "100.0", "valueType": "xs:double" },
+                        { "idShort": "NextStationId", "modelType": "Property", "value": "QA_STATION_01", "valueType": "xs:string" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    }
+
+  ]
+}
