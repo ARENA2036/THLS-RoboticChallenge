@@ -1,5 +1,6 @@
-# <img width="422" height="85" alt="image" src="https://github.com/user-attachments/assets/0b95b7f6-3933-4970-bee2-d93a5c2046e9" />
-
+<p align="left">
+  <img src="Pictures/FAPS_Logo.jpg" alt="FAPS Logo" width="200">
+</p>
 
 Der **Lehrstuhl für Fertigungsautomatisierung und Produktionssystematik (FAPS)** der Friedrich-Alexander-Universität Erlangen-Nürnberg gehört unter der Leitung von Prof. Dr.-Ing. Jörg Franke zu den führenden universitären Forschungseinrichtungen für Automatisierungstechnik und mechatronische Systeme in Deutschland. Rund 100 Mitarbeitende forschen an zukunftsweisenden Technologien – von Robotik und Automatisierungstechnik über Elektronik- und Elektromaschinenproduktion bis hin zu Signal- und Leistungsvernetzung, Engineering-Systemen und Medizintechnik.
 
@@ -28,7 +29,7 @@ Der Lehrstuhl FAPS bietet fünf Arten der Kooperation mit Industrie und weiteren
 
 Der Demonstrator basiert auf einem Universal-Robots-Arm als Plattform. Zur Lage- und Qualitätserkennung kommt ein Cambrian-Vision-System zum Einsatz, zur flexiblen Bauteilzuführung eine Asyril-Zuführzelle. Eine Linearachse bildet die Schnittstelle zur Konfektioniermaschine und als neuartiges Verfahren wir das patenierte Sprüumhüllen statt Tapen. Zur Aufzeichnung der Fertigungsdaten ist ein DPP-Orchestrator angebunden.
 
-![Greifer Detailansicht](Greifer_RC26_Detailansicht.png)
+![Greifer Detailansicht](Pictures/Greifer_RC26_Detailansicht.png)
 
 ### Flexible Bauteilzuführung (Asyril)
 
@@ -42,13 +43,13 @@ Die Leitungen werden auf einer Linearachse in die Zelle eingefahren und bereitge
 
 Die Lage- und Qualitätserkennung erfolgt als Ergänzung zu 2025 nun über ein hochpräzises Cambrian-Vision-System. Die Posenbestimmung ist KI-basiert – als Eingabe für das Training dient ausschließlich das CAD-Modell des Bauteils. Die Crimpkontakte werden hochpräzise vermessen.
 
-![KI-basiere Posenbestimmung](KI_posenbestimmung.png)
+![KI-basiere Posenbestimmung](Pictures/KI_posenbestimmung.png)
 
 ### Routen / Graphenbasierte Optimierung
 
 Die KBL wird mittels Parser in einen Graphen transformiert und anschließend optimal aufgespannt. Das volle Potenzial des Algorithmus entfaltet sich bei größeren Kabelbäumen.
 
-![KBL wird in Graph übertragen](KBL_Graph_kurz.png)
+![KBL wird in Graph übertragen](Pictures/KBL_Graph_kurz.png)
 
 ### Werkzeugwechsler – Schlüssel zur Flexibilisierung
 
@@ -62,7 +63,7 @@ Das Umgehäuse wird über kraftgeregeltes Fügen angebracht. Ergänzend zur opti
 
 Anstelle des konventionellen Tapens kommt ein automatisiertes Sprühumhüllen zum Einsatz: ein berührungsloses Umhüllungsverfahren, das den Montageprozess beschleunigt und flexibler gestaltet. Das Sprühumhüllen wurde bereits vom Lehrstuhl patentiert und wird in Kooperation mit einem Industriepartner weiterentwickelt.
 
-![Sprühumhüllen](Sprühumhüllen.png)
+![Sprühumhüllen](Pictures/Sprühumhüllen.png)
 
 ### Herstellen der UTP-Leitungen
 
