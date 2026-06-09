@@ -26,8 +26,9 @@ Der Lehrstuhl FAPS bietet fünf Arten der Kooperation mit Industrie und weiteren
 
 
 ## Demonstratoraufbau
+ 
+Der Demonstrator basiert auf einem Universal-Robots-Arm als Plattform. Zur Lage- und Qualitätserkennung kommt ein Cambrian-Vision-System zum Einsatz, zur flexiblen Bauteilzuführung ein Asyril-System. Eine Linearachse bildet die Schnittstelle zur Konfektioniermaschine, während als neuartiges Verfahren zudem das patentierte **Sprühumhüllen** anstelle des konventionellen Tapens eingesetzt wird. Zur Aufzeichnung der Fertigungsdaten ist ein DPP-Orchestrator angebunden.
 
-Der Demonstrator basiert auf einem Universal-Robots-Arm als Plattform. Zur Lage- und Qualitätserkennung kommt ein Cambrian-Vision-System zum Einsatz, zur flexiblen Bauteilzuführung eine Asyril-Zuführzelle. Eine Linearachse bildet die Schnittstelle zur Konfektioniermaschine und als neuartiges Verfahren wir das patenierte Sprüumhüllen statt Tapen. Zur Aufzeichnung der Fertigungsdaten ist ein DPP-Orchestrator angebunden.
 
 ![Greifer Detailansicht](Pictures/Greifer_RC26_Detailansicht.png)
 
