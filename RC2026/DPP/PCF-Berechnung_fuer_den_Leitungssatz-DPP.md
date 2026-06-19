@@ -267,9 +267,7 @@ Aufbauend auf der Analyse in Abschnitt 3 schlägt dieser Abschnitt konkrete Maß
 
 ## 4.1 Anpassung des Catena-X PCF-Aspektmodells in der AAS
 
-Das Catena-X PCF-Aspektmodell sollte als *SubmodelElementCollection* innerhalb von *ProductOrSectorSpecificRule* der SMT *IDTA-02023: Carbon Footprint* [[13]](#ref-13) abgebildet werden.
-
-Das Catena-X PCF-Aspektmodell (v4) sollte als *SubmodelElementCollection* innerhalb des *ProductOrSectorSpecificRule*-Elements der IDTA-02023 Carbon Footprint Submodel Template integriert werden. Ältere Catena-X-Versionen (v1–v3) gelten als veraltet. Ein neuer Eintrag für *Catena-X v4* (`urn:samm:io.catenax.pcf:9.0.0`) muss zur Werteliste *PcfCalculationMethod* hinzugefügt werden. Native Catena-X semanticIds werden gegenüber ECLASS-IRDIs stark bevorzugt, um externe Abhängigkeiten zu minimieren.
+Das Catena-X PCF-Aspektmodell sollte als *SubmodelElementCollection* innerhalb von *ProductOrSectorSpecificRule* der SMT *IDTA-02023: Carbon Footprint* [[13]](#ref-13) abgebildet und entsprechend integriert werden. Ältere Catena-X-Versionen (v1–v3) gelten als veraltet. Ein neuer Eintrag für *Catena-X v4* (`urn:samm:io.catenax.pcf:9.0.0`) muss zur Werteliste *PcfCalculationMethod* hinzugefügt werden. Native Catena-X semanticIds sollten gegenüber ECLASS-IRDIs bevorzugt werden, um externe Abhängigkeiten zu minimieren.
 
 **Tabelle 3: Werteliste für *PcfCalculationMethod***
 
@@ -306,11 +304,11 @@ Aktuell existiert kein neutrales IDTA-Submodell für eine allgemeine Materialzus
 - Batteriespezifische Komponenten (Kathode, Anode, Elektrolyt) → generische oder domänenspezifische Begriffe (z. B. Isolierung, Leiter, Abschirmung, Steckverbinder)
 - *batteryMaterialLocation* → *componentLocation*
 
-Das resultierende Submodell ermöglicht die direkte Zuordnung von KBL/VEC- und IMDS-Materialdaten und bleibt dabei vollständig konform mit bestehenden AAS-Strukturen. Es wird empfohlen, dieses als neue IDTA-02xxxx-Reihe als Vorlage zu veröffentlichen.
+Das resultierende Submodell ermöglicht die direkte Zuordnung von KBL/VEC- und IMDS-Materialdaten und bleibt dabei vollständig konform mit bestehenden AAS-Strukturen. Es wird empfohlen, dieses als Vorlage in einer neuen IDTA-02xxxx-Reihe zu veröffentlichen.
 
 ## 4.3 Datenqualität
 
-Robuste Datenqualität und eindeutige semantische Identifikation sind für die Interoperabilität unerlässlich. Das Aufkommen KI-gesteuerter Multisensor-Qualitätsprüfung bietet vielversprechende neue Möglichkeiten zur Verfolgung von Qualitätsparametern, während der Bedarf an hochwertigen Daten bestehen bleibt [[25]](#ref-25). Engineering-Werkzeuge sollten einen direkten IMDS-Import sowie eine proaktive, automatisierte Validierung aller semantischen Referenzen und Bezeichner schon in den frühen Phasen des Produktlebenszyklus implementieren. Vor der Freigabe eines KBL- oder VEC-Engineering-Modells sollten sofortiges Benutzerfeedback und kontextbezogene Hinweise für fehlende oder ungültige Referenzen bereitgestellt werden. Die VEC-Ontologie sollte konsistent als primäres Referenzrahmenwerk verwendet werden. Wo keine web-auflösbaren Bezeichner existieren, werden folgende Standards empfohlen:
+Robuste Datenqualität und eindeutige semantische Identifikation sind für Interoperabilität unerlässlich [[25]](#ref-25). Engineering-Werkzeuge sollten daher einen direkten IMDS-Import sowie eine proaktive, automatisierte Validierung aller semantischen Referenzen und Bezeichner schon in den frühen Phasen des Produktlebenszyklus implementieren. Vor der Freigabe eines KBL- oder VEC-Engineering-Modells sollten sofortiges Benutzerfeedback und kontextbezogene Hinweise für fehlende oder ungültige Referenzen bereitgestellt werden. Die VEC-Ontologie sollte konsistent als primäres Referenzrahmenwerk verwendet werden. Wo keine web-auflösbaren Bezeichner existieren, werden folgende Standards empfohlen:
 
 - Elektrische Leiter: IEC 61360-4
 - Isolierung: ISO 1043 und ISO 6722
