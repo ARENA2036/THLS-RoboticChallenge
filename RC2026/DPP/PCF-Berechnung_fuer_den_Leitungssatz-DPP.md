@@ -216,19 +216,19 @@ In der Praxis fehlt es vielen Tier-1- und niedrigeren Zulieferern noch an der Ex
 
 Tabelle 2 zeigt die relevanten Eigenschaften unter *productLifeCycleStagesandEmissions* – *productionStage* für das Kabel-Crimping-Beispiel. Die *distributionStage* und *packagingStage* folgen derselben Struktur. Alle Werte sind in kg CO₂eq pro deklarierter Einheit angegeben. Weitere Details und optionale Parameter sind in der offiziellen HTML-Dokumentation des Submodells beschrieben [[12]](#ref-12). Diese Beschreibungen sind jedoch oft zu technisch für Nicht-Experten, was die Notwendigkeit unterstreicht, die Benutzerfreundlichkeit zu verbessern.
 
-**Tabelle 2: Catena-X PCF-Submodell-Eigenschaften unter *productLifeCycleStagesandEmissions* – *productionStage* für das Kabel-Crimping-Beispiel**
+**Tabelle 2: Catena-X PCF-Eigenschaften unter *productLifeCycleStagesandEmissions* – *productionStage* für das Kabel-Crimping-Beispiel**
 
-| **Eigenschaft** | **Wert** | **Pflicht** |
-|:---|:---|:---|
-| pcfIncludingBiogenicUptake | 1,0055 | Pflichtfeld |
-| pcfExcludingBiogenicUptake | 1,0055 \* | Pflichtfeld |
-| fossilGhgEmissions | 1,0055 \* | Optional |
-| biogenicNonCO2Emissions | 0 \* | Optional |
-| biogenicCO2Uptake | 0 \* | Optional |
-| landUseChangeGhgEmissions | 0 \* | Optional |
-| landManagementBiogenicCO2Emissions | 0 \* | Optional |
-| landManagementBiogenicCO2Removals | 0 \* | Optional |
-| aircraftGhgEmissions | 0 \*\* | Optional |
+| **Eigenschaft** | **Pflicht** |
+|:---|:---|
+| pcfIncludingBiogenicUptake  | Pflichtfeld |
+| pcfExcludingBiogenicUptake  | Pflichtfeld |
+| fossilGhgEmissions  | Optional |
+| biogenicNonCO2Emissions  | Optional |
+| biogenicCO2Uptake  | Optional |
+| landUseChangeGhgEmissions  | Optional |
+| landManagementBiogenicCO2Emissions  | Optional |
+| landManagementBiogenicCO2Removals \* | Optional |
+| aircraftGhgEmissions \*\* | Optional |
 
 \* Keine biogenen Emissionen in diesem Beispiel  
 \*\* Kein Lufttransport in diesem Beispiel
