@@ -1,6 +1,6 @@
 # <img width="196" height="50" alt="image" src="https://github.com/user-attachments/assets/REPLACE_WITH_NEXUS_LOGO" />
 
-**NEXUS** entwickelt modulare Software- und Automatisierungslösungen für flexible robotische Prozessketten im industriellen Umfeld.
+**Eisbach Robotics (i.G.)** (NEXUS) entwickelt modulare Software- und Automatisierungslösungen für flexible robotische Prozessketten im industriellen Umfeld.
 
 Im Fokus stehen digitale Engineering-Prozesse, adaptive Robotik sowie die Integration moderner Bewegungsplanung, Sensorik und KI-basierter Assistenzsysteme für komplexe Montage- und Handhabungsaufgaben.
 
@@ -8,7 +8,7 @@ Im Fokus stehen digitale Engineering-Prozesse, adaptive Robotik sowie die Integr
 
 ---
 
-Der Beitrag von **NEXUS** zur **Robotik Challenge 2026** des **Transformations-Hub Leitungssatz** (gefördert vom BMWK) ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
+Der Beitrag von **Eisbach Robotics** zur **Robotik Challenge 2026** des **Transformations-Hub Leitungssatz** (gefördert vom BMWK) ist in diesem Repository hinterlegt zur transparenten Bereitstellung der Challenge-Daten und Förderung des offenen Innovationsaustauschs.
 
 Ziel der Arbeiten ist die Entwicklung flexibler und adaptiver Robotiklösungen für die automatisierte Montage hybrider Leitungssätze.
 
